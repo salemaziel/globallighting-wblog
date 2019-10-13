@@ -4,7 +4,7 @@
 /*** ### Section One ### ***/
 .section-one{
 	position:relative;
-	/* background:url(../images/banner.png) no-repeat; */
+	background:url(../../images/banner.png) no-repeat;
 	background-size:cover;
 	padding:100px 0px;
 }

@@ -6,6 +6,7 @@ import SEO from '../components/seo'
 //import Button from '../components/button'
 import styled from 'styled-components'
 import { Button } from 'reactstrap'
+import Box from '../components/box'
 
 const Question = () => (
   <p>Can i do this? </p>
@@ -36,7 +37,7 @@ const SecondPage = () => (
     <p>Welcome to page 2</p>
     <Button as={Link} href="/FAQ" prefetch primary>Test Primary Button</Button>
     <Button as={Link} href="/donate" color="primary">Test Primary Button</Button>
-
+    <Box />
     <Button donateblk>Donate black button</Button>
     <Link to="/index">Go back to the homepage</Link>
     <Button2 href="/faq" prefetch>button 2 </Button2>

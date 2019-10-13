@@ -1,4 +1,6 @@
 import React from 'react'
+import PinkDotsImage from '../../images/pink-dots.png'
+
 
 import LiveOneImage from '../../images/lives-one.png'
 import LiveTwoImage from '../../images/lives-two.png'
@@ -7,7 +9,9 @@ import LiveThreeImage from '../../images/lives-three.png'
 import '../../css/HomePageCss/aboutUs.css'
 
 const AboutUs = () => (
-    <section className="section-two">
+    <section className="section-two" style={{
+        backgroundImage: `url(${PinkDotsImage})`,
+    }}>
         <div className="container">
             <div className="row">
                 <div className="col-lg-5 col-md-6 cx_left">
@@ -22,7 +26,7 @@ const AboutUs = () => (
                         ABOUT OUR COMPANY
                 </h2>
                     <h3>
-                        About Us<br /> Header
+                        About Us<br />
                 </h3>
                     <p>
                         The advances in science and technology over the past couple of centuries have contributed significantly towards making our lives simple and comfortable. Electricity is one of these countless inventions, which has today become an integral part of our living. In fact, most of us fail to imagine life without this essential commodity. Therefore the fact that there are still millions of people, who still live a life completely devoid of this basic facility, often comes as a surprise. We at Global Lighting Project, work towards reducing the number of such people by providing lighting solution to them.

@@ -36,7 +36,7 @@
 	border: 2px solid #F0AF00;
 }
 .logo-img-fluid {
-	width: 270px;
+	width: 300px;
 	margin-bottom: 20px;
 }
 
@@ -173,8 +173,8 @@
 	position:relative;
 	display:inline-block;
 	vertical-align:middle;
-	height:50px;
-	line-height:50px;
+	height:60px;
+	line-height:60px;
 	padding:0px 50px;
 	background:#f0af00;
 	border-radius: 3px;
@@ -192,10 +192,10 @@
 
 #donate-btn:hover{
 	color: ghostwhite;
-	font-weight: 900;
+	font-weight: 750;
 	font-size: 18px;
-	background: #f8c22e;
-	border: 2px solid #f8c22e;
+	background: #facd51;
+	border: 2px solid #f0af00;
 }
 
 .donate-btn-container {

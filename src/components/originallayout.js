@@ -12,7 +12,7 @@ class Layout2 extends React.Component {
     let header
 
     if (location.pathname === rootPath) {
-      header = (
+      {/**header = (
         <h1
           style={{
             ...scale(1.5),
@@ -32,12 +32,14 @@ class Layout2 extends React.Component {
           </Link>
         </h1>
       )
-    } else {
+    } else {**/}
+  }
       header = (
         <h3
           style={{
             fontFamily: `Montserrat, sans-serif`,
-            marginTop: 0,
+            marginTop: `100px`,
+            paddingTop: `100px`,
           }}
         >
           <Link
@@ -52,22 +54,26 @@ class Layout2 extends React.Component {
           </Link>
         </h3>
       )
-    }
+    
     return (
+      <>
+      <Header2 />
       <div
         style={{
           marginLeft: `auto`,
           marginRight: `auto`,
           maxWidth: rhythm(24),
-          padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+          padding: `${rhythm(1.5)} ${rhythm(1 / 4)}`,
         }}
       >
-        <Header2>
+        
         <header>{header}</header>
-        </Header2>
+        
         <main>{children}</main>
+
+        </div>
         <Footer />
-      </div>
+      </>
     )
   }
 }

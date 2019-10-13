@@ -4,7 +4,7 @@
 /*** ### Section Three ### ***/
 .section-three{
 	position:relative;
-	margin:100px 0px 0px 0px;
+	margin-bottom:50px;
 	padding:50px 0px;
 	/* background:url(../images/pink-dots.png) no-repeat; */
 	background-size:cover;
@@ -110,7 +110,7 @@
 	position: absolute;
 	left:50%;
 	margin-left:-1px;
-	bottom:-50px;
+	bottom:-100px;
 	width:2px;
 	height:100px;
 	background:#f0af00;
