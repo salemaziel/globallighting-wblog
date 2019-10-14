@@ -11,7 +11,7 @@ const Header = () => (
   <section NavbarGlobal>
     <div
       style={{
-    margin: '60px',
+    margin: '60px 0 0 0',
       }}>
   
   <NavbarGlobal />
