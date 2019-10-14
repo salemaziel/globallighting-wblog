@@ -14,15 +14,16 @@ const NewsLetter = () => (
                 </div>
                 <div className="col-md-8">
                     <div className="cx_contact_area">
-                        <form>
+                        <form action='{}'>
                             <input
                                 type="text"
                                 placeholder="Enter your email adress....."
+                                required
                                 style={{
                                     background: `url(${EnvelopContact}) left 20px center no-repeat, #FFF`
                                 }}
                             />
-                            <button type="submit">Submit</button>
+                            <button className="btn" type="submit">Submit</button>
                         </form>
                     </div>
                 </div>
