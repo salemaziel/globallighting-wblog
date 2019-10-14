@@ -3,14 +3,15 @@ import NewsLetter from '../components/HomePageComponents/NewsLetter';
 import Donations from '../components/Donations';
 /*import BannerImage from '../images/banner.png';*/
 import Layout from '../components/layout';
+import LayoutDonate from '../components/layoutdonate';
 
 //import '../css/donate.css';
 
 const DonatePage = () => (
-        <Layout>
+        <LayoutDonate>
                <Donations />
             <NewsLetter />
-        </Layout>   
+        </LayoutDonate>   
 )
 
 export default DonatePage

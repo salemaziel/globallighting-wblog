@@ -38,8 +38,6 @@ class Layout2 extends React.Component {
         <h3
           style={{
             fontFamily: `Montserrat, sans-serif`,
-            marginTop: `100px`,
-            paddingTop: `100px`,
           }}
         >
           <Link
@@ -63,7 +61,7 @@ class Layout2 extends React.Component {
           marginLeft: `auto`,
           marginRight: `auto`,
           maxWidth: rhythm(24),
-          padding: `${rhythm(1.5)} ${rhythm(1 / 4)}`,
+          padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
         }}
       >
         

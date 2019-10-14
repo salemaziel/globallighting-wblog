@@ -21,7 +21,7 @@ import '../css/header.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
 
-class NavbarGlobal extends React.Component {
+class NavbarDonate extends React.Component {
    state = {
         isOpen: false,
         width: '0px',
@@ -49,13 +49,16 @@ class NavbarGlobal extends React.Component {
         <div>
             <div className="stickyfixeddiv" fixed>
                 <Navbar className="navigation" color="white" expand="md" fixed="top">
-                    <div className="container">
+                    <div className="container" 
+                    style={{
+                        justifyContent: 'center',
+                    }}>
                         <NavbarBrand to="/" tag={Link} className="order-0">
                             <img src={Logo} className="logo-img-fluid" />
                         </NavbarBrand>
 
                         <NavbarToggler onClick={this.toggle} style={{ backgroundColor: 'black' }} />
-                        <Collapse isOpen={this.state.isOpen} navbar style={{ textAlign: 'center' }}>
+                        {/**<Collapse isOpen={this.state.isOpen} navbar style={{ textAlign: 'center' }}>
                             
                             <Nav className="mx-auto order-1 " navbar style={{ marginTop: 18, fontWeight: 'bold' }}>
             
@@ -74,16 +77,16 @@ class NavbarGlobal extends React.Component {
                                         FAQ
                                     {/**<FontAwesomeIcon icon={faAngleDown} style={{ marginLeft: 5 }} /> * /}
                                     </NavLink>
-                                </NavItem>**/}
+                                </NavItem>** /}
                                 <NavItem>
                                     <NavLink className="nav-link" to="/contact" tag={Link} style={{ fontSize: 18 }}>CONTACT</NavLink>
                                 </NavItem>
                                 
                             </Nav>
-                        </Collapse>
-                         <div className="donate-btn">
+                                </Collapse> **/}
+                         {/**<div className="donate-btn">
                             <Link to="/donate" id="donate-btn">Donate</Link> 
-                        </div> 
+                            </div>**/} 
                     </div>
                 </Navbar>
                 <div>
@@ -166,4 +169,4 @@ class NavbarGlobal extends React.Component {
 }    
 
                         
-export default NavbarGlobal
+export default NavbarDonate
