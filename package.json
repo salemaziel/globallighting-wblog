@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "Global Lighting Project",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "Website for Global Lighting Project powered by Gatsby and Markdown",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Salem Mackintosh <salem@codestaff.io>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://glp.netlify.com"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
@@ -40,6 +40,7 @@
     "react": "^16.10.2",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
+    "react-skylight": "^0.5.1",
     "react-typography": "^0.16.19",
     "reactstrap": "^8.0.1",
     "styled-components": "^4.4.0",
