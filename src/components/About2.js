@@ -4,7 +4,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import '../css/about2.css'
 
 import '../css/HomePageCss/aboutUs.css'
-import HeroBanner from '../images/banner.png'
 
 const About2 = () => (
     <section className="section-about">
