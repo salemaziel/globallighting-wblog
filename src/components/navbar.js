@@ -46,15 +46,13 @@ class NavbarGlobal extends React.Component {
 
     render() {
         return (
-        <div>
-            <div className="stickyfixeddiv" fixed>
-                <Navbar className="navigation" color="white" expand="md" fixed="top">
+                <Navbar className="navigation" color="white" expand="md" sticky="top">
                     <div className="container">
                         <NavbarBrand to="/" tag={Link} className="order-0">
                             <img src={Logo} className="logo-img-fluid" />
                         </NavbarBrand>
 
-                        <NavbarToggler onClick={this.toggle} style={{ backgroundColor: 'black' }} />
+                        <NavbarToggler onClick={this.toggle} />
                         <Collapse isOpen={this.state.isOpen} navbar style={{ textAlign: 'center' }}>
                             
                             <Nav className="mx-auto order-1 " navbar style={{ marginTop: 18, fontWeight: 'bold' }}>
@@ -84,10 +82,8 @@ class NavbarGlobal extends React.Component {
                          <div className="donate-btn">
                             <Link to="/donate" id="donate-btn">Donate</Link> 
                         </div> 
-                    </div>
-                </Navbar>
-                <div>
-                </div>  
+                    {/**</div>**/}
+                 
                 { /* Hamburger Navbar for smaller screens */}
                 <div
                     className="Hamburger-Navbar"
@@ -158,9 +154,9 @@ class NavbarGlobal extends React.Component {
                         &#9776;
                     </span>
                   
-                </div>
-            </div>    
-        </div>
+                </div>  
+                </div>>  
+                </Navbar>
         )
     }
 }    

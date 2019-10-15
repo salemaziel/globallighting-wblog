@@ -8,14 +8,11 @@ import NavbarGlobal from "./navbar"
 
 
 const Header = () => (
-  <section NavbarGlobal>
-  <div style={{
-    position: 'sticky',
-    zIndex: '1500',
-  }}>
+  <>
+  {/**<section NavbarGlobal>
     <NavbarGlobal />
-  </div>
-  </section>
+  </section>**/}
+  </>
 )
 
 
