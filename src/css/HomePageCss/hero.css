@@ -4,7 +4,7 @@
 /*** ### Section One ### ***/
 .section-one{
 	position:relative;
-	background:url(../../images/banner.png) no-repeat;
+	/**background:url(../../images/banner.png) no-repeat; **/
 	background-size:cover;
 	padding:100px 0px;
 	margin-top: 60px;
@@ -16,7 +16,7 @@
 	right:0px;
 	bottom:0px;
 	left:0px;
-	background:rgba(0,0,0,0.5);
+	background:rgba(0,0,0,0.2);
 	height:100%;
 }
 .section-one .cx_inner{

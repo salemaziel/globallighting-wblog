@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { navigate } from 'gatsby-link'
 import '../css/main.css'
+import '../css/contactHero.css'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
