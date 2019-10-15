@@ -9,13 +9,8 @@ import NavbarGlobal from "./navbar"
 
 const Header = () => (
   <section NavbarGlobal>
-    <div
-      style={{
-    margin: '60px 0px 0px 0px',
-      }}>
   
   <NavbarGlobal />
-  </div>
   </section>
 )
 
