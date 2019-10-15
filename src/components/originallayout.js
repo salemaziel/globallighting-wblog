@@ -55,6 +55,7 @@ class Layout2 extends React.Component {
     
     return (
       <>
+      <NavbarGlobal />
       <Header2 />
       <div
         style={{
@@ -71,6 +72,7 @@ class Layout2 extends React.Component {
         <main>{children}</main>
 
         </div>
+        
         <Footer />
       </>
     )
