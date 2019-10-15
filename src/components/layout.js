@@ -6,8 +6,6 @@ import Header from "./header"
 import Footer from "./footer"
 
 import "./layout.css"
-//import NavbarGlobal from "./navbar"
-import Layout2 from "./originallayout"
 
 
 
@@ -27,7 +25,6 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
-    {/**<NavbarGlobal />**/}
       {children}
       <Footer />
     </>
