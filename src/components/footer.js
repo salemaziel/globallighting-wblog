@@ -32,14 +32,14 @@ const Footer = () => (
                 <div className="col-md-3">
                     <div className="cx_box_two">
                         <h2>Services</h2>
-                        <ul>
+                       {/** <ul>
                             <li><a href="#">GL8 solar-flash light Lantern-SOS </a></li>
                             <li><a href="#">Self contained solar indoor-Outdoor </a></li>
                             <li><a href="#">Self contained solar wall </a></li>
                             <li><a href="#">Self contained solar street </a></li>
                             <li><a href="#">Solar MICROlite</a></li>
                             <li><a href="#">Self contained solar lantern</a></li>
-                        </ul>
+                       </ul>**/}
                     </div>
                 </div>
                 <div className="col-md-2">
@@ -67,7 +67,7 @@ const Footer = () => (
                             <li><a href="mailto:jack@globallightingproject.com"><img alt="footer-" src={EnvelopLogo} className="img-fluid" /> <span>jack@globallightingproject.com</span></a></li>
                         </ul>
                         <a href="#" className="involve">
-                            get involved
+                            Donate
                             <span style={{
                                 position: 'absolute',
                                 right: '15px',
