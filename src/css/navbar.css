@@ -19,21 +19,21 @@
 }
 .nav-link {
 	background: #FFF;
-	color: black;
+	color: #203260;
 	border-radius: 3px;
 	border: 2px solid #FFF;
 }
 .nav-link:hover {
-	background: #F0AF00;
+	background: #ffc529;
 	color: white;
 	border-radius: 3px;
-	border: 2px solid #F0AF00;
+	border: 2px solid #ffc529;
 }
 .nav-link:active {
-	background: #F0AF00;
+	background: #ffc529;
 	color: white;
 	border-radius: 3px;
-	border: 2px solid #F0AF00;
+	border: 2px solid #ffc529;
 }
 .logo-img-fluid {
 	width: 300px;
@@ -47,7 +47,7 @@
     z-index: 200;
     top: 0;
     right: 0;
-    background-color: #F0AF00;
+    background-color: #ffc529;
     overflow-x: hidden;
     transition: 0.3s;
     padding-top: 60px;
@@ -58,7 +58,7 @@
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 23px;
-    color: #F0AF00;
+    color: #ffc529;
     display: block;
     transition: all 0.2s ease;
     font-family: 'Montserrat';
@@ -68,7 +68,7 @@
 
 
 .list {
-    background-image: linear-gradient(120deg, #ffffff 0%, #ffffff 50%, #F0AF00 50%);
+    background-image: linear-gradient(120deg, #ffffff 0%, #ffffff 50%, #ffc529 50%);
     background-size: 220%;
 }
 
@@ -82,7 +82,7 @@
 
 
 .closebtn:hover {
-    color: #F0AF00;
+    color: #ffc529;
     text-decoration: none;
     transform: scale(0.8)
 }
@@ -101,7 +101,7 @@
 }
 
 .openNavBtn:hover {
-    color: #F0AF00;
+    color: #ffc529;
     transform: scale(1.2)
 }
 
@@ -160,7 +160,7 @@
 }
 .device-nav {
 	display: none;
-	color: #f0af00;
+	color: #ffc529;
 	cursor: pointer;
 	text-align: right;
 	font-size: 25px;
@@ -176,9 +176,9 @@
 	height:60px;
 	line-height:60px;
 	padding:0px 50px;
-	background:#f0af00;
+	background:#ffc529;
 	border-radius: 3px;
-	border: 2px solid #f0af00;
+	border: 2px solid #ffc529;
 	text-decoration:none;
 	outline:none;
 	color:#FFF;
@@ -192,15 +192,25 @@
 
 #donate-btn:hover{
 	color: ghostwhite;
-	font-weight: 750;
 	font-size: 18px;
 	background: #facd51;
-	border: 2px solid #f0af00;
+	border: 2px solid #ffc529;
+	border-radius: 3px;
+	text-align:center;
+	text-transform:uppercase;
+	z-index:100;
+	position:relative;
+	display:inline-block;
+	vertical-align:middle;
+	height:60px;
+	line-height:60px;
+	padding:0px 50px;
+	font-weight:700;
 }
 
 .donate-btn-container {
 	/* width: '100%'; */
-	background-color: #f0af00;
+	background-color: #ffc529;
 	/* border-radius: 30; */
 	padding-top: 10!important;
 	text-align: center;

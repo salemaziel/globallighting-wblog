@@ -10,7 +10,7 @@
 	background-size:cover;
 }
 .section-three h2{
-	color:#f0af00;
+	color:#ffc529;
 	font-size:13px;
 	font-weight:700;
 	text-transform:uppercase;
@@ -26,7 +26,7 @@
 	top:-100px;
 	width:2px;
 	height:100px;
-	background:#f0af00;
+	background:#ffc529;
 } **/
 .section-three h3{
 	position:relative;
@@ -113,6 +113,6 @@
 	bottom:-50px;
 	width:2px;
 	height:100px;
-	background:#f0af00;
+	background:#ffc529;
 	z-index: 1000;
 }

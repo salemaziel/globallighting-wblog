@@ -6,7 +6,7 @@
 	position:relative;
 	/**background:url(../../images/banner.png) no-repeat; **/
 	background-size:cover;
-	padding:100px 0px;
+	padding:80px 0px 180px 0px;
 	/**margin-top: 60px;**/
 }
 .section-one:after{
@@ -35,12 +35,12 @@
 .section-one h1 span{
 	color:#FFF;
 }
-.section-one p{
+.section-one h2{
 	color:#ffffff;
-	font-size:22px;
-	font-weight:400;
+	font-size:28px;
+	font-weight:500;
 	margin:0px;
-	padding:20px 0px 40px 0px;
+	padding:60px 0px 40px 0px;
 	text-transform:uppercase;
 	line-height:normal;
 }
@@ -52,7 +52,7 @@
 	line-height:50px;
 	padding:0px 25px;
 	border-radius:5px;
-	background:#f0af00;
+	background:#ffc529;
 	text-decoration:none;
 	outline:none;
 	/*color:#FFF;*/

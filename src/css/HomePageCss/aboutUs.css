@@ -20,7 +20,7 @@
 	margin-top:25px;
 }
 .section-two h2{
-	color:#f0af00;
+	color:#ffc529;
 	font-size:13px;
 	font-weight:700;
 	text-transform:uppercase;
@@ -42,7 +42,7 @@
 	bottom:0px;
 	width:50px;
 	height:2px;
-	background:#f0af00;
+	background:#ffc529;
 }
 .section-two h3:after{
 	content:"";
@@ -51,7 +51,7 @@
 	bottom:0px;
 	width:50px;
 	height:2px;
-	background:#f0af00;
+	background:#ffc529;
 }
 .section-two p{
 	color:#101020;

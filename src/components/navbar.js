@@ -79,8 +79,8 @@ class NavbarGlobal extends React.Component {
                                 
                             </Nav>
                         </Collapse>
-                         <div className="donate-btn">
-                            <Link to="/donate" id="donate-btn">Donate</Link> 
+                         <div className="donate-btn custom-dbox-popup">
+                            <a href="https://donorbox.org/global-lighting-project-usa" id="donate-btn">Donate</a> 
                         </div> 
                     {/**</div>**/}
                  
@@ -91,7 +91,7 @@ class NavbarGlobal extends React.Component {
                         margin: '0 auto',
                         maxWidth: 960,
                         padding: '1.45rem 1.0875rem',
-                        color: '#f0af00',
+                        color: '#ffc529',
                     }}
                 >
                     <h1 style={{ margin: 0, display: 'inline-block' }}>

@@ -17,9 +17,9 @@ const Hero = () => (
                     <h1>
                         EMPOWERING <br /><span> THE WORLD</span>
                     </h1>
-                    <p>
+                    <h2>
                         HARNESSING SUSTAINABLE ENERGY TO CREATE LIGHT, CLEAN WATER, NOURISHING FOOD, AND BUILDING SELF-RELIANT COMMUNITIES.
-                </p>
+                </h2>
                 </div>
             </div>
         </div>

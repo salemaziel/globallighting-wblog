@@ -98,7 +98,7 @@ class NavbarDonate extends React.Component {
                         margin: '0 auto',
                         maxWidth: 960,
                         padding: '1.45rem 1.0875rem',
-                        color: '#f0af00',
+                        color: '#ffc529',
                     }}
                 >
                     <h1 style={{ margin: 0, display: 'inline-block' }}>

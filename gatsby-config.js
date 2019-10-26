@@ -71,7 +71,7 @@ module.exports = {
           description: `Non-profit organization on a mission to aid developing communities with solar-powered LED lights`,
           start_url: `/`,
           background_color: `#fff`,
-          theme_color: `#f0af00`,
+          theme_color: `#ffc529`,
           display: `standalone`,
           icon: `src/images/logo.png`, // This path is relative to the root of the site.
         },

@@ -10,14 +10,68 @@
 	background-size:cover;
 }
 .section-three h2{
-	color:#f0af00;
+	/**color:#000;
+	font-size: 1.5rem;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
+	font-stretch: condensed;
+	font-weight:400;
+	/**text-transform:uppercase;/
+	margin:0px;
+	padding:20px 0px 50px 0px;
+	text-align:center;**/
+	position:relative;
+	margin:0px;
+	padding:1rem 0 2rem 0;
+	font-size: 39px;
+	font-size: 2rem;
+	font-weight:550;
+	/**color: #203260;**/
+	color: #203260;
+	text-align:center;
+	text-transform: uppercase;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	
+}
+/**.section-three .span1 h2 span{
+	color:#ffc529;	
+}
+
+.section-three .span2 h2 span{
+	color: #00A6ED;
+}**/
+
+.blueText {
+	color: #2D7DD2;
+}
+
+.orangeTextTitle{
+	color: #ffc529;
+}
+
+.orangeTextSubtitle {
+	color: #ffc529;
+	font-size: 1.1rem;
+	font-family: sans-serif;
+	font-weight:400;
+	margin:0px;
+	padding:20px 0px 20px 0px;
+	text-align:center;
+	line-height: 1.6rem;
+}
+
+.greenText {
+	color: #97CC04;
+}
+
+/**.section-three h2{
+	color:#ffc529;
 	font-size:13px;
 	font-weight:700;
 	text-transform:uppercase;
 	margin:0px;
 	padding:20px 0px;
 	text-align:center;
-}
+}**/
 /**.section-three h2:before{
 	content:"";
 	position:absolute;
@@ -26,16 +80,38 @@
 	top:-100px;
 	width:2px;
 	height:100px;
-	background:#f0af00;
+	background:#ffc529;
 } **/
 .section-three h3{
-	position:relative;
+/**	position:relative;
 	margin:0px;
 	padding:0px;
-	color:#203260;
-	font-size:45px;
-	font-weight:700;
+	color: #ffc529;;
+	font-size: 2.5rem;
+	font-weight:900;
+	font-stretch: extra-expanded;
 	text-align:center;
+	text-transform: uppercase;
+	font-family: Monserrat, sans-serif;**/
+	color:#000;
+	font-size: 1.1rem;
+	font-family: sans-serif;
+	font-weight:400;
+	margin:0px;
+	padding:20px 0px 20px 0px;
+	text-align:center;
+	line-height: 1.6rem;
+}
+.section-three h4 {
+	font-size: 1.1rem;
+	font-family: sans-serif;
+	text-align: center;
+	margin-bottom: .5rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+	letter-spacing: 0.140625em;
+	text-transform: none;
+ 
 }
 .section-three p{
 	color:#898989;
@@ -113,6 +189,6 @@
 	bottom:-100px;
 	width:2px;
 	height:100px;
-	background:#f0af00;
+	background:#ffc529;
 	z-index: 1000;
 }
