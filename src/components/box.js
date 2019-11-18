@@ -10,7 +10,7 @@ import Button from '../components/button'
 
 import {
   Card, CardImg, CardText, CardBody,
-  CardTitle, CardHeader, CardDeck
+  CardTitle, CardDeck
 } from 'reactstrap';
 
 
@@ -22,19 +22,18 @@ const Box = () => (
 
 				<div class="thumbnails">
 					
-					<div class="box">
+					<div class="box scale">
 					
 					<Card>
 					<CardImg top width="100%" src={Nightlight} class="img fit" alt="Card image cap" />
-					<CardHeader tag="h3">Header</CardHeader>
         				<CardBody>
 								<div class="inner">
 									
 								<CardTitle>
-									<h3>Nascetur nunc varius commodo</h3>
+									<h3>Solar Powered LED Light</h3>
 								</CardTitle>
 									<CardText tag="p">	
-										Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.
+										Revolutionary solar-powered LED technology for sustainable energy with minimal power usage etc etc etcadjflkasdfja;dsf
 									</CardText>
 									<Button as={Link} href="#" prefetch primary>Go somewhere</Button>	
 								</div>
@@ -42,15 +41,14 @@ const Box = () => (
 						</Card>
 					</div>
 				
-					<div class="box">
+					<div class="box scale">
 					<Card>
 					<CardImg top width="100%" src={Hydroveggie} class="img fit" alt="Card image cap" />
-					<CardHeader tag="h3">Header</CardHeader>
         				<CardBody>
 								<div class="inner">
 									
 								<CardTitle>
-									<h3>Nascetur nunc varius commodo</h3></CardTitle>
+									<h3>Agricultural Development</h3></CardTitle>
 								<CardText tag="p">Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.
 								</CardText>
 								<Button as={Link} href="#" prefetch primary>Go somewhere</Button>
@@ -59,14 +57,13 @@ const Box = () => (
 					</Card>					
 					</div>
 
-					<div class="box">
+					<div class="box scale">
 					<Card>
 					<CardImg top width="100%" src={UVsterilize} class="img fit" alt="Card image cap" />
-					<CardHeader tag="h3">Header</CardHeader>
         				<CardBody>
 								<div class="inner">
 								<CardTitle>
-									<h3>Nascetur nunc varius commodo</h3>
+									<h3>Clean Water and Clean Cooking</h3>
 								</CardTitle>	
 								<CardText tag="p">Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.
 								</CardText>

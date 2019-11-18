@@ -35,7 +35,7 @@ const SecondPage = () => (
     <SEO title="Page two" />
     <h1> Hi from the second page </h1>
     <p>Welcome to page 2</p>
-    <Buttonz as={Link} href="/FAQ" prefetch primary>Test Primary Button</Buttonz>
+    <Buttonz as={Link} href="/faq" prefetch primary>Test Primary Button</Buttonz>
     <Buttonz as={Link} href="/donate" color="primary">Test Primary Button</Buttonz>
     <Box />
     <Buttonz donateblk>Donate black button</Buttonz>

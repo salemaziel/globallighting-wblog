@@ -8,7 +8,11 @@
 
 .box .inner {
     padding: 1.5em;
-    width: 100% !important;
+	width: 100% !important;
+	-webkit-transition: .3s all ease-in-out;
+	-o-transition: .3s all ease-in-out;
+	transition: .3s all ease-in-out;
+  
 }
 
 .thumbnails {
@@ -58,6 +62,25 @@
 		margin-bottom: 2em;
 		background: #f9f9f9;
 		text-align: center;
+		-webkit-transition: .3s all ease-in-out;
+		-o-transition: .3s all ease-in-out;
+		transition: .3s all ease-in-out;
+	}
+
+	.box .scale:hover{
+		top: -10px;
+		-webkit-box-shadow: 0 10px 40px -5px rgba(0, 0, 0, 0.4);
+		box-shadow: 0 10px 40px -5px rgba(0, 0, 0, 0.4);
+	}
+
+ 	.scale:hover {
+		cursor: pointer;
+		-webkit-transform: scale(1.05);
+		-ms-transform: scale(1.05);
+		transform: scale(1.05);
+		-webkit-transition: .3s all ease-in-out;
+		-o-transition: .3s all ease-in-out;
+		transition: .3s all ease-in-out;
 	}
 
 		.box > :last-child,
@@ -68,6 +91,7 @@
 
 		.box .image.fit {
 			margin: 0;
+			width: 100%;
 		}
 
 		.box .image img {
@@ -77,7 +101,33 @@
 		.box .inner {
 			padding: 1.5em;
 			width: 100% !important;
+			-webkit-transition: .3s all ease-in-out;
+			-o-transition: .3s all ease-in-out;
+			transition: .3s all ease-in-out;
+		  
         }
+		
+		.card-deck .card {
+			margin-left: 0;
+			margin-right: 0;
+		}
+
+		.card .card-body{
+			display: flex;
+			justify-content: center;
+		}
+
+		.card-img-top{
+			margin-bottom: 0;
+
+		}
+
+		.card-body {
+			padding-left: 2px;
+			padding-right: 2px;
+			padding-bottom: 0px;
+			padding-top: 0px;
+		}
 
         .thumbnails .box .inner h3{
             font-size: 25px;
@@ -190,8 +240,8 @@
 
 		#main .inner {
 			width: 90%;
-			max-width: 80em;
-			margin: 0 auto;
+			/**max-width: 80em;**/
+			margin: 3em;
 		}
 
 			@media screen and (max-width: 480px) {
@@ -214,6 +264,10 @@
 		.image img {
 			border-radius: 4px;
 			display: block;
+			-webkit-transition: .3s all ease-in-out;
+			-o-transition: .3s all ease-in-out;
+			transition: .3s all ease-in-out;
+		  
 		}
 
 		.image.left, .image.right {

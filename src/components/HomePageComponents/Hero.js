@@ -1,11 +1,11 @@
 import React from 'react'
 import HeroBanner from '../../images/banner-stock-lg.jpg'
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAngleRight } from '@fortawesome/free-solid-svg-icons'
+//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+//import { faAngleRight } from '@fortawesome/free-solid-svg-icons'
 import '../../css/HomePageCss/hero.css'
-import Button from '../button'
-import { Link } from 'gatsby'
+//import Button from '../button'
+//import { Link } from 'gatsby'
 
 const Hero = () => (
     <section className="section-one" style={{

@@ -1,16 +1,16 @@
-import React, { Component } from 'react'
+import React from 'react'
 import {
-    Collapse,
+    //Collapse,
     Navbar,
     NavbarToggler,
     NavbarBrand,
-    Nav,
-    NavItem,
-    NavLink,
-    UncontrolledDropdown,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem
+    //Nav,
+    //NavItem,
+    //NavLink,
+    //UncontrolledDropdown,
+    //DropdownToggle,
+    //DropdownMenu,
+    //DropdownItem
 } from 'reactstrap';
 import { Link } from 'gatsby'
 import Logo from '../images/logo.png'
@@ -18,8 +18,8 @@ import '../css/navbar.css'
 import '../css/header.css'
 
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
+//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+//import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
 
 class NavbarDonate extends React.Component {
    state = {

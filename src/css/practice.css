@@ -1,0 +1,10 @@
+.test {
+    color: black;
+    font-size: 5rem;
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+.button:hover{
+    cursor: pointer;
+}

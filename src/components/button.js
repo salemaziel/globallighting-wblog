@@ -42,8 +42,8 @@ const Button = styled.Button = styled.a`
   `}
 `
 
-const Container = styled.div`
+{/**const Container = styled.div`
   text-align: center;
-`
+  `**/}
 
 export default Button

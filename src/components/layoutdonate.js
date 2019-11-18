@@ -7,7 +7,7 @@ import Footer from "./footer"
 
 import "./layout.css"
 //import NavbarGl from "./navbar"
-import Layout2 from "./originallayout"
+//import Layout2 from "./originallayout"
 
 
 
