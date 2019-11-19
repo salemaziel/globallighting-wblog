@@ -17,7 +17,9 @@ const About2 = () => (
                         About the Global Lighting Project
                     </h3>
                         <p>
-                        The advances in science and technology over the past couple of centuries have contributed significantly towards making our lives simple and comfortable. Electricity is one of these countless inventions, which has today become an integral part of our living. In fact, most of us fail to imagine life without this essential commodity. Therefore the fact that there are still millions of people, who still live a life completely devoid of this basic facility, often comes as a surprise. We at Global Lighting Project, work towards reducing the number of such people by providing lighting solution to them.<br>
+                        Originally founded in 2016 in San Diego, California, the Global Lighting Project team first set out to bring energy and light to impoverished communities in India, where many live daily without access to light or electricity 
+
+                        <br>
                         </br>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                         </p>

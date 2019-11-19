@@ -10,13 +10,15 @@ import OurWork from '../components/HomePageComponents/OurWork'
 import NewsLetter from '../components/HomePageComponents/NewsLetter'
 
 import Synergy from "../components/HomePageComponents/Synergy"
+import Homeheadertitle from "../components/HomePageComponents/Homeheadertitle"
 
 const IndexPage = () => (
  <div>
   <Layout>
     <Hero />
-    <Synergy />
+    <Homeheadertitle />
     <AboutUs />
+    <Synergy />
     <ActionComponent />
     <WhatWeDo />
     <NewFromBlog />
