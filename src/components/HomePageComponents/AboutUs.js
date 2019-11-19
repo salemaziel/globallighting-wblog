@@ -26,16 +26,16 @@ const AboutUs = () => (
                         ABOUT GLOBAL LIGHTING PROJECT
                 </h2>
                     <h3>
-                        About Us<br />
+                        About Us
                 </h3>
                     <p>
                     Global Lighting project is a 501c3 non-profit that is on a mission to ensure all people have access to light, electricity, clean water, and sanitary cooking facilities using cutting edge LED light technology. 
                     <br />
-                    The Global Lighting Project researches, builds or purchases, and transports this LED technology to local organizations working in the communities we seek to benefit. We act as a supplier, distributor and educator for these local groups, donating LED light kits and educating them on how the technology works, so that they, in turn, can bring that knowledge and technology to their communities to share and teach others. 
+                    The team at Global Lighting Project researches, builds or purchases, and transports this LED technology to local organizations working in the communities we seek to benefit. We act as a supplier, distributor and educator for these local groups, donating LED light kits and educating them on how the technology works, so that they, in turn, can bring that knowledge and technology to their communities to share and teach others. 
 
                     
                     </p>
-                    <a href="/about">Read More</a>
+                    <a href="/about">Learn More</a>
                 </div>
             </div>
         </div>

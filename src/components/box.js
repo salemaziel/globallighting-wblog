@@ -26,17 +26,17 @@ const Box = () => (
 					
 					<Card>
 					<CardImg top width="100%" src={Nightlight} class="img fit" alt="Card image cap" />
-					<CardHeader tag="h3">Header</CardHeader>
+					{/**<CardHeader tag="h3">Header</CardHeader>**/}
         				<CardBody>
 								<div class="inner">
 									
 								<CardTitle>
-									<h3>Nascetur nunc varius commodo</h3>
+									<h3>Lighting Homes, Schools, and Businesses with White LED Lights</h3>
 								</CardTitle>
-									<CardText tag="p">	
+									{/**<CardText tag="p">	
 										Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.
-									</CardText>
-									<Button as={Link} href="#" prefetch primary>Go somewhere</Button>	
+									</CardText>**/}
+									<Button as={Link} href="#" prefetch primary>Learn More</Button>	
 								</div>
 						</CardBody>
 						</Card>
@@ -45,15 +45,15 @@ const Box = () => (
 					<div class="box">
 					<Card>
 					<CardImg top width="100%" src={Hydroveggie} class="img fit" alt="Card image cap" />
-					<CardHeader tag="h3">Header</CardHeader>
+					{/**<CardHeader tag="h3">Header</CardHeader>**/}
         				<CardBody>
 								<div class="inner">
 									
 								<CardTitle>
-									<h3>Nascetur nunc varius commodo</h3></CardTitle>
-								<CardText tag="p">Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.
-								</CardText>
-								<Button as={Link} href="#" prefetch primary>Go somewhere</Button>
+									<h3>Grow Food Gardens Anywhere with UltraViolet LED Lights</h3></CardTitle>
+								{/**<CardText tag="p">Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.
+								</CardText>**/}
+								<Button as={Link} href="#" prefetch primary>Learn More</Button>
 								</div>
 						</CardBody>
 					</Card>					
@@ -62,15 +62,15 @@ const Box = () => (
 					<div class="box">
 					<Card>
 					<CardImg top width="100%" src={UVsterilize} class="img fit" alt="Card image cap" />
-					<CardHeader tag="h3">Header</CardHeader>
+					{/**<CardHeader tag="h3">Header</CardHeader>**/}
         				<CardBody>
 								<div class="inner">
 								<CardTitle>
-									<h3>Nascetur nunc varius commodo</h3>
+									<h3>Sanitize Water, Cooking Facilities and More with $(THIS) LED Lights</h3>
 								</CardTitle>	
-								<CardText tag="p">Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.
-								</CardText>
-								<Button as={Link} href="#" prefetch primary>Go somewhere</Button>
+								{/**<CardText tag="p">Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.
+								</CardText>**/}
+								<Button as={Link} href="#" prefetch primary>Learn More</Button>
 								</div>
 						</CardBody>
 					</Card>	
