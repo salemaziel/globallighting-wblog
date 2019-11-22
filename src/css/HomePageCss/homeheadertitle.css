@@ -169,10 +169,10 @@
 }
 @media (max-width:1024px){
 .hheader h2{
-	font-size:12px;
+	font-size:2em;
 }
 .hheader h3{
-	font-size:35px;
+	font-size:1.5em;
 }
 .hheader p{
 	font-size:15px;
@@ -187,6 +187,16 @@
 @media (max-width:767px){
 .hheader h3{
 	font-size:25px;
+}
+.orangeTextSubtitle {
+	color: #ffc529;
+	font-size: 25px;
+	font-family: sans-serif;
+	font-weight:400;
+	margin:0px;
+	padding:20px 0px 20px 0px;
+	text-align:center;
+	line-height: 1.6rem;
 }
 }
 .hheader:after{

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Component } from 'react'
 import {
     Collapse,
     Navbar,
@@ -7,18 +7,19 @@ import {
     Nav,
     NavItem,
     NavLink,
-    UncontrolledDropdown,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem
+    //UncontrolledDropdown,
+    //DropdownToggle,
+    //DropdownMenu,
+    //DropdownItem
 } from 'reactstrap';
 import { Link } from 'gatsby'
 import Logo from '../images/logo.png'
 import '../css/navbar.css'
-//import '../css/header.css'
+import '../css/header.css'
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
+
+//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+//import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
 
 class NavbarGlobal extends React.Component {
    state = {
@@ -27,7 +28,7 @@ class NavbarGlobal extends React.Component {
     }
     toggle = () => {
         this.setState({
-            isOpen: !this.state.isOpen
+            isOpen: !this.state.isOpen,
         });
     }
     openNav = () => {
@@ -39,14 +40,13 @@ class NavbarGlobal extends React.Component {
     closeNav = () => {
         this.setState({
             width: '0px',
-        })
+        });
     }
 
 
     render() {
         return (
-            <div>
-                <Navbar className="navigation fixed-top" color="white" expand="md">
+                <Navbar className="navigation" color="white" expand="md" sticky="top">
                     <div className="container">
                         <NavbarBrand to="/" tag={Link} className="order-0">
                             <img src={Logo} className="logo-img-fluid" />
@@ -55,10 +55,11 @@ class NavbarGlobal extends React.Component {
                         <NavbarToggler onClick={this.toggle} />
                         <Collapse isOpen={this.state.isOpen} navbar style={{ textAlign: 'center' }}>
                             
-                            <Nav className="mx-auto order-1 " navbar style={{ marginTop: 18, fontWeight: 'bold', }}>
+                            <Nav className="mx-auto order-1 " navbar style={{ marginTop: 18, fontWeight: 'bold' }}>
             
                                 <NavItem >
                                     <NavLink className="nav-link" to="/" tag={Link} style={{ fontSize: 18, fontStyle: 'bold',  }}>HOME</NavLink>
+                                    
                                 </NavItem>
                                 <NavItem>
                                     <NavLink className="nav-link" to="/about" tag={Link} style={{ fontSize: 18 }}>ABOUT</NavLink>
@@ -81,9 +82,9 @@ class NavbarGlobal extends React.Component {
                          <div className="donate-btn custom-dbox-popup">
                             <a href="https://donorbox.org/global-lighting-project-usa" id="donate-btn">Donate</a> 
                         </div> 
-                    </div>
-                    </Navbar>
-                {/* Hamburger Navbar for smaller screens */}
+                    {/**</div>**/}
+                 
+                { /* Hamburger Navbar for smaller screens */}
                 <div
                     className="Hamburger-Navbar"
                     style={{
@@ -91,7 +92,8 @@ class NavbarGlobal extends React.Component {
                         maxWidth: 960,
                         padding: '1.45rem 1.0875rem',
                         color: '#ffc529',
-                    }}>
+                    }}
+                >
                     <h1 style={{ margin: 0, display: 'inline-block' }}>
                         <Link
                             to="/"
@@ -152,10 +154,9 @@ class NavbarGlobal extends React.Component {
                         &#9776;
                     </span>
                   
-                </div> 
-                {/**</Navbar>**/} 
                 </div>  
-                
+                </div>>  
+                </Navbar>
         )
     }
 }    

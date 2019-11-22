@@ -20,10 +20,10 @@
     display: -webkit-flex;
     display: -ms-flex;
     display: flex;
-    -moz-align-items: stretch;
+    /**-moz-align-items: stretch;
     -webkit-align-items: stretch;
     -ms-align-items: stretch;
-    align-items: stretch;
+    align-items: stretch;**/
     -moz-justify-content: center;
     -webkit-justify-content: center;
     -ms-justify-content: center;
