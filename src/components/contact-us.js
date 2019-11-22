@@ -1,5 +1,5 @@
 import React from 'react'
-import styled from 'styled-components'
+//import styled from 'styled-components'
 import { navigate } from 'gatsby-link'
 import '../css/main.css'
 import '../css/contactHero.css'

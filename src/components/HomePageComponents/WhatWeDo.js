@@ -21,7 +21,7 @@ const WhatWeDo = () => (
                         <h3>What We Do</h3>
                         <div className="cx_list">
                             <div className="cx_icon"><img alt="what-we" src={IconOne} className="img-fluid" /></div>
-                            <h4>title Here</h4>
+                            <h4>Sustainable Energy</h4>
                             <p>
                                 Lorem Ipesum  Lorem Ipesum Lorem Ipesum Lorem Ipesum
                                 Lorem Ipesum  Lorem
