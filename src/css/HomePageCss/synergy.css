@@ -4,7 +4,7 @@
 /*** ### Section Three ### ***/
 .section-three{
 	position:relative;
-	margin-bottom:50px;
+	/**margin-bottom:50px;**/
 	padding:0px 0px 50px;
 	/* background:url(../images/pink-dots.png) no-repeat; */
 	background-size:cover;
@@ -190,7 +190,7 @@
 	font-size:25px;
 }
 }
-.section-three:after{
+/**.section-three:after{
 	content:"";
 	position: absolute;
 	left:50%;
@@ -200,4 +200,4 @@
 	height:100px;
 	background:#ffc529;
 	z-index: 1000;
-}
+}**/

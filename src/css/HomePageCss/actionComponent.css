@@ -5,7 +5,7 @@
 	position:relative;
 	/* background:url(../images/yellow-dots.png) no-repeat; */
 	background-size:cover;
-	padding:50px 0px;
+	padding:75px 0px;
 }
 .section-four .cx_left{
 	position:relative;
@@ -53,6 +53,27 @@
 .section-four h2{
 	font-size:35px;
 }
+.section-four a.involve {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 70%;
+    max-width: 300px;
+    background: #000000;
+    outline: none;
+    cursor: pointer;
+    text-align: left;
+    padding: 0px 20px;
+    margin: 20px 0px 0px 0px;
+    margin-left: 60px;
+    height: 50px;
+    line-height: 50px;
+    font-weight: 700;
+    font-size: 15px;
+    color: #FFF;
+    text-transform: uppercase;
+	text-decoration: none;
+}
 }
 @media (max-width:991px){
 .section-four h2{
@@ -69,5 +90,25 @@
 }
 .section-four h2 br{
 	display:none;
+}
+.section-four a.involve {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 70%;
+    max-width: 300px;
+    background: #000000;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    padding: 0px 20px;
+    margin: 20px 0px 0px 0px;
+    height: 50px;
+    line-height: 50px;
+    font-weight: 700;
+    font-size: 15px;
+    color: #FFF;
+    text-transform: uppercase;
+	text-decoration: none;
 }
 }

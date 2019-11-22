@@ -242,7 +242,8 @@
 		#main .inner {
 			width: 90%;
 			/**max-width: 80em;**/
-			margin: 3em;
+			/**margin: 3em;**/
+			margin: 2em 5px 2em 5px;
 		}
 
 			@media screen and (max-width: 480px) {
