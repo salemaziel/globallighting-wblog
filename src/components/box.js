@@ -30,12 +30,12 @@ const Box = () => (
 								<div class="inner">
 									
 								<CardTitle>
-									<h3>Solar Powered LED Light</h3>
+
+									<h3>Lighting Homes, Schools, and Businesses with White LED Lights</h3>
 								</CardTitle>
-									<CardText tag="p">	
-										Revolutionary solar-powered LED technology for sustainable energy with minimal power usage etc etc etcadjflkasdfja;dsf
-									</CardText>
-									<Button as={Link} href="#" prefetch primary>Go somewhere</Button>	
+									
+									<Button as={Link} href="#" prefetch primary>Learn More</Button>	
+
 								</div>
 						</CardBody>
 						</Card>
@@ -48,10 +48,13 @@ const Box = () => (
 								<div class="inner">
 									
 								<CardTitle>
-									<h3>Agricultural Development</h3></CardTitle>
-								<CardText tag="p">Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.
-								</CardText>
-								<Button as={Link} href="#" prefetch primary>Go somewhere</Button>
+
+
+									<h3>Grow Food Gardens Anywhere with UltraViolet LED Lights</h3></CardTitle>
+								{/**<CardText tag="p">Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.
+								</CardText>**/}
+								<Button as={Link} href="#" prefetch primary>Learn More</Button>
+
 								</div>
 						</CardBody>
 					</Card>					
@@ -60,14 +63,16 @@ const Box = () => (
 					<div class="box scale">
 					<Card>
 					<CardImg top width="100%" src={UVsterilize} class="img fit" alt="Card image cap" />
+
         				<CardBody>
 								<div class="inner">
 								<CardTitle>
-									<h3>Clean Water and Clean Cooking</h3>
+									<h3>Sanitize Water, Cooking Facilities and More with $(THIS) LED Lights</h3>
+
 								</CardTitle>	
-								<CardText tag="p">Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.
-								</CardText>
-								<Button as={Link} href="#" prefetch primary>Go somewhere</Button>
+								{/**<CardText tag="p">Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.
+								</CardText>**/}
+								<Button as={Link} href="#" prefetch primary>Learn More</Button>
 								</div>
 						</CardBody>
 					</Card>	
