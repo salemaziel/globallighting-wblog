@@ -12,11 +12,11 @@ import ContainedSolarImage from '../../images/containedsolar.png'
 import Box from '../box'
 import '../../css/box.css'
 
-import '../../css/HomePageCss/synergy.css'
+import '../../css/HomePageCss/homeheadertitle.css'
 
 const Homeheadertitle = () => (
-    <section className="section-three" >
-    <div className="row">
+    <section className="hheader">
+    <div className="row headline">
         <div className="container-fluid">
         	<div className="col-md-12">
             	<h2>
@@ -28,21 +28,10 @@ const Homeheadertitle = () => (
                         Using the power of renewable energy, revolutionary LED light solutions, and technology workshops in developing communities, <span className="orangeTextSubtitle">the Global Lighting Project is on a mission to change that.</span>
                     </h3>
                 </div>
-                {/**<div className="row justify-content-center">
-                    <div className="col-lg-10">
-                        <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-                        </p>
-                    </div>
-            </div>**/}
             </div>
         </div>
     </div>
-        {/**<div className="row">
-            <div className="col-lg-12">
-        	    <Box />
-            </div>
-        </div>**/}
+    
 </section>
 )
 

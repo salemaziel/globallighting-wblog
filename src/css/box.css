@@ -60,7 +60,8 @@
 	.box {
 		border-radius: 4px;
 		margin-bottom: 2em;
-		background: #f9f9f9;
+		/**background: #f9f9f9;**/
+		background: #ffffff;
 		text-align: center;
 		-webkit-transition: .3s all ease-in-out;
 		-o-transition: .3s all ease-in-out;
