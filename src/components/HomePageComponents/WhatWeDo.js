@@ -1,10 +1,11 @@
 import React from 'react'
 
-import WhatWeDoImage from '../../images/what-we-do.jpg'
+import WhatWeDoImage from '../../images/shutterstock/New Folder/1-bulb-hand.jpg'
 import IconOne from '../../images/icon-one.jpg'
 import IconTwo from '../../images/icon-two.jpg'
 import IconThree from '../../images/icon-three.jpg'
 import IconFour from '../../images/work-four.png'
+import Bulbplant from '../../images/shutterstock/New Folder/lightbulb-plant.jpg'
 
 import '../../css/HomePageCss/whatWeDo.css'
 
@@ -21,7 +22,7 @@ const WhatWeDo = () => (
                         <h3>What We Do</h3>
                         <div className="cx_list">
                             <div className="cx_icon"><img alt="what-we" src={IconOne} className="img-fluid" /></div>
-                            <h4>Sustainable Energy</h4>
+                            <h4>Supply and Distribute LED Tech to Community Organizers</h4>
                             <p>
                                 Lorem Ipesum  Lorem Ipesum Lorem Ipesum Lorem Ipesum
                                 Lorem Ipesum  Lorem
@@ -29,7 +30,7 @@ const WhatWeDo = () => (
                         </div>
                         <div className="cx_list">
                             <div className="cx_icon"><img alt="what-we" src={IconTwo} className="img-fluid" /></div>
-                            <h4>title Here</h4>
+                            <h4>Teach Sustainability, Renewable Energy, & Technology Training</h4>
                             <p>
                                 Lorem Ipesum  Lorem Ipesum Lorem Ipesum Lorem Ipesum
                                 Lorem Ipesum  Lorem
@@ -37,19 +38,22 @@ const WhatWeDo = () => (
                         </div>
                         <div className="cx_list">
                             <div className="cx_icon"><img alt="what-we" src={IconThree} className="img-fluid" /></div>
-                            <h4>title Here</h4>
+                            <h4>Research & Development: Looking Toward the Future</h4>
                             <p>
                                 Lorem Ipesum  Lorem Ipesum Lorem Ipesum Lorem Ipesum
                                 Lorem Ipesum  Lorem
                         </p>
                         </div>
                         <div className="cx_list">
-                            <div className="cx_icon"><img alt="what-we" src={IconFour} className="img-fluid" /></div>
-                            <h4>title Here</h4>
+                            <div>
+                                <img src={Bulbplant} />
+                            </div>
+                            {/**<div className="cx_icon"><img alt="what-we" src={IconFour} className="img-fluid" /></div>
+                            <h4>Listen. </h4>
                             <p>
                                 Lorem Ipesum  Lorem Ipesum Lorem Ipesum Lorem Ipesum
                                 Lorem Ipesum  Lorem
-                        </p>
+                            </p>**/}
                         </div>
                     </div>
                 </div>

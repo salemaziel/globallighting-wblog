@@ -1,9 +1,9 @@
 import React from 'react'
 import '../css/box.css'
 import '../css/HomePageCss/synergy.css'
-import Hydroveggie from '../images/stock-hydroveggie.jpg'
+import Hydroveggie from '../images/shutterstock/1-young-tomato.jpg'
 import Nightlight from '../images/stock-nightlight.jpg'
-import UVsterilize from '../images/stock-uvsterilize.jpg'
+import UVsterilize from '../images/shutterstock/1-sanjose-water.jpg'
 import { Link } from 'gatsby'
 
 import Button from '../components/button'

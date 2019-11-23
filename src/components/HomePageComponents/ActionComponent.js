@@ -19,8 +19,16 @@ const ActionComponent = () => (
         	<div className="col-md-7">
             	<div className="cx_left">
                 	<h2>
-                    	One Action Can <br />Make a World of Difference.
+                    The World Changes Together, <br />
+                    No One Can Do It Alone. <br />
                     </h2>
+                    <h3>
+                    Help Us Empower Others.<br />
+                    Let's Ensure A Brighter <br />
+                    World For Everyone.
+                    </h3>    
+                        
+                    
                 </div>
             </div>
             <div className="col-md-5">

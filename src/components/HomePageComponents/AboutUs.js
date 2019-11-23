@@ -2,9 +2,9 @@ import React from 'react'
 import PinkDotsImage from '../../images/pink-dots.png'
 
 
-import LiveOneImage from '../../images/lives-one.png'
-import LiveTwoImage from '../../images/lives-two.png'
-import LiveThreeImage from '../../images/lives-three.png'
+import LiveOneImage from '../../images/1-hut-plate-edit.jpg'
+import LiveTwoImage from '../../images/1-orchard-vegetables-edit.jpg'
+import LiveThreeImage from '../../images/1-myanmar.jpg'
 
 import '../../css/HomePageCss/aboutUs.css'
 
