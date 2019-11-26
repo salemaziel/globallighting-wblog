@@ -50,7 +50,7 @@ const Box = () => (
 								<CardTitle>
 
 
-									<h3>Grow Vegetable Gardens Anywhere with UltraViolet LED Lights</h3></CardTitle>
+									<h3>Grow Vegetable Gardens Anywhere with RGB LED Lights</h3></CardTitle>
 								{/**<CardText tag="p">Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.
 								</CardText>**/}
 								<Button as={Link} href="#" prefetch primary>Learn More</Button>
@@ -67,7 +67,7 @@ const Box = () => (
         				<CardBody>
 								<div class="inner">
 								<CardTitle>
-									<h3>Sanitize Water, Cooking Facilities and More with $(THIS) LED Lights</h3>
+									<h3>Sanitize Water, Cooking Facilities and More with Ultra Violet LED Lights</h3>
 
 								</CardTitle>	
 								{/**<CardText tag="p">Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.
