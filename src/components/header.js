@@ -1,6 +1,7 @@
 import React from "react"
 //import { UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 
+//import Helmet from 'react-helmet'
 
 import '../css/header.css'
 import '../../src/components/layout.css'
@@ -9,9 +10,13 @@ import '../../src/components/layout.css'
 
 const Header = () => (
   <>
-  {/**<section NavbarGlobal>
-    <NavbarGlobal />
-  </section>**/}
+  
+    {/**<section NavbarGlobal>
+      <NavbarGlobal />
+        </section>**/}
+    {/**<script type="text/javascript" defer src="https://donorbox.org/install-popup-button.js"></script>
+    <script>window.DonorBox = { widgetLinkClassName='custom-dbox-popup' }</script>**/}
+  
   </>
 )
 

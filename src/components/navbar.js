@@ -154,7 +154,7 @@ class NavbarGlobal extends React.Component {
                   
                 </div> 
                 {/**</Navbar>**/} 
-                </div>  
+            </div>  
                 
         )
     }

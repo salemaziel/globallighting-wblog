@@ -31,7 +31,7 @@ const Box = () => (
 									
 								<CardTitle>
 
-									<h3>Lighting Homes, Schools, and Businesses with White LED Lights</h3>
+									<h3>Lighting the way for Homes, Schools, and Businesses with White LED Lights</h3>
 								</CardTitle>
 									
 									<Button as={Link} href="#" prefetch primary>Learn More</Button>	
