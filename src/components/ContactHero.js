@@ -7,7 +7,7 @@ import { faAngleRight } from '@fortawesome/free-solid-svg-icons'
 import '../css/contactHero.css'
 
 const ContactHero = () => (
-    <section className="section-contact" style={{
+    <section className="section-contacthero" style={{
         backgroundImage: `url(${ContactHeroBanner})`,
     }}>
         <div className="container cx_inner">

@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+/*** ### Section contact ### ***/
+.section-contact{
+	position:relative;
+	background: #ffffff;
+	/**background:url(../images/aboutbanner.jpg) no-repeat;
+	background-size:cover;
+	padding:75px 20px 75px 0px;
+	background-position: center;
+	margin-top: 100px;
+	margin-top: 60px;
+}
+.section-contact:after{
+	content:"";
+	position:absolute;
+	top:0px;
+	right:0px;
+	bottom:0px;
+	left:0px;
+	background:rgba(0,0,0,0.5);
+	height:100%;**/
+}
+.section-contact .cx_inner{
+	position:relative;
+	z-index:1;
+}
+.section-contact h1{
+	color:#ffc529;
+	font-size:48px;
+	font-weight:700;
+	margin:0px;
+	padding:0px;
+	text-transform:uppercase;
+    line-height:normal;
+    text-align: center;
+    z-index: 100;
+}
+.section-contact h1 span{
+	color:#000;
+}
+
+.section-contact h2{
+    color:#ffc529;
+	font-size:36px;
+	font-weight:700;
+	margin:0px;
+	padding:0px;
+	text-transform:uppercase;
+	line-height:normal;
+    text-align: center
+}
+    
+.section-contact p{
+	color:#000;
+	font-size:22px;
+	font-weight:400;
+	margin:0px;
+	padding:20px 0px 40px 0px;
+	/*text-transform:uppercase;*/
+    line-height:normal;
+    text-align: center;
+}
+.section-contact a{	
+	position:relative;
+	display:inline-block;
+	vertical-align:middle;
+	height:50px;
+	line-height:50px;
+	padding:0px 25px;
+	border-radius:5px;
+	/**background:#ffc529;**/
+	text-decoration:none;
+	outline:none;
+	color:#ffc529;
+	font-size:16px;
+	font-weight:700;
+	text-align:center;
+	text-transform:uppercase;
+}
+
+.section-contact .form .inner {
+	display: inline-flex;
+	max-width: 100%;
+	-moz-flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-moz-flex-direction: column;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+
+.section-contact .form label {
+	display: block;
+}
+
+.section-contact .form input[type="text"], .form input[type="email"], .form textarea, .form select, .form .file {
+	text-align: left;
+	display: block;
+	background-color: transparent;
+	border: 0;
+	width: 100%;
+	outline: 0;
+}
+
+.section-contact .form textarea {
+	height: 10rem;
+	line-height: normal;
+}
+
+.section-contact .form select {
+	background-size: 1rem;
+	background-repeat: no-repeat;
+	text-overflow: ellipsis;
+	-webkit-appearance: none;
+}
+
+.section-contact .form select option {
+	background-color: white;
+	color: black;
+}
+
+.section-contact .form select::-ms-expand {
+	display: none;
+}
+
+.section-contact .form input[type="checkbox"] {
+	-webkit-appearance: none;
+	display: block;
+	float: left;
+	margin-right: -2rem;
+	opacity: 0;
+	width: 1rem;
+	z-index: -1;
+}
+
+.section-contact .form input[type="checkbox"] + label {
+	display: inline-flex;
+	text-align: left;
+	line-height: 1.6;
+	-moz-align-items: center;
+	-webkit-align-items: center;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+.section-contact .form input[type="checkbox"] + label:before {
+	content: '';
+	display: inline-block;
+	background-position: center;
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	cursor: pointer;
+	-moz-flex-grow: 0;
+	-webkit-flex-grow: 0;
+	-ms-flex-grow: 0;
+	flex-grow: 0;
+	-moz-flex-shrink: 0;
+	-webkit-flex-shrink: 0;
+	-ms-flex-shrink: 0;
+	flex-shrink: 0;
+}
+
+.section-contact .form .file {
+	position: relative;
+}
+
+.section-contact .form .file > input[type="file"] {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	cursor: pointer;
+}
+
+.section-contact .form .file[data-filename]:before {
+	content: attr(data-filename);
+	display: block;
+	white-space: nowrap;
+	position: absolute;
+	top: 0;
+	height: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	background-position: left;
+	background-repeat: no-repeat;
+}
+
+.section-contact .form .file[data-filename=""]:before {
+	content: attr(data-placeholder);
+	background-image: none !important;
+	padding-left: 0 !important;
+}
+
+.section-contact .form .file:after {
+	-moz-transition: opacity 0.35s ease, color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+	-webkit-transition: opacity 0.35s ease, color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+	-ms-transition: opacity 0.35s ease, color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+	transition: opacity 0.35s ease, color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+	background-color: transparent;
+	border: 0;
+	display: block;
+	content: '';
+	position: absolute;
+	cursor: pointer;
+	-moz-pointer-events: none;
+	-webkit-pointer-events: none;
+	-ms-pointer-events: none;
+	pointer-events: none;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.section-contact .form .actions {
+	max-width: 100%;
+}
+
+.section-contact .form button {
+	background-color: transparent;
+	border: 0;
+	cursor: pointer;
+	text-align: center;
+	max-width: 100%;
+	white-space: nowrap;
+	-moz-transition: opacity 0.35s ease, color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+	-webkit-transition: opacity 0.35s ease, color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+	-ms-transition: opacity 0.35s ease, color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+	transition: opacity 0.35s ease, color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+	-moz-display: inline-flex;
+	-webkit-display: inline-flex;
+	-ms-display: inline-flex;
+	display: inline-flex;
+	-moz-align-items: center;
+	-webkit-align-items: center;
+	-ms-align-items: center;
+	align-items: center;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+	vertical-align: middle;
+}
+
+.form button:disabled {
+	opacity: 0.35;
+	cursor: default;
+	-moz-pointer-events: none;
+	-webkit-pointer-events: none;
+	-ms-pointer-events: none;
+	pointer-events: none;
+}
+
+
+
+
+@media (max-width:1024px){
+.section-contact h1{
+	font-size:50px;
+}
+.section-contact p{
+	font-size:20px;
+	padding:20px 0px 30px 0px;
+}
+.section-contact a{	
+	height:40px;
+	line-height:40px;
+	padding:0px 20px;
+	font-size:15px;
+}
+}
+@media (max-width:991px){
+.section-contact{
+	padding:75px 0px;
+}
+.section-contact h1{
+	font-size:40px;
+}
+.section-contact p{
+	font-size:18px;
+	padding:20px 0px;
+}
+}
+@media (max-width:767px){
+.section-contact{
+	padding:50px 0px;
+}
+.section-contact h1{
+	font-size:30px;
+}
+.section-contact p{
+	font-size:16px;
+	padding:20px 0px;
+}
+}
+
+

@@ -70,6 +70,7 @@
 /*** ### Section Post Area ### ***/
 .section-post-area{
 	position:relative;
+	background: #FFF;
 }
 .section-post-area .cx_post_box{
 	margin-bottom:50px;

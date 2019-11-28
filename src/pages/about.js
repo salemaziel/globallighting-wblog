@@ -14,7 +14,7 @@ const AboutPage = () => (
      <Layout>
        <About2 />
        <WhatWeDo />
-       <NewsLetter />
+       {/**<NewsLetter />**/}
      </Layout>
      </div> 
    )

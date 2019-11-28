@@ -9,11 +9,11 @@ import '../../css/HomePageCss/actionComponent.css'
 
 const ActionComponent = () => (
     <section
-        className="section-four"
-        style={{
+        className="section-four">
+        {/**style={{
             backgroundImage: `url(${YellowDotsImage})`,
         }}
-    >
+    >**/}
 	<div className="container">
     	<div className="row">
         	<div className="col-md-7">

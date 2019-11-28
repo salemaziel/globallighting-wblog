@@ -3,6 +3,7 @@ import React from 'react'
 import { navigate } from 'gatsby-link'
 import '../css/main.css'
 import '../css/contactHero.css'
+import '../css/contact.css'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
@@ -53,7 +54,7 @@ export default class ContactUs extends React.Component {
     render() {
         return (
             <div>
-                <section className="section-contact">
+                <section className="section-contacthero">
                     <div className="container cx_inner">
                         <div className="row">
                             <div className="col-12">
@@ -63,7 +64,7 @@ export default class ContactUs extends React.Component {
                         </div>
                     </div>
                 </section>
-                <section className="">
+                <section className="section-contact">
                     <div className="container py-5">
                         <div className="row pb-5 mb-5">
                             <div className="col-12 col-md-8">

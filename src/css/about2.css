@@ -1,6 +1,6 @@
 .section-about{
 	position:relative;
-	background:#fff;
+	/**background:#fff;**/
 	margin-top: 100px;
 	/**margin-top: 60px;**/
 }
@@ -31,6 +31,14 @@
 	position: relative;
 	padding:10% 10%;
 }
+.section-about h1{
+	color: #ffffff;
+}
+
+.section-about h1 span {
+	color: #ffc529;
+}
+
 .section-about h2{
 	color:#ffc529;
 	font-size:13px;
@@ -43,8 +51,8 @@
 .section-about h3{
 	position:relative;
 	margin:0px;
-	padding:0px 0px 50px 0px;
-	color:#2d2d2d;
+	padding:0px;
+	color:#ffffff;
 	font-size:21px;
 	font-weight:400;
 	text-align:left;
@@ -58,7 +66,7 @@
 	text-align:left;
 }
 .section-about p{
-	color:#101020;
+	color:#ffffff;
 	font-size:16px;
 	line-height:25px;
 	font-weight:400;
@@ -67,12 +75,18 @@
 	font-family: 'Open Sans', sans-serif;
 }
 
-.blurb {
+.section-about p span {
+	color: #ffc529;
+}
+
+.blurb p{
 	display: inline-block;
 	background: rgba(255,255,255,0.85);
 	padding: 2.5em 4em;
 	border: 2px;
 	border-radius: 15px;
+	color: #000000;
+	margin: 1em 0 0 0;
 }
 .quote{
 	display: block;
@@ -80,13 +94,15 @@
 	font-size: 1.5em;
 	padding: 2em 1.5em;
 	margin: 2em 0 3em 0;
+	color: #ffc529;
+	text-shadow: 3px 3px 10px #000000;
 }
 
-.cfabout {
+/**.cfabout {
 	background: url(../images/1-solarpanelmtns-edit.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-}
+}**/
 
 @media (max-width:1024px){
 .section-about .cx_right .cx_list .cx_icon{

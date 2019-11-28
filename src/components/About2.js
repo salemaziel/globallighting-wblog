@@ -6,7 +6,7 @@ import '../css/about2.css'
 import '../css/HomePageCss/aboutUs.css'
 
 import Solarpanelmtns from '../images/1-solarpanelmtns.jpg'
-import Jacksrs from '../images/jack-serious.jpg'
+import Jackonmtn from '../images/jack-edited-3.png'
 
 const About2 = () => (
     <section className="section-about">
@@ -41,37 +41,38 @@ const About2 = () => (
                                   padding: '2em 4em 2em 1em',
                                     }}>
               
-                <h1 class="title">Hi, I'm <strong> Jack. </strong></h1>
+                <h1 class="title">Hi, I'm <span><strong> Jack </strong></span></h1>
               
               </div>    
 
         <div class="row">    
             <div class="col-lg-7">
             <h3>
-                Founder and CEO of the Global Lighting Project. I'm a father, musician, and a $(ADJECTIVE). <br />
-                <br />
-                I'm also small business owner, working in the industry of renewable energy and efficient lighting for over $(NUMBER) years. <br />
-                <br />
-                I began my interest with lighting at age 17, discovering that that venues were a hundred times more welcoming to me and my band if I designed and built light structures to use at our shows.
+                Founder and CEO of the Global Lighting Project. I'm a father, musician, and an entrepreneur. <br />
+                <hr />
+                As a business owner, I have been working in the industry of renewable energy and efficient lighting for over 20 years. <br />
+                <hr />
+                I began my interest with lighting at age 17, discovering that venues were a hundred times more welcoming to me and my band if I designed and built light structures to use at our shows.
                 That clever little discovery soon became more than a hobby. I made key contacts with large, high-tech manufacturers, as well as clients looking for large quantities of what I had learned to build. <br />
-                <br />
-                Several lucky chances and lots of hard work later, I built my first company, $(Company_Name), Later, in 1993(?) I started a new company, LEDPAC, and focused on the amazing emerging technology that is LED lighting. <br />
-                <br />
-                I have successfully sold this amazing technology for over two decades now through LEDPAC, and the versatility and uses of LED lights still continue to astound me. 
-                However, I came to realize that I could do so much more; that it is not only those with money and resources who deserve this technology, not when it has so much potential to benefit the people in ways the rest of us take for granted. <br />
-                <br />
-                LED and light technology has been here for me as a hobby, passion, and careet, and a I was blessed as kid to have access lights I could build with; I recognize now that not everyone is so lucky. 
-                That is why I want to share my passion, my hobby, my life's work with the world, and utilize it to enrich and benefit the lives of others.
 
+                Several lucky chances and lots of hard work later, I built my first company, SLN Signs. Later, in 2004 I started a new company, LEDPAC, and focused on the amazing emerging technology that is LED lighting. <br />
+                <hr />
+                {/**I have successfully sold this amazing technology for over two decades now through LEDPac, and the versatility and uses of LED lights still continue to astound me. 
+                However, I came to realize that I could do so much more; that it is not only those with money and resources who deserve this technology, not when it has so much potential to benefit the people in ways the rest of us take for granted. <br />
+                <hr />
+                LED and light technology has been here for me as a hobby, passion, and career, and I was blessed as a kid to have access to lights I could build with; I recognize now that not everyone is so lucky. 
+                That is why I want to share my passion, my hobby, my life's work with the world, and utilize it to enrich and benefit the lives of others.
+                **/}
 
             </h3>
-                    
+              
 
             </div>
             
+            
             <div class="col-lg-3">
                 <img class="thumbnail" 
-                     src={Jacksrs} 
+                     src={Jackonmtn} 
                      alt="" 
                      style={{
                           border: '5px',
@@ -82,19 +83,24 @@ const About2 = () => (
                 textAlign: 'center',
               }}>
                 <p>
-                  <strong>Jack Dubord</strong></p>
+                  <span><strong>Jack Dubord</strong></span></p>
                 <p>
                   CEO - Founder
                 </p>
-                <p>
-                  <a href="#"><i class="icon-facebook icon-circled icon-bglight active"></i></a>
-                  <a href="#"><i class="icon-twitter icon-circled icon-bglight active"></i></a>
-                  <a href="#"><i class="icon-linkedin icon-circled icon-bglight active"></i></a>
-                </p>
 
               </div>
+            
             </div>
-            <div class="col-lg-12 quote">
+            <div className="col-lg-12">
+              <h3>
+                I have successfully sold this amazing technology for over two decades now through LEDPac, and the versatility and uses of LED lights still continue to astound me. 
+                However, I came to realize that I could do so much more; that it is not only those with money and resources who deserve this technology, not when it has so much potential to benefit the people in ways the rest of us take for granted. <br />
+                <hr />
+                LED and light technology has been here for me as a hobby, passion, and career, and I was blessed as a kid to have access to lights I could build with; I recognize now that not everyone is so lucky. 
+                That is why I want to share my passion, my hobby, my life's work with the world, and utilize it to enrich and benefit the lives of others.
+                </h3>
+            </div>
+            <div className="col-lg-12 quote">
                 "The Meaning of Life is to Find Your Gift; the Purpose of Life is to Give it Away"
 
             </div>

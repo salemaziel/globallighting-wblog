@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
-/*** ### Section Three ### ***/
+/*** ### Section Hheader ### ***/
 .hheader{
 	position:relative;
-	margin-bottom:50px;
-	padding:0px 0px 50px;
+	/**margin-bottom:50px;**/
+	padding: 1em 0px 10em;
 	/* background:url(../images/pink-dots.png) no-repeat; */
 	background-size:cover;
+	background-color: #FFF;
 }
 .hheader h2{
 	/**color:#000;
@@ -204,7 +205,7 @@
 	position: absolute;
 	left:50%;
 	margin-left:-1px;
-	bottom:-100px;
+	bottom: -3.5em;
 	width:2px;
 	height:100px;
 	background:#ffc529;

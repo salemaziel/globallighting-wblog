@@ -12,16 +12,16 @@
 
 .navigation {
 	/**position: relative;**/
-	background: #FFF;
+	background: rgba(255, 255, 255,0.5);
 	height: 100px;
 	line-height: 30px;
 	display: block;
 }
 .nav-link {
-	background: #FFF;
+	/**background:rgba(255, 255, 255,0.5);**/
 	color: #203260;
 	border-radius: 3px;
-	border: 2px solid #FFF;
+	border: 2px solid rgba(255, 255, 255,0);
 }
 .nav-link:hover {
 	background: #ffc529;

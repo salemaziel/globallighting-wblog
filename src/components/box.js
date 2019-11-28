@@ -50,7 +50,7 @@ const Box = () => (
 								<CardTitle>
 
 
-									<h3>Grow Vegetable Gardens Anywhere with RGB LED Lights</h3></CardTitle>
+									<h3>Grow Healthy Vegetable Gardens Anywhere with RGB LED Lights</h3></CardTitle>
 								{/**<CardText tag="p">Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.
 								</CardText>**/}
 								<Button as={Link} href="#" prefetch primary>Learn More</Button>

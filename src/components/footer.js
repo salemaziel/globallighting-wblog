@@ -9,10 +9,22 @@ import { faAngleRight } from '@fortawesome/free-solid-svg-icons'
 import { faFacebookF, faTwitter, faGooglePlusG, faLinkedinIn } from "@fortawesome/free-brands-svg-icons"
 
 import '../css/footer.css'
+import '../css/carrd.css'
 
 const Footer = () => (
-    <footer>
-        <div className="container">
+        
+       <footer>
+           {/**<hr id="divider02" />**/}
+            <p id="text05">
+                <em>Global Lighting Project is a certified 501(c)3 Non-Profit Organization</em>
+            </p>
+            <p id="text03">© Global Lighting Project. All rights reserved.</p>
+
+
+        
+
+
+        {/**<div className="container">
             <div className="row">
                 <div className="col-md-4">
                     <div className="cx_box_one">
@@ -32,14 +44,14 @@ const Footer = () => (
                 <div className="col-md-3">
                     <div className="cx_box_two">
                         <h2>Services</h2>
-                       {/** <ul>
+                       {/ ** <ul>
                             <li><a href="#">GL8 solar-flash light Lantern-SOS </a></li>
                             <li><a href="#">Self contained solar indoor-Outdoor </a></li>
                             <li><a href="#">Self contained solar wall </a></li>
                             <li><a href="#">Self contained solar street </a></li>
                             <li><a href="#">Solar MICROlite</a></li>
                             <li><a href="#">Self contained solar lantern</a></li>
-                       </ul>**/}
+                       </ul>** /}
                     </div>
                 </div>
                 <div className="col-md-2">
@@ -81,9 +93,10 @@ const Footer = () => (
             </div>
             <div className="row">
                 <div className="col-md-12"><p className="copy-right">All rights reserved copyright 2019 </p></div>
-            </div>
-        </div>
-    </footer>
+                        </div>**/}
+                        </footer>
+        
+
 )
 
 export default Footer

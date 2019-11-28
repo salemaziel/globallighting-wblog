@@ -11,7 +11,7 @@ const ContactPage = () => (
     <div>
         <Layout>
             <ContactUs />
-            <NewsLetter />
+            {/**<NewsLetter />**/}
         </Layout>
     </div>
 )

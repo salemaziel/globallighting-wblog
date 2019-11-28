@@ -61,7 +61,7 @@
 		border-radius: 4px;
 		margin-bottom: 2em;
 		/**background: #f9f9f9;**/
-		background: #ffffff;
+		/**background: #ffffff;**/
 		text-align: center;
 		-webkit-transition: .3s all ease-in-out;
 		-o-transition: .3s all ease-in-out;
@@ -243,7 +243,7 @@
 			width: 90%;
 			/**max-width: 80em;**/
 			/**margin: 3em;**/
-			margin: 2em 5px 2em 5px;
+			margin: 2em 1em;
 		}
 
 			@media screen and (max-width: 480px) {

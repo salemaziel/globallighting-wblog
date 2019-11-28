@@ -17,11 +17,14 @@
 	position:relative;
 	margin:0px;
 	padding:0px 0px 0px 0px;
-	color:#ffffff;
+	color:#ffc529;
 	font-size:45px;
 	font-weight:700;
 	text-align:left;
 	font-family: 'Open Sans', sans-serif;
+}
+.section-four h3{
+	color: #ffffff;
 }
 .section-four a.involve{
 	position:relative;
@@ -29,12 +32,12 @@
 	vertical-align:top;
 	width:100%;
 	max-width:300px;
-	background:#000000;
+	background:#ffc529;
 	outline:none;
 	cursor:pointer;
 	text-align:left;
-	padding:0px 20px;
-	margin:20px 0px 0px 0px;
+	padding:0px 40px;
+	margin: 80px 0px 0px 60px;
     margin-left: 60px;
 	height:50px;
 	line-height:50px;
@@ -43,6 +46,9 @@
 	color:#FFF;
 	text-transform:uppercase;
 	text-decoration:none;
+}
+.section-four a.involve:hover{
+	background: #facd51;
 }
 .section-four a.involve span{
 	position:absolute;
