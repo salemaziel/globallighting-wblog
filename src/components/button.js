@@ -6,8 +6,8 @@ import '../css/main.css'
 const Button = styled.Button = styled.a`
   background: transparent;
   border-radius: 3px;
-  border: 2px solid #ffc529;
-  color: #ffc529;
+  border: 2px solid #FFA800;
+  color: #FFA800;
   margin: 1em 1em;
   padding: 0.25em 1em;
   &:hover {
@@ -16,7 +16,7 @@ const Button = styled.Button = styled.a`
   }
 
   ${props => props.primary && css`
-    background:#ffc529;
+    background:#FFA800;
     color: black;
     padding: 0.5em 3em;
     &:hover {
@@ -33,7 +33,7 @@ const Button = styled.Button = styled.a`
     display: inline-block;
   `}
   ${props => props.nav && css`
-    background:#ffc529;
+    background:#FFA800;
     color: #FFF;
     padding: 0.5em 3em;
     &:hover {

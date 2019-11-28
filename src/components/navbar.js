@@ -13,7 +13,7 @@ import {
     DropdownItem
 } from 'reactstrap';
 import { Link } from 'gatsby'
-import Logo from '../images/logo.png'
+import Logo from '../images/image04.png'
 import '../css/navbar.css'
 //import '../css/header.css'
 
@@ -109,7 +109,7 @@ class NavbarGlobal extends React.Component {
                     <div
                         id="mySidenav"
                         className="sidenav"
-                        style={{ width: this.state.width, height: '100%', background: '#FFF' }}
+                        style={{ width: this.state.width, height: '100%', /*background: '#FFF'*/ }}
                     >
                         <div>
                             <a

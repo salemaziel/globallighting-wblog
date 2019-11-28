@@ -23,15 +23,15 @@ const Carrd = () => (
           </div>
         </div>
         <p id="text08">
-          <span>The advances in science and technology over the past couple of centuries have contributed significantly towards making our lives simple and comfortable. Many of us fail to imagine life without this essential commodity. Electricity is one of these countless inventions, which has today become an integral part of our living. Yet there are still millions of people living without this basic facility.</span>
+          <span>Over 1.6 Billion people still live without reliable access to electricity, clean water, sanitary cooking facilities, or the resources necessary to grow food for themselves or their families. Using the power of renewable energy, revolutionary LED light solutions, and technology workshops in developing communities, the Global Lighting Project is on a mission to change that.</span>
           <br />
           <br />
-          <span>We at Global Lighting Project, work towards reducing the number of such people by providing renewable, LED solar-powered lighting solutions directly to these communities, in alignment with our philosophy and support of self-developing communities.</span>
+          <span>We  work towards reducing the number of such people by providing renewable, LED solar-powered lighting solutions directly to these communities, in alignment with our philosophy and support of self-developing communities.</span>
         </p>
         <hr id="divider01" />
         <div id="container02" className="container default">
           <div className="inner">
-            <h3 id="text06">Donate Now and Join Our Mailing List to keep up with us and be the first to know when our full site launches!</h3>
+            <h3 id="text06">Donate Now and Join Our Mailing List to Join Us on Our Mission</h3>
           </div>
         </div>
         <div id="container01" className="container columns">
