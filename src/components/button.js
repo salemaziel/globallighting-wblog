@@ -23,6 +23,7 @@ const Button = styled.Button = styled.a`
       text-decoration:none;
       color: white;
       background: #facd51;
+    }
   `}
 
   ${props => props.donateblk && css`
