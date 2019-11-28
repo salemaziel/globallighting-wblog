@@ -1,6 +1,6 @@
 import React from 'react'
-
 import WhatWeDoImage from '../../images/what-we-do.jpg'
+import Firestation from '../../images/firestation.jpeg'
 
 import '../../css/HomePageCss/newFromBlog.css'
 
@@ -18,9 +18,9 @@ const NewFromBlog = () => (
                         </h3>
                         <div className="row justify-content-center">
                             <div className="col-lg-10">
-                                <p>
+                                {/**<p>
                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-                            </p>
+                                </p>**/}
                             </div>
                         </div>
                     </div>
@@ -31,17 +31,17 @@ const NewFromBlog = () => (
         <section className="section-post-area">
             <div className="container">
                 <div className="row">
-                    <div className="col-md-4 col-sm-6">
+                    <div /*className="col-md-4 col-sm-6"*/ className='col-12'>
                         <div className="cx_post_box">
                             <div className="cx_post_image">
-                                <img src={WhatWeDoImage} alt="what-we-do" className="img-fluid" />
-                                <div className="cx_date">MAY<br />29</div>
+                                <img src={Firestation} alt="firestation" className="img-fluid" href="" />
+                                <div className="cx_date">Nov<br />27</div>
                             </div>
                             <div className="cx_post_text">
-                                <h2>Blog Title Here</h2>
+                                <a href="#"><h2>Lighting the FireStation</h2></a>
                                 <div className="cx_name">
                                     <div className="cx_image"><img alt="what-we-do" src={WhatWeDoImage} className="img-fluid" /></div>
-                                    Admin &nbsp; <span className="cx_tag">Tag: Creative, Environment </span>
+                                    Salem &nbsp; <span className="cx_tag">Tag: Creative, Environment </span>
                                 </div>
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
@@ -50,8 +50,8 @@ const NewFromBlog = () => (
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 col-sm-6">
-                        <div className="cx_post_box">
+                    {/**<div className="col-md-4 col-sm-6">
+                        {/**<div className="cx_post_box">
                             <div className="cx_post_image">
                                 <img src={WhatWeDoImage} alt="what-we-do" className="img-fluid" />
                                 <div className="cx_date">MAY<br />29</div>
@@ -60,17 +60,17 @@ const NewFromBlog = () => (
                                 <h2>Blog Title Here</h2>
                                 <div className="cx_name">
                                     <div className="cx_image"><img alt="what-we-do" src={WhatWeDoImage} className="img-fluid" /></div>
-                                    Admin &nbsp; <span className="cx_tag">Tag: Creative, Environment </span>
+                                    Salem &nbsp; <span className="cx_tag">Tag: Creative, Environment </span>
                                 </div>
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
                                 </p>
                                 <a href="#">Read More <span className="fa fa-arrow-right"></span></a>
                             </div>
-                        </div>
+                        </div>**/}
                     </div>
                     <div className="col-md-4 col-sm-6">
-                        <div className="cx_post_box">
+                        {/**<div className="cx_post_box">
                             <div className="cx_post_image">
                                 <img src={WhatWeDoImage} alt="what-we-do" className="img-fluid" />
                                 <div className="cx_date">MAY<br />29</div>
@@ -79,15 +79,15 @@ const NewFromBlog = () => (
                                 <h2>Blog Title Here</h2>
                                 <div className="cx_name">
                                     <div className="cx_image"><img alt="what-we-do" src={WhatWeDoImage} className="img-fluid" /></div>
-                                    Admin &nbsp; <span className="cx_tag">Tag: Creative, Environment </span>
+                                    Salem &nbsp; <span className="cx_tag">Tag: Creative, Environment </span>
                                 </div>
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
                                 </p>
                                 <a href="#">Read More <span className="fa fa-arrow-right"></span></a>
                             </div>
-                        </div>
-                    </div>
+                        </div>**/}
+                    {/**</div>**/}
                 </div>
             </div>
         </section>
