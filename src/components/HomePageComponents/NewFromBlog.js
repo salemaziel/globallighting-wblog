@@ -41,12 +41,12 @@ const NewFromBlog = () => (
                                 <a href="#"><h2>Lighting the FireStation</h2></a>
                                 <div className="cx_name">
                                     <div className="cx_image"><img alt="what-we-do" src={WhatWeDoImage} className="img-fluid" /></div>
-                                    Salem &nbsp; <span className="cx_tag">Tag: Creative, Environment </span>
+                                    Salem &nbsp; <span className="cx_tag">Tag: ComingSoon </span>
                                 </div>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                                Coming Soon!
                                 </p>
-                                <a href="#">Read More <span className="fa fa-arrow-right"></span></a>
+                                {/**<a href="#">Read More <span className="fa fa-arrow-right"></span></a>**/}
                             </div>
                         </div>
                     </div>

@@ -7,6 +7,7 @@ import UVsterilize from '../images/shutterstock/1-sanjose-water.jpg'
 import { Link } from 'gatsby'
 
 import Button from '../components/button'
+import Modalbutton from '../components/boxmodal'
 
 import {
   Card, CardImg, CardText, CardBody,
@@ -33,8 +34,11 @@ const Box = () => (
 
 									<h3>Lighting the way for Homes, Schools, and Businesses with White LED Lights</h3>
 								</CardTitle>
-									
-									<Button as={Link} href="#" prefetch primary>Learn More</Button>	
+								
+          
+        
+        
+									<Modalbutton prefetch primary />	
 
 								</div>
 						</CardBody>

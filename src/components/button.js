@@ -53,7 +53,7 @@ const Button = styled.Button = styled.a`
     padding: 0.5em 3em;
     &:hover {
       text-decoration:none;
-      color: black;
+      color: white;
       font-weight: 900;
     }
   `}
