@@ -18,10 +18,12 @@ const Homeheadertitle = () => (
     <section className="hheader">
     <div className="row headline">
         <div className="container-fluid">
-        	<div className="col-md-12">
+            
+        	<div className="col-lg-12">
             	<h2>
                 We believe in a <span className="greenText">sustainable</span> world, where life can <span className="orangeTextTitle">thrive</span>
                 </h2>
+                
                 <div className="container">
                     <h3>
                         Over 1.6 Billion people still live without reliable access to electricity, clean water, sanitary cooking facilities, or the resources necessary to grow food for themselves or their families.
@@ -29,6 +31,7 @@ const Homeheadertitle = () => (
                     </h3>
                 </div>
             </div>
+            
         </div>
     </div>
     

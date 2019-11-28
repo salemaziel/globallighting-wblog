@@ -46,7 +46,7 @@ class NavbarGlobal extends React.Component {
     render() {
         return (
             <div>
-                <Navbar className="navigation fixed-top" /*color="white"*/ expand="md">
+                <Navbar className="navigation fixed-top" display="none" onScroll="display: auto" expand="md">
                     <div className="container">
                         <NavbarBrand to="/" tag={Link} className="order-0">
                             <img src={Logo} className="logo-img-fluid" />

@@ -20,6 +20,10 @@ class BlogPostTemplate extends React.Component {
         />
         <div className='container' style={{
               position: 'relative',
+              background: 'rgba(15, 17, 21, 0.45)',
+              padding: '0 3em',
+              border: '1px #000000',
+              borderRadius: '15px',
              
         }}>
         <div style={{

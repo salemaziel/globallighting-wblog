@@ -405,6 +405,7 @@
                 font-size: 2.25em;
                 line-height: 1.375;
                 font-weight: 300;
+                text-shadow: 2px 4px 4px #000000;
             }
 
             #text04 br + br {
@@ -418,6 +419,7 @@
                 font-size: 1.25em;
                 line-height: 1.5;
                 font-weight: 400;
+                text-shadow: 1px 3px 3px #000000;
             }
 
             #text08 br + br {
