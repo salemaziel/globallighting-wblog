@@ -247,7 +247,9 @@
 	display: none!important;
 }
 .Hamburger-Navbar {
-	display: block
+	display: block;
+	position: relative;
+	
 }
 /* .navigation nav {
 	margin: 0;
@@ -294,6 +296,7 @@ a.donate{
 }
 .Hamburger-Navbar {
 	display: block;
+	position: relative;
 }
 
 .navigation{

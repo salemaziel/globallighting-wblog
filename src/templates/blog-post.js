@@ -18,10 +18,24 @@ class BlogPostTemplate extends React.Component {
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
+        <div className='container' style={{
+              position: 'relative',
+             
+        }}>
+        <div style={{
+                lineHeight: '2em',
+                fontSize: '3em',
+                position: 'relative',
+                textAlign: 'center',
+                margin: '2em 0',
+        }}>
+          <hr />
+        </div>
         <h1
           style={{
             marginTop: rhythm(1),
             marginBottom: 0,
+            color: 'orange',
           }}
         >
           {post.frontmatter.title}
@@ -31,11 +45,12 @@ class BlogPostTemplate extends React.Component {
             ...scale(-1 / 5),
             display: `block`,
             marginBottom: rhythm(1),
+            color: 'white',
           }}
         >
           {post.frontmatter.date}
         </p>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <div style={{color: 'white'}} dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr
           style={{
             marginBottom: rhythm(1),
@@ -67,6 +82,7 @@ class BlogPostTemplate extends React.Component {
             )}
           </li>
         </ul>
+        </div>
       </Layout>
     )
   }

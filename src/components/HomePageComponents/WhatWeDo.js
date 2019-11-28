@@ -24,30 +24,27 @@ const WhatWeDo = () => (
                             <div className="cx_icon"><img alt="what-we" src={IconOne} className="img-fluid" /></div>
                             <h4>Supply and Distribute LED Tech to Community Organizers</h4>
                             <p>
-                                Lorem Ipesum  Lorem Ipesum Lorem Ipesum Lorem Ipesum
-                                Lorem Ipesum  Lorem
+                                
                         </p>
                         </div>
                         <div className="cx_list">
                             <div className="cx_icon"><img alt="what-we" src={IconTwo} className="img-fluid" /></div>
                             <h4>Teach Sustainability, Renewable Energy, & Technology Training</h4>
                             <p>
-                                Lorem Ipesum  Lorem Ipesum Lorem Ipesum Lorem Ipesum
-                                Lorem Ipesum  Lorem
+                               
                         </p>
                         </div>
                         <div className="cx_list">
                             <div className="cx_icon"><img alt="what-we" src={IconThree} className="img-fluid" /></div>
                             <h4>Research & Development: Looking Toward the Future</h4>
                             <p>
-                                Lorem Ipesum  Lorem Ipesum Lorem Ipesum Lorem Ipesum
-                                Lorem Ipesum  Lorem
+                                
                         </p>
                         </div>
                         <div className="cx_list">
-                            <div>
+                            {/**<div>
                                 <img src={Bulbplant} />
-                            </div>
+                            </div>**/}
                             {/**<div className="cx_icon"><img alt="what-we" src={IconFour} className="img-fluid" /></div>
                             <h4>Listen. </h4>
                             <p>

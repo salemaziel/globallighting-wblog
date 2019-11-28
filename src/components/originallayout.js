@@ -38,6 +38,8 @@ class Layout2 extends React.Component {
         <h3
           style={{
             fontFamily: `Montserrat, sans-serif`,
+            color: '#ffc529',
+
           }}
         >
           <Link
@@ -64,12 +66,13 @@ class Layout2 extends React.Component {
           marginTop: '60px',
           maxWidth: rhythm(30),
           padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+          position: 'relative',
         }}
       >
         
         <header>{header}</header>
         
-        <main>{children}</main>
+        <main style={{color: 'white',}}>{children}</main>
 
         </div>
         

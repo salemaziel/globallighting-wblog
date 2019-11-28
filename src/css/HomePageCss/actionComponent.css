@@ -66,7 +66,7 @@
     vertical-align: top;
     width: 70%;
     max-width: 300px;
-    background: #000000;
+    background: #ffc529;
     outline: none;
     cursor: pointer;
     text-align: left;
@@ -93,10 +93,13 @@
 }
 @media (max-width:767px){
 .section-four h2{
-	font-size:25px;
+	font-size:2.2rem;
 }
 .section-four h2 br{
 	display:none;
+}
+.section-four h3{
+	text-align: center;
 }
 .section-four a.involve {
     position: relative;
@@ -104,7 +107,7 @@
     vertical-align: top;
     width: 70%;
     max-width: 300px;
-    background: #000000;
+    background: #ffc529;
     outline: none;
     cursor: pointer;
     text-align: center;
