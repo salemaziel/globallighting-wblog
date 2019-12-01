@@ -18,14 +18,14 @@ const IndexPage = () => (
   <Layout>
     <Carrd />
     {/**<Hero />**/}
-    {/*<Homeheadertitle />*/}
-    {/*<AboutUs />*/}
-    {/*<Synergy />*/}
-    {/*<WhatWeDo />*/}
+    <Homeheadertitle />
+    <AboutUs />
+    <Synergy />
+    <WhatWeDo />
     
     
-    {/*<NewFromBlog />*/}
-    {/*<ActionComponent />*/}
+    <NewFromBlog />
+    <ActionComponent />
     {/**<OurWork />**/}
     {/**<NewsLetter />**/}
   </Layout>
