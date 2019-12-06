@@ -269,6 +269,11 @@ form button {
 	vertical-align: middle;
 }
 
+form button:hover{
+	background-color: #facd51!important;
+	border-color: #facd51!important;
+}
+
 form button:disabled {
 	opacity: 0.35;
 	cursor: default;
