@@ -117,11 +117,11 @@
 }
 }
 @media (max-width:767px){
+.section-two {
+	padding:50px 0px 50px 0px;
+}
 .section-two .cx_row_reverse{
     flex-direction: column-reverse;
-}
-.section-two{
-	padding:50px 0px 50px 0px;
 }
 .section-two .cx_left img{
 	width:100%;
@@ -136,5 +136,9 @@
 }
 .section-two h3 br{
 	display:none;
+}
+.section-two p{
+	font-size: 1.5em;
+	line-height: 1.5em;
 }
 }

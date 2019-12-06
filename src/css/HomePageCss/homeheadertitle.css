@@ -198,8 +198,14 @@
 }
 }
 @media (max-width:767px){
+.hheader {
+	padding: 1em 0 10em;
+}
+.hheader h2{
+	letter-spacing: 0;
+}
 .hheader h3{
-	font-size:25px;
+	font-size:1.5em;
 }
 .orangeTextSubtitle {
 	color: #ffc529;

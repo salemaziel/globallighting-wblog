@@ -2,6 +2,7 @@ import React from 'react'
 import '../css/carrd.css'
 
 import Image04 from '../images/image04.png'
+import Modalmailinglist from './modalmailinglist'
 
 const Carrd = () => (
 <div id="wrapper">
@@ -44,7 +45,7 @@ const Carrd = () => (
             <div>
               <ul id="buttons03" className="buttons">
                 <li>
-                  <a href="#signup" className="button n01">Mailing List</a>
+                  <a className="button n01"><Modalmailinglist>Mailing List</Modalmailinglist></a>
                 </li>
               </ul>
             </div>

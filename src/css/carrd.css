@@ -1337,8 +1337,8 @@
             form input[type="text"], form input[type="email"], form textarea, form select, form .file {
                 text-align: left;
                 display: block;
-                background-color: transparent;
-                border: 0;
+                /**background-color: transparent;
+                border: 0;**/
                 width: 100%;
                 outline: 0;
             }

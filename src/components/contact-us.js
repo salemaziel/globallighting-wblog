@@ -1,7 +1,6 @@
 import React from 'react'
 //import styled from 'styled-components'
 import { navigate } from 'gatsby-link'
-import '../css/main.css'
 import '../css/contactHero.css'
 import '../css/contact.css'
 
@@ -12,7 +11,7 @@ import { faFacebook, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-
   margin: 0;
 `;**/}
 
-export default class ContactUs extends React.Component {
+{/**export default class ContactUs extends React.Component {
     constructor(props) {
         super(props);
         this.state = {}
@@ -51,7 +50,37 @@ export default class ContactUs extends React.Component {
         )
     }
 
-    render() {
+render() {**/}
+
+
+function encode(data) {
+    return Object.keys(data)
+      .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+      .join('&')
+  }
+  
+  export default function Contact() {
+    const [state, setState] = React.useState({})
+  
+    const handleChange = (e) => {
+      setState({ ...state, [e.target.name]: e.target.value })
+    }
+  
+    const handleSubmit = (e) => {
+      e.preventDefault()
+      const form = e.target
+      fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: encode({
+          'form-name': form.getAttribute('name'),
+          ...state,
+        }),
+      })
+        .then(() => navigate(form.getAttribute('action')))
+        .catch((error) => alert(error))
+    }
+  
         return (
             <div>
                 <section className="section-contacthero">
@@ -68,20 +97,27 @@ export default class ContactUs extends React.Component {
                     <div className="container py-5">
                         <div className="row pb-5 mb-5">
                             <div className="col-12 col-md-8">
-                                <p className="chip mb-4 mb-md-3">REQUEST YOU TO FILL THE FORM</p>
                                 {/* Form */}
-                                <form name='contact' onSubmit={this.handleSubmit} className="contact__form" action="#" >
+                                <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field" action="/thanks">
+                                {/**<form name='contact' onSubmit={this.handleSubmit} method="POST" data-netlify="true" className="contact__form" action="#" >**/}
                                     <div className="row mt-5 mb-4">
+                                    <input type="hidden" name="form-name" value="contact" />
+                                    <input type="hidden" name="form-name" value="contact" />
+                                            <p hidden>
+                                                <label>
+                                                    Don’t fill this out: <input name="bot-field" onChange={handleChange} />
+                                                </label>
+                                            </p>
                                         <div className="col-12 col-md-6">
-                                            <input type="text" id='fullname' name='fullname' placeholder="Your Name" onChange={this.handleChange} required />
+                                            <input type="text" id='fullname' name='fullname' placeholder="Your Name" onChange={handleChange} required />
                                         </div>
                                         <div className="col-12 col-md-6">
-                                            <input type="email" id='email' name='email' placeholder="Your Email" onChange={this.handleChange} required />
+                                            <input type="email" id='email' name='email' placeholder="Your Email" onChange={handleChange} required />
                                         </div>
                                         <div className="col-12 col-md-6">
-                                            <input type="tel" id='phone' name='phone' placeholder="Your Phone" onChange={this.handleChange} required />
+                                            <input type="tel" id='phone' name='phone' placeholder="Your Phone" onChange={handleChange} />
                                         </div>
-                                        <div className="col-12 mb-4 pb-2">
+                                        {/**<div className="col-12 mb-4 pb-2">
                                             <p className="u-weight-bld mb-4"></p>
                                             <div className="row">
                                                 <div className="col-4">
@@ -92,37 +128,34 @@ export default class ContactUs extends React.Component {
                                                     </div>
                     
                                                 </div>
-                                            </div>
-                                        </div>
+                                        </div>**/}
+                                        
                                         <div className="col-12">
-                                            <textarea name='message' placeholder="Your Message" onChange={this.handleChange}></textarea>
+                                            <textarea name='message' placeholder="Your Message" onChange={handleChange} required></textarea>
                                         </div>
-                                    
+                                        </div>
                                     <div className="row">
                                         <div className="col-12">
-                                            <button type="submit" className="btn d-inline-block">SUBMIT</button>
+                                            <button type="submit">SUBMIT</button>
                                         </div>
                                     </div>
                                 </form>
                                 {/* End Form */}
                             </div>
                             <div className="col-12 col-md-4 mb-5 mb-md-0 mt-5 mt-md-0">
-                                <aside className="contact__aside pb-md-5">
-                                    <div className="contact__aside-intro">
-                                        <p className="p--xhg u-font-titles">Nonprofit Office Contact Info. How we can help you?</p>
-                                    </div>
-                                    <h2 className="h2--lg u-weight-bld u-color-black"><a href="tel:#">760-555-5555</a></h2>
-                                    <div className="contact__info my-5">
-                                        <div className="contact__info-group">
-                                            <p className="u-lh-sm"><i className="fas fa-fw fa-envelope u-color-primary-lgt"></i></p>
-                                            <div className="contact__info-group-main">
-                                                <p className="mb-2">Email</p>
+                                <aside className="pb-md-5">
+                                    <div className="contact_info">
+                                        
+                                            
+                                                {/**<p className="mb-2">Phone</p>
+                                                <p className="mb-2"><a href="tel:#">760-555-5555</a></p>**/}
+                                                <h4 className="mb-2">Email</h4>
                                                 <p className="mb-2"><a href="mailto:jack@globallightingproject.com">jack@globallightingproject.com</a></p>
-                                            </div>
-                                        </div>
+                                            
+                                       
                                     </div>
-                                    <h4 className="u-weight-smb mb-4">Follow Us</h4>
-                                    <div className="contact__social mb-md-5">
+                                    <h4 className="followus">Follow Us</h4>
+                                    <div className="followus">
                                         <a href="https://twitter.com/code_staff">
                                             <FontAwesomeIcon icon={faTwitter} />
                                         </a>
@@ -141,5 +174,5 @@ export default class ContactUs extends React.Component {
             </div>
         )
     }
-}
+
 

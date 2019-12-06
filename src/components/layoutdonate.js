@@ -27,7 +27,6 @@ const LayoutDonate = ({ children }) => {
   return (
     <>
       <HeaderDonate siteTitle={data.site.siteMetadata.title} />
-    {/**<NavbarGlobal />**/}
       {children}
       <Footer />
     </>

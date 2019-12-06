@@ -52,13 +52,25 @@
 	line-height:normal;
     text-align: center
 }
-    
+
+.section-contact .followus h4{
+	text-align: center;
+}
+.section-contact .contact_info {
+	margin: 2em 0 1em;
+	text-align: center;
+}
+.followus {
+	justify-content: center;
+	text-align: center;
+	margin: 1em 0 0;
+}
 .section-contact p{
 	color:#000;
 	font-size:22px;
 	font-weight:400;
 	margin:0px;
-	padding:20px 0px 40px 0px;
+	padding:5px 0px;
 	/*text-transform:uppercase;*/
     line-height:normal;
     text-align: center;
@@ -81,7 +93,7 @@
 	text-transform:uppercase;
 }
 
-.section-contact .form .inner {
+form .inner {
 	display: inline-flex;
 	max-width: 100%;
 	-moz-flex-wrap: wrap;
@@ -94,41 +106,46 @@
 	flex-direction: column;
 }
 
-.section-contact .form label {
+form label {
 	display: block;
 }
 
-.section-contact .form input[type="text"], .form input[type="email"], .form textarea, .form select, .form .file {
+form input[type="text"], form input[type="email"], form textarea, form select, form input[type="tel"], form .file {
 	text-align: left;
 	display: block;
-	background-color: transparent;
-	border: 0;
+	background-color: #fafafa;
 	width: 100%;
 	outline: 0;
+	border: 1px solid #e4e9ea;
+	border-radius: 3px;
+	transition: all .25s;
+	padding: 10px;
+	margin: 1em 0 1em;
 }
 
-.section-contact .form textarea {
+
+form textarea {
 	height: 10rem;
 	line-height: normal;
 }
 
-.section-contact .form select {
+form select {
 	background-size: 1rem;
 	background-repeat: no-repeat;
 	text-overflow: ellipsis;
 	-webkit-appearance: none;
 }
 
-.section-contact .form select option {
+form select option {
 	background-color: white;
 	color: black;
 }
 
-.section-contact .form select::-ms-expand {
+form select::-ms-expand {
 	display: none;
 }
 
-.section-contact .form input[type="checkbox"] {
+form input[type="checkbox"] {
 	-webkit-appearance: none;
 	display: block;
 	float: left;
@@ -138,7 +155,7 @@
 	z-index: -1;
 }
 
-.section-contact .form input[type="checkbox"] + label {
+form input[type="checkbox"] + label {
 	display: inline-flex;
 	text-align: left;
 	line-height: 1.6;
@@ -148,7 +165,7 @@
 	align-items: center;
 }
 
-.section-contact .form input[type="checkbox"] + label:before {
+form input[type="checkbox"] + label:before {
 	content: '';
 	display: inline-block;
 	background-position: center;
@@ -165,11 +182,11 @@
 	flex-shrink: 0;
 }
 
-.section-contact .form .file {
+form .file {
 	position: relative;
 }
 
-.section-contact .form .file > input[type="file"] {
+form .file > input[type="file"] {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -179,7 +196,7 @@
 	cursor: pointer;
 }
 
-.section-contact .form .file[data-filename]:before {
+form .file[data-filename]:before {
 	content: attr(data-filename);
 	display: block;
 	white-space: nowrap;
@@ -192,13 +209,13 @@
 	background-repeat: no-repeat;
 }
 
-.section-contact .form .file[data-filename=""]:before {
+form .file[data-filename=""]:before {
 	content: attr(data-placeholder);
 	background-image: none !important;
 	padding-left: 0 !important;
 }
 
-.section-contact .form .file:after {
+form .file:after {
 	-moz-transition: opacity 0.35s ease, color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
 	-webkit-transition: opacity 0.35s ease, color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
 	-ms-transition: opacity 0.35s ease, color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
@@ -217,13 +234,18 @@
 	background-repeat: no-repeat;
 }
 
-.section-contact .form .actions {
+form .actions {
 	max-width: 100%;
 }
 
-.section-contact .form button {
-	background-color: transparent;
-	border: 0;
+form button {
+	background-color: #ffc529!important;
+	border: 5px solid #ffc529;
+	color: #ffffff;
+	text-shadow: 1px 1px 1px #000000;
+	font-weight: 700;
+	border-radius: 5px;
+	padding: 1em 2em;
 	cursor: pointer;
 	text-align: center;
 	max-width: 100%;
@@ -247,7 +269,7 @@
 	vertical-align: middle;
 }
 
-.form button:disabled {
+form button:disabled {
 	opacity: 0.35;
 	cursor: default;
 	-moz-pointer-events: none;
