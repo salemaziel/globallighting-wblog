@@ -2,8 +2,8 @@ import React from 'react'
 import PinkDotsImage from '../../images/pink-dots.png'
 
 
-import LiveOneImage from '../../images/1-hut-plate-edit.jpg'
-import LiveTwoImage from '../../images/1-orchard-vegetables-edit.jpg'
+import LiveOneImage from '../../images/IMG_1862-edited.jpg'
+import LiveTwoImage from '../../images/productlineup-resized.jpg'
 import LiveThreeImage from '../../images/1-myanmar.jpg'
 
 import '../../css/HomePageCss/aboutUs.css'

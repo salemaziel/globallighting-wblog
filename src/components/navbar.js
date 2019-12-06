@@ -128,7 +128,8 @@ class NavbarGlobal extends React.Component {
                         </Link>
                         <Link className="list" to="/blog">
                             BLOG
-                        </Link>     
+                       </Link>     
+
                         {/**<Link className="list" to="/faq">
                             FAQ
                         </Link>**/}

@@ -173,6 +173,9 @@
 }
 @media (max-width:767px){
 .section-post-area .cx_post_text h2{
-	font-size:18px;
+	font-size: 2em;
+}
+.section-post-area .cx_post_text p{
+	font-size: 1.5em;
 }
 }

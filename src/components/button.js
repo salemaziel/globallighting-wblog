@@ -57,6 +57,40 @@ const Button = styled.Button = styled.a`
       font-weight: 900;
     }
   `}
+  ${props => props.synergy && css`
+    background:#ffc259;
+    color: #FFF!important;
+    padding: 0.5em 3em;
+    textShadow: none;
+    &:hover {
+      text-decoration:none;
+      color: white;
+      font-weight: 700;
+    }
+  `}
+  ${props => props.mailinglist && css`
+    width: calc(100% + 2rem);
+    margin-left: -1rem;
+    display: inline-block;
+    vertical-align: middle;
+    max-width: calc(100% - 2rem);
+    color: #FFFFFF;
+    margin: 0 0;
+    border: none;
+    background:transparent;
+    color: #FFF!important;
+    padding: 0 3em;
+    textShadow: none;
+    line-height: 3.25rem
+    height: 3.25rem
+    &:hover {
+      color: #ffc529!important;
+      border-color: none;
+      border: none;
+      text-decoration:none;
+      font-weight: 700;
+    }
+  `}
 `
 
 {/**const Container = styled.div`

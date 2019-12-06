@@ -137,6 +137,7 @@ function encode(data) {
                                     <div className="row">
                                         <div className="col-12">
                                             <button type="submit" className="form button">SUBMIT</button>
+
                                         </div>
                                     </div>
                                 </form>

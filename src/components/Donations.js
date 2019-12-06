@@ -2,12 +2,12 @@ import React from 'react';
 
 /*import Logo from '../images/logo.png';*/
 //import '../css/main.css';
-import '../css/donationbox2.css'
+//import '../css/donationbox2.css'
 /*import DonationNav from '../components/DonationNav'*/
 import DonationBox from './DonationBox'
 
 const Donations = () => (
-    <section class="section-one-donate">
+    <section className="section-one-donate">
         {/**<div class="parent">
             <div class="son">
                 <div class="container"> 

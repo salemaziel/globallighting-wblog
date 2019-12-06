@@ -28,7 +28,7 @@ ul li {
       position:relative;
       line-height:60px;
       background:#000000;
-  }**/
+  }**m/
   .cx_top_bar .cx_contact{
       position:relative;
       display:inline-block;
@@ -176,7 +176,7 @@ ul li {
     margin: 0px;
     width: 100%;
     padding: 60px;
-    background-image: url(../images/banner.png);
+    /**background-image: url(../images/banner.png);**/
     /**background-image: linear-gradient(to right, #55338d, #773c98, #9846a2, #b751aa, #d65db1); **/
     /**box-shadow: 23px 27px 28px -20px rgba(0,0,0,0.75);**/
     height: 130vh;
@@ -188,7 +188,7 @@ ul li {
     width: 100%;
     max-width: 1080px;
     height: 100%;
-    padding: 60px 0px 0px 0px;
+    padding: 60px 0px 60px 0px;
     margin: 0 auto;
     /**background-image: linear-gradient(to right, #2c73d2, #6d6fd2, #9869cc, #ba63c1, #d65db1); **/
     overflow: hidden;

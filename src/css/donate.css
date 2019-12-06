@@ -116,7 +116,7 @@ body {
 }
 
 /*** ### Top Bar ### ***/
-.cx_top_bar{
+/**.cx_top_bar{
 	position:relative;
 	line-height:60px;
 	background:#000000;
@@ -244,7 +244,7 @@ body {
 }
 
 /** Empty nav bar; but where it would be **/
-
+/**
 .emptynav {	
     position: relative;
 	background: #FFF;
@@ -259,7 +259,7 @@ body {
     padding-top: 20px;
 }
 
-
+**/
 /** End Generl **/
 
 /*** Start Parent & Son ***/
@@ -268,7 +268,7 @@ body {
   margin: 0px;
   width: 100%;
   padding: 60px;
-  background-image: url(../images/banner.png);
+  /**background-image: url(../images/banner.png);**/
   /**background-image: linear-gradient(to right, #55338d, #773c98, #9846a2, #b751aa, #d65db1); **/
   /**box-shadow: 23px 27px 28px -20px rgba(0,0,0,0.75);**/
   height: 130vh;

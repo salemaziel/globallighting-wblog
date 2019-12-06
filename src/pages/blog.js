@@ -6,6 +6,8 @@ import Layout2 from "../components/originallayout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 
+
+
 class Blog extends React.Component {
   render() {
     const { data } = this.props

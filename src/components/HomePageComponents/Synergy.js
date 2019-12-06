@@ -33,9 +33,9 @@ const Synergy = () => (
     </div>
         <div className="row box">
 
-            <div className="col-lg-12">
+            {/**<div className="col-lg-12">**/}
         	    <Box />
-            </div>
+            {/**</div>**/}
         </div>
         
 </section>
