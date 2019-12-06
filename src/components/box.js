@@ -8,10 +8,16 @@ import { Link } from 'gatsby'
 
 import Button from '../components/button'
 
+
+
 import {
   Card, CardImg, CardText, CardBody,
-  CardTitle, CardDeck
+  CardTitle, CardDeck, Modal
 } from 'reactstrap';
+import Modalsynergy01 from './modal01'
+import Modalsynergy03 from './modal03'
+import Modalsynergy02 from './modal02'
+
 
 
 const Box = () => (
@@ -34,7 +40,7 @@ const Box = () => (
 									<h3>Lighting the way for Homes, Schools, and Businesses with White LED Lights</h3>
 								</CardTitle>
 									
-									<Button as={Link} href="#" prefetch primary>Learn More</Button>	
+									<Modalsynergy01 />	
 
 								</div>
 						</CardBody>
@@ -53,7 +59,8 @@ const Box = () => (
 									<h3>Grow Healthy Vegetable Gardens Anywhere with RGB LED Lights</h3></CardTitle>
 								{/**<CardText tag="p">Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.
 								</CardText>**/}
-								<Button as={Link} href="#" prefetch primary>Learn More</Button>
+								{/**<Button as={Link} href="#" prefetch primary>Learn More</Button>**/}
+								<Modalsynergy02 />
 
 								</div>
 						</CardBody>
@@ -72,7 +79,8 @@ const Box = () => (
 								</CardTitle>	
 								{/**<CardText tag="p">Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.
 								</CardText>**/}
-								<Button as={Link} href="#" prefetch primary>Learn More</Button>
+								{/**<Button as={Link} href="#" prefetch primary>Learn More</Button>**/}
+								<Modalsynergy03 />
 								</div>
 						</CardBody>
 					</Card>	
