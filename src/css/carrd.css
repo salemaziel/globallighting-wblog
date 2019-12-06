@@ -978,7 +978,7 @@
                 width: calc(50% + 1rem);
             }
 
-            #container03 {
+        /**    #container03 {
                 margin-top: 3.75rem !important;
                 margin-bottom: 3.75rem !important;
             }
@@ -1141,7 +1141,7 @@
                 -webkit-justify-content: center;
                 -ms-justify-content: center;
                 justify-content: center;
-                /**vertical-align: middle;**/
+                /**vertical-align: middle;** /
             }
 
             #buttons03 {
@@ -1784,7 +1784,7 @@
             #form01 .file[data-filename=""]:before {
                 color: #575151;
                 opacity: 0.55;
-            }
+            } **/
 
             @media (max-width: 1680px) {
                 html {
@@ -2340,7 +2340,7 @@
                     text-align: inherit !important;
                 }
 
-                #container03 {
+           /**     #container03 {
                     margin-top: 2.625rem !important;
                     margin-bottom: 2.625rem !important;
                 }
@@ -2474,7 +2474,7 @@
                 #form01 {
                     margin-top: 0.375rem !important;
                     margin-bottom: 0.375rem !important;
-                }
+                } **/
             }
 
             @media (max-width: 480px) {
@@ -2521,7 +2521,7 @@
                     margin-bottom: 1.3125rem;
                 }
 
-                #container03.default > .inner > * {
+               /** #container03.default > .inner > * {
                     margin-top: 1.3125rem;
                     margin-bottom: 1.3125rem;
                 }
@@ -2542,7 +2542,7 @@
                 #form01 button {
                     width: 100%;
                     max-width: 32rem;
-                }
+                }  **/
             }
 
             @media (max-width: 360px) {
@@ -2801,7 +2801,7 @@
                     margin-bottom: calc(-0rem) !important;
                 }
 
-                #container03 > .inner {
+               /** #container03 > .inner {
                     padding: 2.625rem 1.5rem;
                 }
 
@@ -2886,8 +2886,8 @@
 
                 #icons01 li {
                     margin: 0.46875rem;
-                }
-            }
+                }  **/
+            } 
         /**
         <noscript>
             <style>**/
