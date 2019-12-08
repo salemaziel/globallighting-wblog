@@ -131,7 +131,7 @@ class NavbarGlobal extends React.Component {
 
                         <div style={{padding: 20}}>
                             <div className="donate-btn-container" style={{paddingTop: 10, paddingBottom: 10}}>
-                                <Link to="/donate/" id="donate-btn-hamburger" >Donate</Link>
+                                <Link to="https://donorbox.org/global-lighting-project-usa" id="donate-btn-hamburger" >Donate</Link>
                             </div>
                         </div>
 
