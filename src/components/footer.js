@@ -1,13 +1,5 @@
 import React from 'react'
 
-import FooterLogo from '../images/footer-logo.png'
-import CallLogo from '../images/call.png'
-import EnvelopLogo from '../images/envelope.png'
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAngleRight } from '@fortawesome/free-solid-svg-icons'
-import { faFacebookF, faTwitter, faGooglePlusG, faLinkedinIn } from "@fortawesome/free-brands-svg-icons"
-
 import '../css/footer.css'
 import '../css/carrd.css'
 

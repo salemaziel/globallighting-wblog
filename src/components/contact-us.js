@@ -1,56 +1,10 @@
 import React from 'react'
-//import styled from 'styled-components'
 import { navigate } from 'gatsby-link'
 import '../css/contactHero.css'
 import '../css/contact.css'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-
-{/*8const MainWrapper = styled.div`
-  margin: 0;
-`;**/}
-
-{/**export default class ContactUs extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {}
-    }
-
-    handleChange = event => {
-        const { name, value } = event.target
-        this.setState({
-            [name]: value,
-        })
-    }
-
-    handleCheckboxChange = event => {
-        const { name } = event.target
-        this.setState({ [name]: !this.state[name] })
-    }
-
-    handleSubmit = e => {
-        e.preventDefault()
-        const form = e.target
-        console.log('fullname', this.state.fullname)
-        this.setState({ 'firstname': this.state.fullname },
-            () => {
-                const formFields = this.state
-                fetch('/.netlify/functions/mauticSubmission', {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'text/html; charset=utf-8' },
-                    body: JSON.stringify({
-                        'formName': form.getAttribute('name'),
-                        formFields,
-                    }),
-                })
-                    .then(() => navigate(form.getAttribute('action')))
-                    .catch((error) => alert(error))
-            }
-        )
-    }
-
-render() {**/}
 
 
 function encode(data) {
@@ -99,7 +53,6 @@ function encode(data) {
                             <div className="col-12 col-md-8">
                                 {/* Form */}
                                 <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field" action="/thanks">
-                                {/**<form name='contact' onSubmit={this.handleSubmit} method="POST" data-netlify="true" className="contact__form" action="#" >**/}
                                     <div className="row mt-5 mb-4">
                                     <input type="hidden" name="form-name" value="contact" />
                                     <input type="hidden" name="form-name" value="contact" />
@@ -117,18 +70,7 @@ function encode(data) {
                                         <div className="col-12 col-md-6">
                                             <input type="tel" id='phone' name='phone' placeholder="Your Phone" onChange={handleChange} />
                                         </div>
-                                        {/**<div className="col-12 mb-4 pb-2">
-                                            <p className="u-weight-bld mb-4"></p>
-                                            <div className="row">
-                                                <div className="col-4">
-                                                </div>
-                                                <div className="col-4">
-                                                </div>
-                                                <div className="col-4">
-                                                    </div>
-                    
-                                                </div>
-                                        </div>**/}
+                                        
                                         
                                         <div className="col-12">
                                             <textarea name='message' placeholder="Your Message" onChange={handleChange} required></textarea>
@@ -157,13 +99,13 @@ function encode(data) {
                                     </div>
                                     <h4 className="followus">Follow Us</h4>
                                     <div className="followus">
-                                        <a href="https://twitter.com/code_staff">
+                                        <a href="#">
                                             <FontAwesomeIcon icon={faTwitter} />
                                         </a>
-                                        <a href="https://www.linkedin.com/company/code-staff">
+                                        <a href="#">
                                             <FontAwesomeIcon icon={faLinkedin} />
                                         </a>
-                                        <a href="https://www.facebook.com/codestaff">
+                                        <a href="#">
                                             <FontAwesomeIcon icon={faFacebook} />
                                         </a>
                                     </div>

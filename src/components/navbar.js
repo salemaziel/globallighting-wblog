@@ -7,18 +7,10 @@ import {
     Nav,
     NavItem,
     NavLink,
-    UncontrolledDropdown,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem
 } from 'reactstrap';
 import { Link } from 'gatsby'
 import Logo from '../images/image04.png'
 import '../css/navbar.css'
-//import '../css/header.css'
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
 
 class NavbarGlobal extends React.Component {
    state = {
@@ -109,7 +101,7 @@ class NavbarGlobal extends React.Component {
                     <div
                         id="mySidenav"
                         className="sidenav"
-                        style={{ width: this.state.width, height: '100%', /*background: '#FFF'*/ }}
+                        style={{ width: this.state.width, height: '100%', }}
                     >
                         <div>
                             <a

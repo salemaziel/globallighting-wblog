@@ -5,7 +5,7 @@ import '../css/about2.css'
 
 import '../css/HomePageCss/aboutUs.css'
 
-import Solarpanelmtns from '../images/1-solarpanelmtns.jpg'
+
 import Jackonmtn from '../images/jack-edited-3.png'
 
 const About2 = () => (

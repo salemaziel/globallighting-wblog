@@ -7,8 +7,6 @@ import LightsImage from '../../images/lightslight.png'
 import StreetLightImage from '../../images/street-light.png'
 import MicrolightImage from '../../images/microlight.png'
 import ContainedSolarImage from '../../images/containedsolar.png'
-// import ContainedSolarImage from '../../images/containedsolar.png'
-import Box from '../box'
 import Modal01pics from '../modal01pics'
 
 

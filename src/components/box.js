@@ -4,15 +4,13 @@ import '../css/HomePageCss/synergy.css'
 import Hydroveggie from '../images/shutterstock/1-young-tomato.jpg'
 import Nightlight from '../images/stock-nightlight.jpg'
 import UVsterilize from '../images/shutterstock/1-sanjose-water.jpg'
-import { Link } from 'gatsby'
 
-import Button from '../components/button'
 
 
 
 import {
-  Card, CardImg, CardText, CardBody,
-  CardTitle, CardDeck, Modal
+  Card, CardImg, CardBody,
+  CardTitle, CardDeck,
 } from 'reactstrap';
 import Modalsynergy01 from './modal01'
 import Modalsynergy03 from './modal03'
