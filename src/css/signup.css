@@ -338,7 +338,7 @@
                 margin-top: 0rem !important;
             }
 
-            /**form .inner {
+            form .inner {
                 display: inline-flex;
                 max-width: 100%;
                 -moz-flex-wrap: wrap;
@@ -511,8 +511,8 @@
                 -webkit-pointer-events: none;
                 -ms-pointer-events: none;
                 pointer-events: none;
-            }**/
-
+            }
+        
             @-moz-keyframes button-spinner {
                 0% {
                     -moz-transform: rotate(0deg);

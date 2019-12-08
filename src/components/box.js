@@ -24,16 +24,16 @@ const Box = () => (
 
         <div id="main">
 			<CardDeck>
-			<div class="inner">
+			<div className="inner">
 
-				<div class="thumbnails">
+				<div className="thumbnails">
 					
-					<div class="box scale">
+					<div className="box scale">
 					
 					<Card>
-					<CardImg top width="100%" src={Nightlight} class="img fit" alt="Card image cap" />
+					<CardImg top width="100%" src={Nightlight} className="img fit" alt="Card image cap" />
         				<CardBody>
-								<div class="inner">
+								<div className="inner">
 									
 								<CardTitle>
 
@@ -47,11 +47,11 @@ const Box = () => (
 						</Card>
 					</div>
 				
-					<div class="box scale">
+					<div className="box scale">
 					<Card>
-					<CardImg top width="100%" src={Hydroveggie} class="img fit" alt="Card image cap" />
+					<CardImg top width="100%" src={Hydroveggie} className="img fit" alt="Card image cap" />
         				<CardBody>
-								<div class="inner">
+								<div className="inner">
 									
 								<CardTitle>
 
@@ -67,12 +67,12 @@ const Box = () => (
 					</Card>					
 					</div>
 
-					<div class="box scale">
+					<div className="box scale">
 					<Card>
-					<CardImg top width="100%" src={UVsterilize} class="img fit" alt="Card image cap" />
+					<CardImg top width="100%" src={UVsterilize} className="img fit" alt="Card image cap" />
 
         				<CardBody>
-								<div class="inner">
+								<div className="inner">
 								<CardTitle>
 									<h3>Sanitize Water, Cooking Facilities and More with Ultra Violet LED Lights</h3>
 

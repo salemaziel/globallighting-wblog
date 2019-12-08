@@ -91,6 +91,31 @@ const Button = styled.Button = styled.a`
       font-weight: 700;
     }
   `}
+  ${props => props.signup && css`
+    margin-left: -1rem;
+    display: inline-block;
+    vertical-align: middle;
+    max-width: calc(100% - 2rem);
+    color: lightgray!important;
+    margin: 0 0;
+    border: 1px solid lightgray;
+    background:transparent;
+    padding: 0 3em;
+    text-shadow: none;
+    &:hover {
+      cursor: pointer;
+      margin-left: -1rem;
+      display: inline-block;
+      vertical-align: middle;
+      max-width: calc(100% - 2rem);
+      color: darkgray!important;
+      margin: 0 0;
+      border: 1px solid darkgray!important;
+      background:transparent;
+      padding: 0 3em;
+      text-shadow: none!important;
+    }
+  `}
 `
 
 {/**const Container = styled.div`

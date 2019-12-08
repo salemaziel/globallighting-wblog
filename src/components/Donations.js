@@ -7,13 +7,13 @@ import React from 'react';
 import DonationBox from './DonationBox'
 
 const Donations = () => (
-    <section className="section-one-donate">
-        {/**<div class="parent">
-            <div class="son">
-                <div class="container"> 
-    	            <div class="row">
-                        <div class="drop-shadow">
-<div class="glass">**/}
+    <section classNameName="section-one-donate">
+        {/**<div className="parent">
+            <div className="son">
+                <div className="container"> 
+    	            <div className="row">
+                        <div className="drop-shadow">
+<div className="glass">**/}
                                 <DonationBox />
                             {/**</div>
                         </div>

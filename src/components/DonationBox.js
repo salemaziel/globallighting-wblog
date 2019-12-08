@@ -7,13 +7,13 @@ import '../css/donationbox.css'
 
 const DonationBox = () => (
 
-<section class="parent">
-  <div class="son">
-    <div class="container">
+<section className="parent">
+  <div className="son">
+    <div className="container">
 
-    <div class="left">
-      <div class="img"></div>
-        <div class="info">
+    <div className="left">
+      <div className="img"></div>
+        <div className="info">
             <ul>
                 <li>you are about to</li>
                 <li>Donate name with</li>
@@ -26,33 +26,33 @@ const DonationBox = () => (
                 <li>$24000</li>
             </ul>
         </div>
-            <div class="circle1">
-                <div class="circle">
+            <div className="circle1">
+                <div className="circle">
                     <span>founded</span>
                     <span>49,8%</span>
                 </div>
             </div>
     </div>
-    <div class="right">
-        <div class="up">
+    <div className="right">
+        <div className="up">
             <ul>
                 <li><h3>It's almost done!</h3></li>
                 <li>Fill in the fields below and click "Donate Now!" to make something beautiful.</li>
             </ul>
             <ul>
-                <li class="activecr">credit card</li>
+                <li className="activecr">credit card</li>
                 <li>paypal</li>
             </ul>
         </div>
-        <div class="down">
-         <div class="payment">
+        <div className="down">
+         <div className="payment">
             <form>
-                <div class="form-group">
-                    <label class="cardNumber">Card Number</label>
-                    <input type="number" class="form-control1"></input>
+                <div className="form-group">
+                    <label className="cardNumber">Card Number</label>
+                    <input type="number" className="form-control1"></input>
                 </div>
-                <div class="form-group1" id="expiration-date">
-                    <div class="lab">
+                <div className="form-group1" id="expiration-date">
+                    <div className="lab">
                         <label>Expiration Date</label>
                             <select>
                                 <option value="01">January</option>
@@ -68,7 +68,7 @@ const DonationBox = () => (
                                 <option value="11">November</option>
                                 <option value="12">December</option>
                             </select>
-                            <select class="year">
+                            <select className="year">
                                 <option value="16"> 2016</option>
                                 <option value="17"> 2017</option>
                                 <option value="18"> 2018</option>
@@ -78,13 +78,13 @@ const DonationBox = () => (
                             </select>
                     </div>
                 </div>    
-                <div class="form-group CVV">
+                <div className="form-group CVV">
                     <label for="cvv">CVV</label>
-                        <input type="number" class="form-control" id="cvv">
+                        <input type="number" className="form-control" id="cvv">
                         </input>
                 </div>
-                <div class="form-group btn" id="pay-now">
-                    <button type="submit" class="btn btn-default" id="confirm-purchase">Donate Now!</button>
+                <div className="form-group btn" id="pay-now">
+                    <button type="submit" className="btn btn-default" id="confirm-purchase">Donate Now!</button>
                 </div>
             </form>
         </div>

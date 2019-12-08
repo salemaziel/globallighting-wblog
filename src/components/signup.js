@@ -4,8 +4,8 @@ import '../css/signup.css'
 
 
 const Signup = () => (
-    <section id="signup-section">
-        <div id="container03" className="container default">
+//    <section id="signup-section">
+//        <div id="container03" className="container default">
           <div className="inner">
             <h3 id="text02">Join Our Mailing List to keep up with us and receive the latest updates </h3>
             <form id="form01" method="post">
@@ -26,23 +26,21 @@ const Signup = () => (
                 </div>
                 <div className="actions">
                   <button type="submit">
-                    <svg>
-                      <use xlinkHref="#icon-90a" />
-                    </svg>
-                    <span className="label">Submit</span>
+                    
+                    <p className="label">Submit</p>
                   </button>
                 </div>
               </div>
               <input type="hidden" name="id" defaultValue="form01" />
             </form>
-            <ul id="buttons01" className="buttons">
+            {/**<ul id="buttons01" className="buttons">
               <li>
                 <a href="#home" className="button n01">No thanks</a>
               </li>
-            </ul>
+            </ul>**/}
           </div>
-        </div>
-</section>
+//        </div>
+//</section>
 )
 
 export default Signup

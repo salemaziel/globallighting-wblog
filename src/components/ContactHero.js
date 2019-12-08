@@ -14,12 +14,12 @@ const ContactHero = () => (
             <div className="row">
                 <div className="col-lg-3">
                 </div>
-                <div class="col-lg-6">
+                <div className="col-lg-6">
                     <h1>
                         Get in touch
                     </h1>
                 </div>
-                <div class="col-lg-4">
+                <div className="col-lg-4">
                 </div>
             </div>
         </div>

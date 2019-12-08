@@ -38,19 +38,19 @@ const About2 = () => (
             </div>
         </div>
         </div>
-        <div class="container aboutjack" style={{
+        <div className="container aboutjack" style={{
                                   marginTop: '2em',
                                 }}>
-              <div class="row" style={{
+              <div className="row" style={{
                                   padding: '2em 4em 2em 1em',
                                     }}>
               
-                <h1 class="title">Hi, I'm <span><strong> Jack </strong></span></h1>
+                <h1 className="title">Hi, I'm <span><strong> Jack </strong></span></h1>
               
               </div>    
 
-        <div class="row">    
-            <div class="col-lg-7">
+        <div className="row">    
+            <div className="col-lg-7">
             <h3>
                 Founder and CEO of the Global Lighting Project. I'm a father, musician, and an entrepreneur. <br />
                 <hr />
@@ -74,8 +74,8 @@ const About2 = () => (
             </div>
             
             
-            <div class="col-lg-3">
-                <img class="thumbnail" 
+            <div className="col-lg-3">
+                <img className="thumbnail" 
                      src={Jackonmtn} 
                      alt="" 
                      style={{

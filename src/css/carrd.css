@@ -429,7 +429,7 @@ h1 .li, h2 .li, h3 .li, p .li {
 #text08 {
     color: #FFFFFF;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1em;
+    font-size: 1.3em;
     line-height: 1.625;
     font-weight: 300;
 }
@@ -1888,7 +1888,7 @@ form button:disabled {
     #text08 {
         letter-spacing: 0rem;
         width: 100%;
-        font-size: 1em;
+        font-size: 1.3em;
         line-height: 1.625;
     }
 
@@ -1896,7 +1896,7 @@ form button:disabled {
         letter-spacing: 0.21875rem;
         width: calc(100% + 0.21875rem);
         font-size: 1.125em;
-        line-height: 1.25;
+        line-height: 1.625;
     }
 
     #text05 {
@@ -2608,7 +2608,11 @@ form button:disabled {
     }
 
     #text08 {
-        font-size: 1em;
+        font-size: 1.3em;
+    }
+
+    #text08 p span{
+        font-size: 1.3em;
     }
 
     #text06 {

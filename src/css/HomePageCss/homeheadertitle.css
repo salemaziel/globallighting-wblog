@@ -205,11 +205,14 @@
 	letter-spacing: 0;
 }
 .hheader h3{
-	font-size:1.5em;
+	font-size:1.3em;
+}
+.hheader p{
+	font-size: 1.2em;
 }
 .orangeTextSubtitle {
 	color: #ffc529;
-	font-size: 25px;
+	font-size: 1.3em;
 	font-family: sans-serif;
 	font-weight:400;
 	margin:0px;
