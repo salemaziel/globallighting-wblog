@@ -9,6 +9,7 @@ import MicrolightImage from '../../images/microlight.png'
 import ContainedSolarImage from '../../images/containedsolar.png'
 // import ContainedSolarImage from '../../images/containedsolar.png'
 import Box from '../box'
+import Modal01pics from '../modal01pics'
 
 
 import '../../css/HomePageCss/ourProducts.css'
@@ -96,6 +97,7 @@ const OurProducts = () => (
                     </div>
                 </div>
             </div>
+            <Modal01pics />
         </div>
     </div>
 </section>

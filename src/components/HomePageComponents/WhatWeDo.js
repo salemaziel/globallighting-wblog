@@ -1,6 +1,6 @@
 import React from 'react'
 
-import WhatWeDoImage from '../../images/shutterstock/New Folder/1-bulb-hand.jpg'
+import WhatWeDoImage from '../../images/whatwedo-multi.png'
 import IconOne from '../../images/icon-one.jpg'
 import IconTwo from '../../images/icon-two.jpg'
 import IconThree from '../../images/icon-three.jpg'

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 import Button from '../components/button'
+import Modal03pics from './modal03pics';
 
 const Modalsynergy03 = (props) => {
   const {
@@ -16,9 +17,12 @@ const Modalsynergy03 = (props) => {
     <div>
       <Button synergy onClick={toggle}>Learn More</Button>
       <Modal isOpen={modal} toggle={toggle} className={className}>
-        <ModalHeader toggle={toggle}>Learn More</ModalHeader>
-        <ModalBody>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <ModalHeader toggle={toggle}>Ultra Violet LED Lights</ModalHeader>
+        <ModalBody style={{
+            display: 'flex',
+            justifyContent: 'center',
+            }}>
+              <Modal03pics />
         </ModalBody>
         <ModalFooter>
           <Button color="warn" onClick={toggle}>Donate</Button>{' '}
