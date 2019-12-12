@@ -6,8 +6,8 @@ description: >-
   default generated excerpt. Simply add a description field to the frontmatter.
 ---
 
-![Firestation](./firestation.jpeg)
-
+![Firestation](./firestation.jpg)
+![Litstationhallway](./litstationhallway.jpg)
 
 
 

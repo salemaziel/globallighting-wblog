@@ -76,7 +76,7 @@ const Button = styled.Button = styled.a`
     max-width: calc(100% - 2rem);
     color: #FFFFFF;
     margin: 0 0;
-    border: none;
+    border: none!important;
     background:transparent;
     color: #FFF!important;
     padding: 0 3em;
@@ -86,7 +86,7 @@ const Button = styled.Button = styled.a`
     &:hover {
       color: #ffc529!important;
       border-color: none;
-      border: none;
+      border: none!important;
       text-decoration:none;
       font-weight: 700;
     }
@@ -98,7 +98,7 @@ const Button = styled.Button = styled.a`
     max-width: calc(100% - 2rem);
     color: lightgray!important;
     margin: 0 0;
-    border: 1px solid lightgray;
+    border: none!important;
     background:transparent;
     padding: 0 3em;
     text-shadow: none;
@@ -108,9 +108,9 @@ const Button = styled.Button = styled.a`
       display: inline-block;
       vertical-align: middle;
       max-width: calc(100% - 2rem);
-      color: darkgray!important;
+      color: transparent!important;
       margin: 0 0;
-      border: 1px solid darkgray!important;
+      border: none!important;
       background:transparent;
       padding: 0 3em;
       text-shadow: none!important;

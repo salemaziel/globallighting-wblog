@@ -1,15 +1,5 @@
 import React from 'react'
-import PinkDotsImage from '../../images/pink-dots.png'
 
-import GlbImage from '../../images/glb.png'
-import SolarImage from '../../images/soalr.png'
-import LightsImage from '../../images/lightslight.png'
-import StreetLightImage from '../../images/street-light.png'
-import MicrolightImage from '../../images/microlight.png'
-import ContainedSolarImage from '../../images/containedsolar.png'
-// import ContainedSolarImage from '../../images/containedsolar.png'
-
-import Box from '../box'
 import '../../css/box.css'
 
 import '../../css/HomePageCss/homeheadertitle.css'
