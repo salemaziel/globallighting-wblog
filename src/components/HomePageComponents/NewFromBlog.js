@@ -1,5 +1,5 @@
 import React from 'react'
-import WhatWeDoImage from '../../images/what-we-do.jpg'
+
 import Firestation from '../../images/firestation-1.jpg'
 
 import '../../css/HomePageCss/newFromBlog.css'
@@ -40,7 +40,7 @@ const NewFromBlog = () => (
                             <div className="cx_post_text">
                                 <a href="/lightingfirestation"><h2>Lighting the FireStation</h2></a>
                                 <div className="cx_name">
-                                    <div className="cx_image"><img alt="what-we-do" src={WhatWeDoImage} className="img-fluid" /></div>
+                                    <div className="cx_image"><img alt="what-we-do" src={Firestation} className="img-fluid" /></div>
                                     Salem &nbsp; <span className="cx_tag">Tag: ComingSoon </span>
                                 </div>
                                 <p>
@@ -53,13 +53,13 @@ const NewFromBlog = () => (
                     {/**<div className="col-md-4 col-sm-6">
                         {/**<div className="cx_post_box">
                             <div className="cx_post_image">
-                                <img src={WhatWeDoImage} alt="what-we-do" className="img-fluid" />
+                                <img src={Firestation} alt="what-we-do" className="img-fluid" />
                                 <div className="cx_date">MAY<br />29</div>
                             </div>
                             <div className="cx_post_text">
                                 <h2>Blog Title Here</h2>
                                 <div className="cx_name">
-                                    <div className="cx_image"><img alt="what-we-do" src={WhatWeDoImage} className="img-fluid" /></div>
+                                    <div className="cx_image"><img alt="what-we-do" src={Firestation} className="img-fluid" /></div>
                                     Salem &nbsp; <span className="cx_tag">Tag: Creative, Environment </span>
                                 </div>
                                 <p>
@@ -72,13 +72,13 @@ const NewFromBlog = () => (
                     <div className="col-md-4 col-sm-6">
                         {/**<div className="cx_post_box">
                             <div className="cx_post_image">
-                                <img src={WhatWeDoImage} alt="what-we-do" className="img-fluid" />
+                                <img src={Firestation} alt="what-we-do" className="img-fluid" />
                                 <div className="cx_date">MAY<br />29</div>
                             </div>
                             <div className="cx_post_text">
                                 <h2>Blog Title Here</h2>
                                 <div className="cx_name">
-                                    <div className="cx_image"><img alt="what-we-do" src={WhatWeDoImage} className="img-fluid" /></div>
+                                    <div className="cx_image"><img alt="what-we-do" src={Firestation} className="img-fluid" /></div>
                                     Salem &nbsp; <span className="cx_tag">Tag: Creative, Environment </span>
                                 </div>
                                 <p>

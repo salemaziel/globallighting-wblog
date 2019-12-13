@@ -35,7 +35,10 @@ const Carrd = () => (
             <h3 id="text06">Donate Now and Join Our Mailing List to Join Us on Our Mission</h3>
           </div>
         </div>
-        <div id="container01" className="container columns">
+        <div id="container01" className="container columns" style={{
+                                                              paddingLeft: '0',
+                                                              paddingRight: '0',
+        }}>
           <div className="inner">
             <div>
               <div id="embed04">
