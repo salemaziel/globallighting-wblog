@@ -1,6 +1,6 @@
 import React from 'react'
 import WhatWeDoImage from '../../images/what-we-do.jpg'
-import Firestation from '../../images/firestation.jpeg'
+import Firestation from '../../images/firestation-1.jpg'
 
 import '../../css/HomePageCss/newFromBlog.css'
 
