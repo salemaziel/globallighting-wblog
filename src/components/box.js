@@ -1,6 +1,6 @@
 import React from 'react'
 import '../css/box.css'
-import '../css/HomePageCss/synergy.css'
+
 import Hydroveggie from '../images/shutterstock/1-young-tomato.jpg'
 import Nightlight from '../images/stock-nightlight.jpg'
 import UVsterilize from '../images/shutterstock/1-sanjose-water.jpg'
@@ -20,7 +20,7 @@ import Modalsynergy02 from './modal02'
 
 const Box = () => (
 
-        <div id="main">
+        
 			<CardDeck>
 			<div className="inner">
 
@@ -88,7 +88,6 @@ const Box = () => (
 
 			</div>
 		</CardDeck>
-		</div>
 )
 
 export default Box

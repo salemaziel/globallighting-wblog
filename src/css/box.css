@@ -132,17 +132,22 @@
 		}
 
 		.card-body {
-			padding-left: 2px;
-			padding-right: 2px;
 			padding-bottom: 0px;
 			padding-top: 0px;
 			background: #ffffff;
+			padding: 0;
 		}
 
         .thumbnails .box .inner h3{
-            font-size: 1.4em;
+			font-size: 1.4em;
+			font-weight: 300;
         }
         
+		.row {
+			margin-left: 0;
+			margin-right: 0;
+		}
+
 
 			@media screen and (max-width: 480px) {
 

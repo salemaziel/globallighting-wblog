@@ -4,7 +4,7 @@
 /*** ### Section Two ### ***/
 .section-two{
 	position:relative;
-	padding:75px 0px 0px 0px;
+	padding:75px 0px;
 	background:#FFF;
 }
 .section-two .cx_left{
@@ -96,7 +96,7 @@
 }
 @media (max-width:991px){
 .section-two{
-	padding:50px 0px 0px 0px;
+	padding:50px 0px;
 }
 .section-two h3{
 	font-size:30px;
