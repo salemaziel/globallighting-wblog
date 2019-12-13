@@ -184,6 +184,7 @@ html {
     position: relative;
     z-index: 2;
     overflow: hidden;
+    width: 100%;
 }
 
 #main {

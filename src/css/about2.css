@@ -161,4 +161,7 @@
 .section-about p{
 	font-size:13px;
 }
+.blurb p {
+	padding: 2.5em 1em;
+}
 }
