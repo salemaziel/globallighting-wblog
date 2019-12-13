@@ -6,7 +6,7 @@ import React from "react"
 import '../css/header.css'
 import '../../src/components/layout.css'
 //import NavbarGlobal from "./navbar"
-import SEO from '../components'
+import SEO from '../components/seo'
 
 const Header = () => (
   <>
