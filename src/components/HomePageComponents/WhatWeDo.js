@@ -13,14 +13,14 @@ const WhatWeDo = () => (
         <div className="container-fluid">
             <div className="row">
                 <div className="col-md-6 p-0">
-                    <div className="cx_left"><img alt="what-we" src={WhatWeDoImage} className="img-fluid" /></div>
+                    <div className="cx_left"><img alt="what-we-do" src={WhatWeDoImage} className="img-fluid" /></div>
                 </div>
                 <div className="col-md-6">
                     <div className="cx_right">
                         <h2>OUR Mission</h2>
                         <h3>What We Do</h3>
                         <div className="cx_list">
-                            <div className="cx_icon"><img alt="what-we" src={Truck} className="img-fluid" /></div>
+                            <div className="cx_icon"><img alt="what-we-do" src={Truck} className="img-fluid" /></div>
                             <h4>Supply and Distribute LED Tech to Community Organizers</h4>
                             <p>
                                 
