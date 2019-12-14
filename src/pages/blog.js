@@ -16,7 +16,7 @@ class Blog extends React.Component {
 
     return (
       <Layout2 location={this.props.location} title={siteTitle}>
-        <SEO title="Global Lighting Project Blog" />
+        <SEO />
         <Bio />
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
