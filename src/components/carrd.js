@@ -42,7 +42,7 @@ const Carrd = () => (
           <div className="inner">
             <div>
               <div id="embed04">
-                <a className="dbox-donation-button" style={{background: '#ffc529', color: '#fff', textDecoration: 'none', fontFamily: 'Montserrat,sans-serif', margin: 'auto', display: 'flex', textTransform: 'uppercase', textAlign: 'center', width: '16rem', height: '3.25rem', verticalAlign: 'middle', alignItems: 'center', justifyContent: 'center', lineHeight: '3.25rem', fontSize: '0.875em', letterSpacing: '0.275rem', fontWeight: 900, padding: '0 1.625rem', WebkitBorderRadius: 2, MozBorderRadius: 2, borderRadius: '0.25rem', textShadow: '0 1px rgba(0, 0, 0, 0.3)', transition: 'color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease'}} href="https://donorbox.org/global-lighting-project-usa">Donate</a>
+                <a className="dbox-donation-button" style={{background: '#ffc529', color: '#fff', textDecoration: 'none', fontFamily: 'Montserrat,sans-serif', margin: 'auto', display: 'flex', textTransform: 'uppercase', textAlign: 'center', width: '16rem', height: '3.25rem', verticalAlign: 'middle', alignItems: 'center', justifyContent: 'center', lineHeight: '3.25rem', fontSize: '0.875em', letterSpacing: '0.275rem', fontWeight: 900, padding: '0 1.625rem', WebkitBorderRadius: 2, MozBorderRadius: 2, borderRadius: '0.25rem', textShadow: '0 1px rgba(0, 0, 0, 0.3)', transition: 'color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease'}} href="https://donorbox.org/global-lighting-project">Donate</a>
               </div>
             </div>
             <div>

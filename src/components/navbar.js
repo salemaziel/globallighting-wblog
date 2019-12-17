@@ -71,7 +71,7 @@ class NavbarGlobal extends React.Component {
                             </Nav>
                         </Collapse>
                          <div className="donate-btn custom-dbox-popup">
-                            <a href="https://donorbox.org/global-lighting-project-usa" id="donate-btn">Donate</a> 
+                            <a href="https://donorbox.org/global-lighting-project" id="donate-btn">Donate</a> 
                         </div> 
                     </div>
                     </Navbar>
@@ -131,7 +131,7 @@ class NavbarGlobal extends React.Component {
 
                         <div style={{padding: 20}}>
                             <div className="donate-btn-container" style={{paddingTop: 10, paddingBottom: 10}}>
-                                <a href="https://donorbox.org/global-lighting-project-usa" id="donate-btn-hamburger" >Donate</a>
+                                <a href="https://donorbox.org/global-lighting-project" id="donate-btn-hamburger" >Donate</a>
                             </div>
                         </div>
 
