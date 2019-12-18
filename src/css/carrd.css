@@ -1875,7 +1875,7 @@ form button:disabled {
     #text01 {
         letter-spacing: 0.4375rem;
         width: calc(100% + 0.4375rem);
-        font-size: 2.25em;
+        font-size: 3em;
         line-height: 1.375;
     }
 
