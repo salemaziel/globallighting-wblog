@@ -2,8 +2,7 @@
 title: Lighting the Fire Station
 date: '2019-11-27T22:40:32.169Z'
 description: >-
-  This is a custom description for SEO and Open Graph purposes, rather than the
-  default generated excerpt. Simply add a description field to the frontmatter.
+  Installation of white LED Lights to a volunteer firestation.
 ---
 
 
