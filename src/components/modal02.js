@@ -25,7 +25,7 @@ const Modalsynergy02 = (props) => {
               <Modal02pics />
         </ModalBody>
         <ModalFooter>
-          <Button color="warn" onClick={toggle}>Donate</Button>{' '}
+          {/**<Button color="warn" onClick={toggle}>Donate</Button>{' '}**/}
           <Button color="secondary" onClick={toggle}>Close</Button>
         </ModalFooter>
       </Modal>

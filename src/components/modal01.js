@@ -6,7 +6,8 @@ import Modal01pics from './modal01pics';
 const Modalsynergy01 = (props) => {
   const {
     buttonLabel,
-    className
+    className,
+    scrollable,
   } = props;
 
   const [modal, setModal] = useState(false);
@@ -16,7 +17,7 @@ const Modalsynergy01 = (props) => {
   return (
     <div>
       <Button synergy onClick={toggle}>Learn More</Button>
-      <Modal isOpen={modal} toggle={toggle} className={className}>
+      <Modal scrollable isOpen={modal} toggle={toggle} className={className}>
         <ModalHeader toggle={toggle}>White LED</ModalHeader>
         <ModalBody style={{
             display: 'flex',
@@ -25,7 +26,7 @@ const Modalsynergy01 = (props) => {
             <Modal01pics />
         </ModalBody>
         <ModalFooter>
-          <Button color="warn" onClick={toggle}>Learn More</Button>{' '}
+          {/**<Button color="warn" onClick={toggle}>Learn More</Button>{' '}**/}
           <Button color="secondary" onClick={toggle}>Close</Button>
         </ModalFooter>
       </Modal>
