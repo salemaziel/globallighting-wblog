@@ -15,7 +15,7 @@ const Modalsynergy03 = (props) => {
 
   return (
     <div>
-      <Button synergy onClick={toggle}>Learn More</Button>
+      <Button synergy onClick={toggle}>See More</Button>
       <Modal isOpen={modal} toggle={toggle} className={className}>
         <ModalHeader toggle={toggle}>Ultra Violet LED Lights</ModalHeader>
         <ModalBody style={{

@@ -16,7 +16,7 @@ const Modalsynergy01 = (props) => {
 
   return (
     <div>
-      <Button synergy onClick={toggle}>Learn More</Button>
+      <Button synergy onClick={toggle}>See More</Button>
       <Modal scrollable isOpen={modal} toggle={toggle} className={className}>
         <ModalHeader toggle={toggle}>White LED</ModalHeader>
         <ModalBody style={{
