@@ -1,6 +1,6 @@
 import React from 'react'
 
-import WhatWeDoImage from '../../images/whatwedo-multi-NEW-W-BORDERS.jpg'
+import WhatWeDoImage from '../../images/What-We-Do-collage.jpg'
 import Truck from '../../images/vector-graphics/truck-md.png'
 import Classroom from '../../images/vector-graphics/classroom.png'
 import Research from '../../images/vector-graphics/science.png'

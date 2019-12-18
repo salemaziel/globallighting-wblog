@@ -3,7 +3,7 @@ import '../css/box.css'
 
 import Hydroveggie from '../images/shutterstock/1-young-tomato.jpg'
 import Nightlight from '../images/stock-nightlight.jpg'
-import UVsterilize from '../images/shutterstock/1-sanjose-water.jpg'
+import UVsterilize from '../images/synergy-water-3.jpg'
 
 
 
