@@ -4,7 +4,7 @@ import PinkDotsImage from '../../images/pink-dots.png'
 
 import LiveOneImage from '../../images/IMG_1862-edited.jpg'
 import LiveTwoImage from '../../images/productlineup-resized.jpg'
-import LiveThreeImage from '../../images/1-myanmar.jpg'
+import LiveThreeImage from '../../images/about-us-3.jpg'
 
 import '../../css/HomePageCss/aboutUs.css'
 
