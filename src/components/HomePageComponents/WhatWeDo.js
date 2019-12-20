@@ -1,9 +1,9 @@
 import React from 'react'
 
 import WhatWeDoImage from '../../images/What-We-Do-collage.jpg'
-import Truck from '../../images/vector-graphics/truck-md.png'
-import Classroom from '../../images/vector-graphics/classroom.png'
-import Research from '../../images/vector-graphics/science.png'
+import Truck from '../../images/vector-graphics/truck-md-75x31.jpg'
+import Classroom from '../../images/vector-graphics/classroom-78x63.jpg'
+import Research from '../../images/vector-graphics/science-75x54.jpg'
 
 
 import '../../css/HomePageCss/whatWeDo.css'

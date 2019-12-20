@@ -1,9 +1,9 @@
 import React from 'react'
 import '../css/box.css'
 
-import Hydroveggie from '../images/shutterstock/1-young-tomato.jpg'
-import Nightlight from '../images/stock-nightlight.jpg'
-import UVsterilize from '../images/synergy-water-3.jpg'
+import Hydroveggie from '../images/1-young-tomato-468x312.jpg'
+import Nightlight from '../images/stock-nightlight-468x312.jpg'
+import UVsterilize from '../images/synergy-water-3-468x312.jpg'
 
 
 

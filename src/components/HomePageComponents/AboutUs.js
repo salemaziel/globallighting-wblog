@@ -1,10 +1,10 @@
 import React from 'react'
-import PinkDotsImage from '../../images/pink-dots.png'
+import PinkDotsImage from '../../images/pink-dots.jpg'
 
 
-import LiveOneImage from '../../images/IMG_1862-edited.jpg'
-import LiveTwoImage from '../../images/productlineup-resized.jpg'
-import LiveThreeImage from '../../images/about-us-3.jpg'
+import LiveOneImage from '../../images/IMG_1862-edited-186x162.jpg'
+import LiveTwoImage from '../../images/productlineup-resized-186x162.jpg'
+import LiveThreeImage from '../../images/about-us-3-402.5x268.33.jpg'
 
 import '../../css/HomePageCss/aboutUs.css'
 
