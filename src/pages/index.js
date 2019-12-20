@@ -9,12 +9,14 @@ import NewFromBlog from '../components/HomePageComponents/NewFromBlog'
 
 import Synergy from "../components/HomePageComponents/Synergy"
 import Homeheadertitle from "../components/HomePageComponents/Homeheadertitle"
-import Carrd from "../components/carrd"
+import Homehero from "../components/homehero"
+import SEO from "../components/seo"
 
 const IndexPage = () => (
  <div>
   <Layout>
-    <Carrd />
+    <SEO />
+    <Homehero />
     <Homeheadertitle />
     <AboutUs />
     <Synergy />

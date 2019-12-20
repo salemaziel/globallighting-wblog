@@ -8,7 +8,6 @@ import Footer from "./footer"
 
 import "./layout.css"
 import NavbarGlobal from "./navbar"
-//import Carrd from '../components/carrd'
 
 
 const Layout = ({ children }) => {
