@@ -19,8 +19,11 @@
 }
 
 .card:hover{
-	background-color: #ffc529;
+	/*background-color: #ffc529;*/
+	background-color: white;
+    border-color: #FFC528;
 }
+
 .thumbnails {
     display: -moz-flex;
     display: -webkit-flex;

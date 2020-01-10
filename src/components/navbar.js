@@ -47,7 +47,7 @@ class NavbarGlobal extends React.Component {
                         <NavbarToggler onClick={this.toggle} />
                         <Collapse isOpen={this.state.isOpen} navbar style={{ textAlign: 'center' }}>
                             
-                            <Nav className="mx-auto order-1 " navbar style={{ marginTop: 18, fontWeight: 'bold', }}>
+                            <Nav className="mx-auto order-1 " navbar style={{ marginTop: 18, fontWeight: 'bold', display: 'flex' }}>
             
                                 <NavItem >
                                     <NavLink className="nav-link" to="/" tag={Link} style={{ fontSize: 18, fontStyle: 'bold',  }}>HOME</NavLink>
