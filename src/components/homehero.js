@@ -24,10 +24,12 @@ const Homehero = () => (
           </div>
         </div>
         <p id="text08">
-          <span>Over 1.6 Billion people still live without reliable access to electricity, clean water, sanitary cooking facilities, or the resources necessary to grow food for themselves or their families. Using the power of renewable energy, revolutionary LED light solutions, and technology workshops in developing communities, the Global Lighting Project is on a mission to change that.</span>
+          {/**<span>Over 1.6 Billion people still live without reliable access to electricity, clean water, sanitary cooking facilities, or the resources necessary to grow food for themselves or their families. Using the power of renewable energy, revolutionary LED light solutions, and technology workshops in developing communities, the Global Lighting Project is on a mission to change that.</span>**/}
           <br />
           <br />
-          <span>We  work towards reducing the number of such people by providing renewable, LED solar-powered lighting solutions directly to these communities, in alignment with our philosophy and support of self-developing communities.</span>
+          <span>Alternative Energy Will Change The World.
+            <br />
+            We work with community-local organizations to supply renewable, LED solar-powered lighting and energy solutions directly to where they are needed</span>
         </p>
         <hr id="divider01" />
         <div id="container02" className="container default">
