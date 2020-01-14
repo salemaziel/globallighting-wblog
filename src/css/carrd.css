@@ -127,7 +127,7 @@ body:before {
     -ms-transform: scale(1);
     transform: scale(1);
     background-attachment: scroll;
-    background-image: linear-gradient(to top, rgba(0,0,0,0.51), rgba(0,0,0,0.51)), url('../images/bg-sun.jpg');
+    background-image: linear-gradient(to top, rgba(0,0,0,0.51), rgba(0,0,0,0.51)), url('../images/bg-sun.webp');
     background-position: 0% 0%, bottom;
     background-repeat: repeat, no-repeat;
     background-size: auto, cover;

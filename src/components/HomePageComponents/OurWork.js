@@ -1,9 +1,9 @@
 import React from 'react'
 import { Modal, ModalHeader, ModalBody } from 'reactstrap'
 
-import WorkOne from '../../images/work-one.jpg'
-import WorkTwo from '../../images/work-two.jpg'
-import WorkThree from '../../images/work-three.jpg'
+import WorkOne from '../../images/work-one.webp'
+import WorkTwo from '../../images/work-two.webp'
+import WorkThree from '../../images/work-three.webp'
 
 import '../../css/HomePageCss/ourWork.css'
 

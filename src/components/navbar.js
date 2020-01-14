@@ -9,7 +9,7 @@ import {
     NavLink,
 } from 'reactstrap';
 import { Link } from 'gatsby'
-import Logo from '../images/image04.png'
+import Logo from '../images/image04.webp'
 import '../css/navbar.css'
 
 class NavbarGlobal extends React.Component {

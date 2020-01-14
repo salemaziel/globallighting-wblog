@@ -1,5 +1,5 @@
 import React from 'react'
-import ContactHeroBanner from '../images/aboutbanner.jpg'
+import ContactHeroBanner from '../images/aboutbanner.webp'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleRight } from '@fortawesome/free-solid-svg-icons'

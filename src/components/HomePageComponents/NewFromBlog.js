@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Firestation from '../../images/firestation-1-340x255.jpg'
+import Firestation from '../../images/firestation-1-340x255.webp'
 
 import '../../css/HomePageCss/newFromBlog.css'
 
