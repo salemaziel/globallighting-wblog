@@ -1,7 +1,7 @@
 import React from 'react'
 import '../css/carrd.css'
 
-import Image04 from '../images/image04.webp'
+import Image04 from '../images/image04.png'
 import Modalmailinglist from './modalmailinglist'
 
 const Homehero = () => (

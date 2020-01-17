@@ -1,6 +1,6 @@
 import React from 'react'
 
-import EnvelopContact from '../../images/envelope-contact.webp'
+import EnvelopContact from '../../images/envelope-contact.png'
 import '../../css/HomePageCss/newsLetter.css'
 
 const NewsLetter = () => (
