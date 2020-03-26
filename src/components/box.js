@@ -5,6 +5,10 @@ import Hydroveggie from '../images/1-young-tomato-468x312.jpg'
 import Nightlight from '../images/stock-nightlight-468x312.jpg'
 import UVsterilize from '../images/synergy-water-3-468x312.jpg'
 
+import Button from './button'
+import MyGallery from './new/modalpics1';
+import Modal01pics from './modal01pics'
+import SkyLight from 'react-skylight';
 
 
 
@@ -15,41 +19,58 @@ import {
 import Modalsynergy01 from './modal01'
 import Modalsynergy03 from './modal03'
 import Modalsynergy02 from './modal02'
+import Modalsky from './modalsky'
 
 
 
-const Box = () => (
+//const Box = () => (
 
-        
+	class Box extends React.Component {
+		constructor(props){
+		  super(props);
+		}
+	  
+		render() {
+	  
+		  return (      
 			<CardDeck>
-			<div className="inner">
+			<div className="innerDeck">
 
 				<div className="thumbnails">
 					
-					<div className="box scale">
+					<div className="box">
 					
-					<Card>
+					{/*<Card className="scale">
 					<CardImg top width="100%" src={Nightlight} className="img fit" alt="Card image cap" />
         				<CardBody>
-								<div className="inner">
+								<div className="innerCard">
 									
 								<CardTitle>
 
 									<h3>Lighting the way for Homes, Schools, and Businesses with White LED Lights</h3>
 								</CardTitle>
 									
-									<Modalsynergy01 />	
+									
+								
+          							{/*<Button  synergy onClick={() => this.simpleDialog.show()}>See More</Button>
+        							
+        							<SkyLight hideOnOverlayClicked ref={ref => this.simpleDialog = ref}>
+            							<Modal01pics />
+        							</SkyLight>* /}
 
 								</div>
+								<Modalsky />
 						</CardBody>
-						</Card>
+		  </Card>*/}
+		  <Modalsky />
+									
 					</div>
 				
-					<div className="box scale">
-					<Card>
+					<div className="box">
+					<Card>  
 					<CardImg top width="100%" src={Hydroveggie} className="img fit" alt="Card image cap" />
         				<CardBody>
-								<div className="inner">
+								<div className="innerCard">
 									
 								<CardTitle>
 
@@ -65,12 +86,12 @@ const Box = () => (
 					</Card>					
 					</div>
 
-					<div className="box scale">
+					<div className="box">
 					<Card>
 					<CardImg top width="100%" src={UVsterilize} className="img fit" alt="Card image cap" />
 
         				<CardBody>
-								<div className="inner">
+								<div className="innerCard">
 								<CardTitle>
 									<h3>Sanitizing Water, Cooking Facilities and More with Ultra Violet LED Lights</h3>
 
@@ -89,5 +110,6 @@ const Box = () => (
 			</div>
 		</CardDeck>
 )
-
+							}
+						}
 export default Box

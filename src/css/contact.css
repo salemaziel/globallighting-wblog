@@ -6,23 +6,8 @@
 .section-contact{
 	position:relative;
 	background: #ffffff;
-	/**background:url(../images/aboutbanner.jpg) no-repeat;
-	background-size:cover;
-	padding:75px 20px 75px 0px;
-	background-position: center;
-	margin-top: 100px;
-	margin-top: 60px;
 }
-.section-contact:after{
-	content:"";
-	position:absolute;
-	top:0px;
-	right:0px;
-	bottom:0px;
-	left:0px;
-	background:rgba(0,0,0,0.5);
-	height:100%;**/
-}
+
 .section-contact .cx_inner{
 	position:relative;
 	z-index:1;
@@ -71,7 +56,6 @@
 	font-weight:400;
 	margin:0px;
 	padding:5px 0px;
-	/*text-transform:uppercase;*/
     line-height:normal;
     text-align: center;
 }
@@ -83,7 +67,6 @@
 	line-height:50px;
 	padding:0px 25px;
 	border-radius:5px;
-	/**background:#ffc529;**/
 	text-decoration:none;
 	outline:none;
 	color:#ffc529;

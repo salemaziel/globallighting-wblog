@@ -155,7 +155,7 @@
 	margin:20px 0px 0px 0px;
 }
 .section-post-area .row {
-	justify-content: center;
+	justify-content: start;
 }
 
 @media (max-width:1024px){

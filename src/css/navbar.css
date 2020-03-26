@@ -277,35 +277,7 @@
 	margin-bottom: 10px;
 	opacity: 0;
 }
-/* .navigation nav {
-	margin: 0;
-	max-height: 0;
-	overflow: hidden;
-	clear: both;
-	display: block;
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	width: 100%;
-	z-index: 100;
-	background: #FFF;
-}
-.navigation nav ul {
-	text-align: left;
-}
-.navigation nav ul li {
-	width: 100%;
-}
-.navigation nav ul li a {
-	display: block;
-	width: 100%;
-	padding: 10px 15px;
-}
-.navigation nav.reveal {
-	max-height: 1170px;
-	width: 100%;
-	z-index: 100;
-} */
+
 a.donate{
 	position:absolute;
 	top:-50px;

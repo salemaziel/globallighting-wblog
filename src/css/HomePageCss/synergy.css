@@ -4,45 +4,24 @@
 /*** ### Section Three ### ***/
 .synergy{
 	position:relative;
-	/**margin-bottom:50px;**/
 	padding:0px 0px 50px;
-	/* background:url(../images/pink-dots.png) no-repeat; */
 	background-size:cover;
 }
 .synergy h2{
-	/**color:#000;
-	font-size: 1.5rem;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
-	font-stretch: condensed;
-	font-weight:400;
-	/**text-transform:uppercase;/
-	margin:0px;
-	padding:20px 0px 50px 0px;
-	text-align:center;**/
 	position:relative;
 	margin:0px;
 	padding:1rem 0 2rem 0;
 	font-size: 39px;
 	font-size: 2rem;
 	font-weight:550;
-	/**color: #203260;**/
 	color: #203260;
 	text-align:center;
 	text-transform: uppercase;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	
 }
-/**.synergy .span1 h2 span{
-	color:#ffc529;	
-}
 
-.synergy .span2 h2 span{
-	color: #00A6ED;
-}**/
 
-.synergy .box {
-	margin-top: 0;
-}
 
 .synergy .headline{
 	margin: 2em 0 1em;
@@ -73,66 +52,30 @@
 	color: #97CC04;
 }
 
-/**.synergy h2{
-	color:#ffc529;
-	font-size:13px;
-	font-weight:700;
-	text-transform:uppercase;
-	margin:0px;
-	padding:20px 0px;
-	text-align:center;
-}**/
-/**.synergy h2:before{
-	content:"";
-	position:absolute;
-	left:50%;
-	margin-left:-1px;
-	top:-100px;
-	width:2px;
-	height:100px;
-	background:#ffc529;
-} **/
 .synergy h3{
-/**	position:relative;
-	margin:0px;
-	padding:0px;
-	color: #ffc529;;
-	font-size: 2.5rem;
-	font-weight:900;
-	font-stretch: extra-expanded;
-	text-align:center;
-	text-transform: uppercase;
-	font-family: Monserrat, sans-serif;**/
 	color:#000;
-	
-	
 	font-weight:400;
 	margin:0px;
 	padding:20px 0px 20px 0px;
 	text-align:center;
 	line-height: 1.6rem;
-	
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
-    
     font-weight: 300;
 }
+
 .synergy h4 {
 	font-size: 1.1rem;
-
 	text-align: center;
 	margin-bottom: .5rem;
     font-weight: 400;
-    
 	letter-spacing: 0.140625em;
 	text-transform: none;
-
 	color: #FFFFFF;
     font-family: 'Montserrat', sans-serif;
-
     line-height: 1.625;
-    
 }
+
 .synergy p{
 	color:#898989;
 	font-size:20px;
@@ -201,14 +144,3 @@
 	font-size:25px;
 }
 }
-/**.synergy:after{
-	content:"";
-	position: absolute;
-	left:50%;
-	margin-left:-1px;
-	bottom:-100px;
-	width:2px;
-	height:100px;
-	background:#ffc529;
-	z-index: 1000;
-}**/

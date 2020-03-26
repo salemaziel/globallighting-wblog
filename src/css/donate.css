@@ -3,21 +3,11 @@
 
 .section-one-donate{
 	position:relative;
-	/*background:url(../images/banner.png) no-repeat;*/
 	background-size:cover;
 	padding:0px 0px;
     z-index:77;
 }
-/**.section-one-donate:after{
-	content:"";
-	position:absolute;
-	top:0px;
-	right:0px;
-	bottom:0px;
-	left:0px;
-	/**background:rgba(0,0,0,0.5);**/
-	/**height:100%;
-}**/
+
 .section-one-donate .cx_inner_donate{
 	position:relative;
 	z-index:75;
@@ -88,22 +78,7 @@
 
 /** Start Generl **/
 
-/** {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  /*font-family: 'Montserrat', sans-serif;
-  font-family: 'Roboto', sans-serif;
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-family: 'Raleway', sans-serif;
-  font-family: 'Muli', sans-serif;
-  font-family: 'Josefin Sans', sans-serif;
-  font-family: 'Quicksand', sans-serif;
 
-
-  font-family: 'Roboto'
-} **/
 
 
 ul li {
@@ -115,149 +90,6 @@ body {
   margin: 0 auto;
 }
 
-/*** ### Top Bar ### ***/
-/**.cx_top_bar{
-	position:relative;
-	line-height:60px;
-	background:#000000;
-}
-.cx_top_bar .cx_contact{
-	position:relative;
-	display:inline-block;
-	vertical-align:middle;
-	line-height:normal;
-	width:100%;
-}
-.cx_top_bar .cx_contact p{
-	display:inline-block;
-	vertical-align:middle;
-	position:relative;
-	padding:0px 0px 0px 30px;
-	margin:0px 50px 0px 0px;
-	color:#ffffff;
-	font-size:15px;
-	font-weight:700;
-}
-.cx_top_bar .cx_contact p:last-child{
-	margin-right:0px;
-}
-.cx_top_bar .cx_contact p span{
-	font-weight:400;
-}
-.cx_top_bar .cx_contact p .cx_icon{
-	position:absolute;
-	color:#ffba00;
-	left:0px;
-  	top: 10px; 
-  	transform: translate(50%,-50%);
-}
-.cx_language{
-	position:relative;
-	display:inline-block;
-	vertical-align:middle;
-	line-height:normal;
-	text-align:right;
-	width:100%;
-}
-.cx_language .cx_search{
-	position:relative;
-	display:inline-block;
-	vertical-align:middle;
-	line-height:normal;
-	color:#FFF;
-	font-size:20px;
-}
-.cx_language .dropdown{
-	display:inline-block;
-	vertical-align:middle;
-}
-.cx_language button{
-	color:#FFF;
-	background:none;
-	border:none;
-	height:50px;
-	padding:0px 10px;
-	font-size:15px;
-	font-weight:700;
-	outline:none;
-}
-.cx_language  .dropdown-menu{
-	z-index:10000;
-}
-.cx_language  .dropdown-menu li a{
-	padding:0px 10px;
-	color:#000;
-	background:#FFF;
-	text-decoration:none !important;
-	font-size:15px;
-	font-weight:700;
-}
-@media (max-width:1024px){
-.cx_top_bar .cx_contact p{
-	padding:0px 0px 0px 25px;
-	margin:0px 10px 0px 0px;
-	font-size:13px;
-}
-.cx_top_bar .cx_contact p .cx_icon{
-  	top: 8px; 
-}
-.cx_language .cx_search{
-	font-size:18px;
-}
-.cx_language button{
-	padding:0px 10px;
-	font-size:13px;
-}
-.cx_language  .dropdown-menu li a{
-	font-size:13px;
-}
-}
-
-@media (max-width:767px){
-.cx_top_bar{
-	line-height:normal;
-	padding:15px 0px;
-}
-.cx_top_bar .cx_contact p{
-	width:100%;
-	padding:0px 0px 0px 25px;
-	margin:auto auto 10px auto !important;
-	font-size:12px;
-	display:block;
-	max-width:700px;
-	word-break:break-all;
-}
-.cx_language{
-	width:100%;
-	text-align:center;
-}
-.cx_language .cx_search{
-	font-size:18px;
-}
-.cx_language button{
-	padding:0px 10px;
-	font-size:13px;
-}
-.cx_language  .dropdown-menu li a{
-	font-size:13px;
-}
-}
-
-/** Empty nav bar; but where it would be **/
-/**
-.emptynav {	
-    position: relative;
-	background: #FFF;
-	height: 80px;
-	line-height: 50px;
-    margin: 0px 0px 30px 0px;
-}
-.logo-site {
-	position: relative;
-	text-align: center;
-    padding-bottom: 30px;
-    padding-top: 20px;
-}
 
 **/
 /** End Generl **/
@@ -268,9 +100,6 @@ body {
   margin: 0px;
   width: 100%;
   padding: 60px;
-  /**background-image: url(../images/banner.png);**/
-  /**background-image: linear-gradient(to right, #55338d, #773c98, #9846a2, #b751aa, #d65db1); **/
-  /**box-shadow: 23px 27px 28px -20px rgba(0,0,0,0.75);**/
   height: 130vh;
   min-height: 670px
 

@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import Buttonz from '../components/button'
-import styled from 'styled-components'
+//import styled from 'styled-components'
 import { Button } from 'reactstrap'
 import Box from '../components/box'
 
@@ -12,7 +12,7 @@ const Question = () => (
   <p>Can i do this? </p>
 )
 
-const Button2 = styled.a`
+/*const Button2 = styled.a`
   color:#FFF;
   background:#000;
   text-align:center;
@@ -29,7 +29,7 @@ const Button2 = styled.a`
 const Excerpt = styled.p`
   margin: 0;
 `
-
+*/
 const SecondPage = () => (
   <Layout>
     <SEO title="Page two" />
@@ -40,7 +40,7 @@ const SecondPage = () => (
     <Box />
     <Buttonz donateblk>Donate black button</Buttonz>
     <Link to="/index">Go back to the homepage</Link>
-    <Button2 href="/faq" prefetch>button 2 </Button2>
+    <Buttonz href="/faq" prefetch>button 2 </Buttonz>
     <Question />
   </Layout>
 )

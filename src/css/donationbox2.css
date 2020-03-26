@@ -1,21 +1,6 @@
 /** Start Generl **/
 
-/** * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Muli', sans-serif;
-    font-family: 'Josefin Sans', sans-serif;
-    font-family: 'Quicksand', sans-serif;
-  
-  
-    font-family: 'Roboto'
-  } **/
+
   
   ul li {
     list-style: none;
@@ -207,9 +192,6 @@
     position: relative;
     top: -12px;
     right: 55px;
-    /*position: absolute;
-    top: 40px;
-    right: 140px;*/
     background-color: #fff;
     border-radius: 5px;
     box-shadow:  0px 1px 25px 0px rgba(50, 50, 50, 0.91);

@@ -4,47 +4,24 @@
 /*** ### Section Hheader ### ***/
 .hheader{
 	position:relative;
-	/**margin-bottom:50px;**/
 	padding: 1em 3em 10em;
-	/* background:url(../images/pink-dots.png) no-repeat; */
 	background-size:cover;
 	background-color: #FFF;
 }
 .hheader h2{
-	/**color:#000;
-	font-size: 1.5rem;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
-	font-stretch: condensed;
-	font-weight:400;
-	/**text-transform:uppercase;/
-	margin:0px;
-	padding:20px 0px 50px 0px;
-	text-align:center;**/
 	position:relative;
 	margin:auto;
 	padding:1rem 0 2rem 0;
-	/*font-size: 39px;
-	font-size: 2rem;
-	font-weight:550;*/
-	/**color: #203260;**/
 	color: #203260;
 	text-align:center;
-	/**font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;**/
 	font-variant: small-caps;
     font-family: 'Montserrat', sans-serif;
-    /*letter-spacing: 0.5rem;*/
     width: calc(100% + 0.5rem);
     font-size: 2.25em;
     line-height: 1.375;
     font-weight: 500;
 }
-/**.hheader .span1 h2 span{
-	color:#ffc529;	
-}
 
-.hheader .span2 h2 span{
-	color: #00A6ED;
-}**/
 
 .hheader .box {
 	margin-top: 0;
@@ -78,46 +55,11 @@
 	color: #97CC04;
 }
 
-/**.hheader h2{
-	color:#ffc529;
-	font-size:13px;
-	font-weight:700;
-	text-transform:uppercase;
-	margin:0px;
-	padding:20px 0px;
-	text-align:center;
-}**/
-/**.hheader h2:before{
-	content:"";
-	position:absolute;
-	left:50%;
-	margin-left:-1px;
-	top:-100px;
-	width:2px;
-	height:100px;
-	background:#ffc529;
-} **/
 .hheader h3{
-/**	position:relative;
-	margin:0px;
-	padding:0px;
-	color: #ffc529;;
-	font-size: 2.5rem;
-	font-weight:900;
-	font-stretch: extra-expanded;
-	text-align:center;
-	text-transform: uppercase;
-	font-family: Monserrat, sans-serif;**/
 	color:#000;
-	/*font-size: 1.1rem;
-	font-family: sans-serif;
-	font-weight:400;*/
 	margin:0px;
 	padding:20px 0px 20px 0px;
 	text-align:center;
-	/*line-height: 1.6rem;
-
-	color: #FFFFFF;*/
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
     line-height: 1.625;
