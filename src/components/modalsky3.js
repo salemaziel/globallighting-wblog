@@ -87,10 +87,6 @@ class Modalsky3 extends React.Component {
 										<div>
 										<Modalpics103 />
 										</div>
-										<div>
-											<h1>More information</h1>
-											<p>Lorem ipsum</p>
-										</div>
 										</Container>
 										</Modal>
 	{/*</SkyLight>*/}
