@@ -39,25 +39,6 @@ class Modalsky1 extends React.Component {
 
   render() {
 
-    /*var SynergyModalDialog = {
-		backgroundColor: '#fff',
-		color: '#000',
-		width: '90%',
-		height: '80%',
-		marginTop: '-13%',
-		marginLeft: '-45%',
-		borderRadius: '5px',
-		overflowY: 'scroll',
-		transform: 'none!important',
-		/*margin: '1rem',* /
-		padding: '2rem'
-	  };
-
-	  var title = {
-		  margin: '0 3rem',
-		  padding: '0 3rem',
-	  }*/
-
     return (
 	  <div /*id="modal1"*/>
         <Card>

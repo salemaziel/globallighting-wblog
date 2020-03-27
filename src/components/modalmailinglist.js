@@ -16,7 +16,7 @@ const Modalmailinglist = (props) => {
 
   return (
     <div>
-      <Button mailinglist onClick={toggle}>Mailing List</Button>
+      <Button mailinglist className="button n01" onClick={toggle}>Mailing List</Button>
       <Modal isOpen={modal} toggle={toggle} className={className}>
         <ModalHeader toggle={toggle}>Join Our Mailing List</ModalHeader>
         <ModalBody>

@@ -2,7 +2,10 @@ import React from 'react'
 import '../css/carrd.css'
 
 import Image04 from '../images/image04.png'
-import Modalmailinglist from './modalmailinglist'
+import Modalmailing from './modalmailing'
+
+
+
 
 const Homehero = () => (
 <div id="wrapper">
@@ -48,11 +51,7 @@ const Homehero = () => (
               </div>
             </div>
             <div>
-              <ul id="buttons03" className="buttons">
-                <li>
-                  <a className="button n01" href="#"><Modalmailinglist>Mailing List</Modalmailinglist></a>
-                </li>
-              </ul>
+                  <Modalmailing />
             </div>
           </div>
         </div>
