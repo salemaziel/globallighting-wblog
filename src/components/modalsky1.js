@@ -1,0 +1,116 @@
+import React from 'react';
+import Button from './button'
+
+import {
+  Card, CardImg, CardBody,
+  CardTitle, Container, Row, Col
+} from 'reactstrap';
+import Nightlight from '../images/stock-nightlight-468x312.jpg'
+import Modalpics101 from './new/modalpics101';
+
+import Modal from 'react-modal'
+
+
+
+
+
+class Modalsky1 extends React.Component {
+  constructor(props){
+	super(props)
+	this.state = {
+		isModalOpen: false,
+		className: '',
+		shouldCloseOnOverlayClick: '',
+		shouldCloseOnEsc: '',
+		shouldReturnFocusAfterClose: '',
+		contentLabel: ''
+	}
+  }
+
+  handleModalOpen = event => {
+    // console.log('handleModalOpen: ', event);
+    this.setState({ isModalOpen: true })
+  }
+
+  handleModalClose = event => {
+    // console.log('handleModalOpen: ', event);
+    this.setState({ isModalOpen: false })
+  }
+
+  render() {
+
+    /*var SynergyModalDialog = {
+		backgroundColor: '#fff',
+		color: '#000',
+		width: '90%',
+		height: '80%',
+		marginTop: '-13%',
+		marginLeft: '-45%',
+		borderRadius: '5px',
+		overflowY: 'scroll',
+		transform: 'none!important',
+		/*margin: '1rem',* /
+		padding: '2rem'
+	  };
+
+	  var title = {
+		  margin: '0 3rem',
+		  padding: '0 3rem',
+	  }*/
+
+    return (
+	  <div /*id="modal1"*/>
+        <Card>
+					<CardImg top width="100%" src={Nightlight} className="img fit" alt="Card image cap" />
+        				<CardBody>
+								<div className="innerCard">
+									
+								<CardTitle>
+
+									<h3>Lighting the way for Homes, Schools, and Businesses with White LED Lights</h3>
+								</CardTitle>
+									<div>
+									<section>
+          							<Button primary onClick={this.handleModalOpen}>See More</Button>
+        							</section>
+									<Modal
+          								isOpen={this.state.isModalOpen}
+          								onRequestClose={this.handleModalClose}
+										contentLabel="White LED Lighting"
+										id="modal1"
+										shouldCloseOnOverlayClick={true}
+										shouldCloseOnEsc={true}
+										shouldReturnFocusAfterClose= {true}
+
+        							>
+										<Container>
+											<Row style={{textAlign: 'center', display: 'flex', flexDirection: 'column',justifyContent: 'center', alignContent: 'center', alignItems: "center"}}>
+												<Col>
+												<h2>White LED Lighting</h2>
+												</Col>
+											</Row>
+											
+										<div>
+										<Modalpics101 />
+										</div>
+										<div>
+											<h1>More information</h1>
+											<p>Lorem ipsum</p>
+										</div>
+										</Container>
+										</Modal>
+	{/*</SkyLight>*/}
+									</div>
+
+
+								</div>
+						</CardBody>
+						</Card>
+      </div>
+    )
+  }
+}
+
+Modalsky1.displayName = 'Modalsky1';
+
+export default Modalsky1

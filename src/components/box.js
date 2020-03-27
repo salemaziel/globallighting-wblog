@@ -1,87 +1,49 @@
 import React from 'react'
 import '../css/box.css'
 
-import Hydroveggie from '../images/1-young-tomato-468x312.jpg'
-import Nightlight from '../images/stock-nightlight-468x312.jpg'
-import UVsterilize from '../images/synergy-water-3-468x312.jpg'
-
 
 
 
 import {
-  Card, CardImg, CardBody,
-  CardTitle, CardDeck,
+  CardDeck,
 } from 'reactstrap';
-import Modalsynergy01 from './modal01'
-import Modalsynergy03 from './modal03'
-import Modalsynergy02 from './modal02'
+
+import Modalsky1 from './modalsky1'
+import Modalsky2 from './modalsky2'
+import Modalsky3 from './modalsky3'
 
 
 
-const Box = () => (
+//const Box = () => (
 
-        
+	class Box extends React.Component {
+		constructor(props){
+		  super(props);
+		}
+	  
+		render() {
+	  
+		  return (      
 			<CardDeck>
-			<div className="inner">
+			<div className="innerDeck">
 
 				<div className="thumbnails">
 					
-					<div className="box scale">
+					<div className="box">
 					
-					<Card>
-					<CardImg top width="100%" src={Nightlight} className="img fit" alt="Card image cap" />
-        				<CardBody>
-								<div className="inner">
+				
+		  				<Modalsky1 />
 									
-								<CardTitle>
-
-									<h3>Lighting the way for Homes, Schools, and Businesses with White LED Lights</h3>
-								</CardTitle>
-									
-									<Modalsynergy01 />	
-
-								</div>
-						</CardBody>
-						</Card>
 					</div>
 				
-					<div className="box scale">
-					<Card>
-					<CardImg top width="100%" src={Hydroveggie} className="img fit" alt="Card image cap" />
-        				<CardBody>
-								<div className="inner">
-									
-								<CardTitle>
-
-
-									<h3>Growing Healthy Vegetable Gardens Anywhere with RGB LED Lights</h3></CardTitle>
-								{/**<CardText tag="p">Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.
-								</CardText>**/}
-								{/**<Button as={Link} href="#" prefetch primary>Learn More</Button>**/}
-								<Modalsynergy02 />
-
-								</div>
-						</CardBody>
-					</Card>					
+					<div className="box">
+					
+						<Modalsky2/>					
 					</div>
 
-					<div className="box scale">
-					<Card>
-					<CardImg top width="100%" src={UVsterilize} className="img fit" alt="Card image cap" />
-
-        				<CardBody>
-								<div className="inner">
-								<CardTitle>
-									<h3>Sanitizing Water, Cooking Facilities and More with Ultra Violet LED Lights</h3>
-
-								</CardTitle>	
-								{/**<CardText tag="p">Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.
-								</CardText>**/}
-								{/**<Button as={Link} href="#" prefetch primary>Learn More</Button>**/}
-								<Modalsynergy03 />
-								</div>
-						</CardBody>
-					</Card>	
+					<div className="box">
+					
+							<Modalsky3 />
 					</div>
 					
 				</div>
@@ -89,5 +51,6 @@ const Box = () => (
 			</div>
 		</CardDeck>
 )
-
+							}
+						}
 export default Box

@@ -1,8 +1,6 @@
 .section-about{
 	position:relative;
-	/**background:#fff;**/
 	margin-top: 100px;
-	/**margin-top: 60px;**/
 }
 
 .section-about container-fluid row{
@@ -98,11 +96,6 @@
 	text-shadow: 3px 3px 10px #000000;
 }
 
-/**.cfabout {
-	background: url(../images/1-solarpanelmtns-edit.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-}**/
 
 @media (max-width:1280x){
 .section-about .cx_right .cx_list .cx_icon{
