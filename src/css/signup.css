@@ -68,7 +68,7 @@
                 margin-right: -2rem;
                 opacity: 0;
                 width: 1rem;
-                z-index: -1;
+               /* z-index: -1;*/
             }
 
             form input[type="checkbox"] + label {
@@ -465,6 +465,18 @@
                 color: #575151;
                 opacity: 0.55;
             }
+
+            #modalmailing {
+                background-color: #fff;
+                color: #000;
+                /*width: 90%;*/
+                height: 60%;
+                border-radius: 5px;
+                overflow-y: scroll;
+                margin: 5% 0 0;
+                padding: 2rem;
+                z-index: 99999;
+              }
             
              @media (max-width: 1680px) {
                 html {

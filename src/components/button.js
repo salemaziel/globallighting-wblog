@@ -69,26 +69,31 @@ const Button = styled.Button = styled.a`
     }
   `}
   ${props => props.mailinglist && css`
-    width: calc(100% + 2rem);
-    margin-left: -1rem;
-    display: inline-block;
-    vertical-align: middle;
-    max-width: calc(100% - 2rem);
-    color: #FFFFFF;
-    margin: 0 0;
-    border: none!important;
-    background:transparent;
-    color: #FFF!important;
-    padding: 0 3em;
-    textShadow: none;
-    line-height: 3.25rem
-    height: 3.25rem
+  text-decoration: none;
+  font-family: Montserrat, sans-serif;
+  margin: auto;
+  display: flex;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff!important;
+  width: 16rem;
+  height: 3.25rem;
+  vertical-align: middle;
+  align-items: center;
+  justify-content: center;
+  line-height: 3.25rem;
+  font-size: 0.875em;
+  letter-spacing: 0.275rem;
+  font-weight: 900;
+  padding: 0px 1.625rem;
+  border-radius: 0.25rem;
+  transition: color 0.25s ease 0s, background-color 0.25s ease 0s, border-color 0.25s ease 0s;
     &:hover {
       color: #ffc529!important;
-      border-color: none;
-      border: none!important;
+      border: 2px solid #fff;
       text-decoration:none;
       font-weight: 700;
+      cursor: pointer;
     }
   `}
   ${props => props.signup && css`
@@ -98,7 +103,7 @@ const Button = styled.Button = styled.a`
     max-width: calc(100% - 2rem);
     color: lightgray!important;
     margin: 0 0;
-    border: none!important;
+    border: none;
     background:transparent;
     padding: 0 3em;
     text-shadow: none;
@@ -110,7 +115,7 @@ const Button = styled.Button = styled.a`
       max-width: calc(100% - 2rem);
       color: transparent!important;
       margin: 0 0;
-      border: none!important;
+      border: none;
       background:transparent;
       padding: 0 3em;
       text-shadow: none!important;
