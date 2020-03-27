@@ -24,7 +24,7 @@ const Button = styled.Button = styled.a`
 
   ${props => props.primary && css`
     background:#ffc259;
-    color: white;
+    color: white!important;
     padding: 0.5em 3em;
     &:hover {
       text-decoration:none;

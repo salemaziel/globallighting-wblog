@@ -1,8 +1,9 @@
-export const photos = [
+export const photos1 = [
     {
       src: "https://res.cloudinary.com/dexdumfqy/image/upload/v1585214592/glp/whiteled/1bodylightfront_ul6z5v.jpg",
       width: 1,
-      height: 1
+      height: 1,
+      className: 'gallery',
     },
     {
       src: "https://res.cloudinary.com/dexdumfqy/image/upload/v1585214593/glp/whiteled/5indoorESLsolarLED_chbezu.jpg",
@@ -39,10 +40,5 @@ export const photos = [
       width: 1,
       height: 1
     },
-    {
-      src: "https://source.unsplash.com/I1ASdgphUH4/800x599",
-      width: 1,
-      height: 1
-    }
   ];
   

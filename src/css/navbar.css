@@ -182,7 +182,6 @@
 	padding:0px 50px;
 	background:#ffc529;
 	border-radius: 3px;
-	border: 2px solid #ffc529;
 	text-decoration:none;
 	outline:none;
 	color:#FFF;
@@ -199,7 +198,6 @@
 	color: ghostwhite;
 	font-size: 18px;
 	background: #facd51;
-	border: 2px solid #ffc529;
 	border-radius: 3px;
 	text-align:center;
 	text-transform:uppercase;
@@ -211,6 +209,7 @@
 	line-height:60px;
 	padding:0px 50px;
 	font-weight:700;
+	transform: scale(1.05);
 }
 
 .donate-btn-container {

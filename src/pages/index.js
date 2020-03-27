@@ -10,12 +10,12 @@ import NewFromBlog from '../components/HomePageComponents/NewFromBlog'
 import Synergy from "../components/HomePageComponents/Synergy"
 import Homeheadertitle from "../components/HomePageComponents/Homeheadertitle"
 import Homehero from "../components/homehero"
-import SEO from "../components/seo"
+import SEO from "../components/originalseo"
 
 const IndexPage = () => (
  <div>
   <Layout>
-    <SEO />
+    <SEO title="Global Lighting Project"/>
     <Homehero />
     <Homeheadertitle />
     <AboutUs />

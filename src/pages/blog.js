@@ -3,7 +3,7 @@ import { Link, graphql } from "gatsby"
 
 import Bio from "../components/bio"
 import Layout2 from "../components/originallayout"
-import SEO from "../components/seo"
+import SEO from "../components/originalseo"
 import { rhythm } from "../utils/typography"
 
 
@@ -16,7 +16,7 @@ class Blog extends React.Component {
 
     return (
       <Layout2 location={this.props.location} title={siteTitle}>
-        <SEO />
+        <SEO title="Blog for the Global Lighting Project"/>
         <Bio />
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
