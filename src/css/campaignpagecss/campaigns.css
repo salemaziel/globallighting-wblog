@@ -1,6 +1,8 @@
 .sectionHero {
-    display: block;
+    display: inline-block;
     z-index: 4;
+    margin: 10em 0 0 0;
+    color: #ffc259;
 }
 
 
@@ -64,6 +66,8 @@ h1:after {
 .boxDonateOuter {
     margin: 1rem;
     padding: 1rem;
+    max-width: 50%;
+    width: 40%;
 
 }
 
@@ -84,7 +88,7 @@ h1:after {
 }
 .sectionTwoRow {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     margin: 1rem 0;
     padding: 1rem 0;
 

@@ -302,11 +302,6 @@ hr {
     border: 0;
 }
 
-hr:before {
-    content: '';
-    display: inline-block;
-    vertical-align: middle;
-}
 
 #divider03 {
     height: 0.5rem;
@@ -381,10 +376,6 @@ hr:before {
 
 
 
-#container01 {
-    margin-top: 0.5rem !important;
-    margin-bottom: 4.5rem !important;
-}
 
 #container01 > .inner {
     width: 100%;
@@ -403,8 +394,8 @@ hr:before {
 
 
 #container03 {
-    margin-top: 3.75rem !important;
-    margin-bottom: 3.75rem !important;
+    margin-top: 3.75rem;
+    margin-bottom: 3.75rem;
 }
 
 #container03 > .inner {

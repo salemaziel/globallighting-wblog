@@ -5,7 +5,7 @@ import Firestation from '../../images/firestation-1-340x255.jpg'
 import '../../css/HomePageCss/newFromBlog.css'
 
 const NewFromBlog = () => (
-    <section>
+    <>
         <section className="section-six">
             <div className="container">
                 <div className="row">
@@ -90,7 +90,7 @@ const NewFromBlog = () => (
                 </div>
             </div>
         </section>
-    </section>
+    </>
 )
 
 export default NewFromBlog

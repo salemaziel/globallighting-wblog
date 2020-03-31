@@ -76,15 +76,19 @@
 .section-about p span {
 	color: #ffc529;
 }
-
-.blurb p{
-	display: inline-block;
+.blurb {
 	background: rgba(255,255,255,0.85);
-	padding: 2.5em 4em;
+	padding: 1em;
 	border: 2px;
 	border-radius: 15px;
 	color: #000000;
-	margin: 1em 0 0 0;
+	margin: 1em;
+}
+.blurb p{
+	display: inline-block;
+	border: 2px;
+	color: #000000;
+	margin: 0;
 }
 .quote{
 	display: block;
@@ -96,6 +100,54 @@
 	text-shadow: 3px 3px 10px #000000;
 }
 
+@media screen and (min-width: 2400px) {
+	.section-about .cx_about{
+		position: relative;
+		padding: 3em 0 1em 0;
+	}
+	p .blurb {
+		font-size: 1em;
+		line-height: 1.5em;
+		padding: 1rem;
+		color: #000000;
+	}
+	hr {
+		padding: 5px 0 0 0;
+	}
+	.section-about h2{
+		color:#ffc529;
+		font-size:13px;
+		font-weight:700;
+		text-transform:uppercase;
+		margin:0px;
+		padding:0px 0px;
+		text-align:left;
+	}
+	.section-about h3 {
+		position: relative;
+		margin: 0px;
+		padding: 0px;
+		color: #ffffff;
+		font-size: 1.5em;
+		font-weight: 400;
+		text-align: left;
+	}
+	.section-about p span {
+		color: #ffc529;
+		font-size: 1.5em;
+		margin: 4rem 0 0 0;
+	}
+
+	.section-about p {
+		font-size: 1.3em;
+		line-height: 25px;
+		font-weight: 400;
+		padding: 10px 0px 40px 0px;
+		margin: 0px;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+}
 
 @media (max-width:1280x){
 .section-about .cx_right .cx_list .cx_icon{
@@ -157,4 +209,11 @@
 .blurb p {
 	padding: 2.5em 1em;
 }
+}
+
+@media screen and (max-width:480px){
+	.blurb p {
+		font-size: 1.2em;
+		line-height: 1.5em;
+	}
 }
