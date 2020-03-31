@@ -68,11 +68,14 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
       ].concat(meta)}
-    />
+    >
+  {/*}    <script src="https://donorbox.org/widget.js" paypalExpress="true"></script>*/}
+      </Helmet>
   )
 }
 
 SEO.defaultProps = {
+  title: ``,
   lang: `en`,
   meta: [],
   description: ``,

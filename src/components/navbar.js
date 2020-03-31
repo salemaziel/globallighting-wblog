@@ -43,7 +43,7 @@ class NavbarGlobal extends React.Component {
                 <Navbar className="navigation fixed-top" display="none" onScroll="display: auto" expand="md">
                     <div className="container">
                         <NavbarBrand to="/" tag={Link} className="order-0">
-                            <img src={Logo} className="logo-img-fluid" />
+                            <img src={Logo} className="logo-img-fluid" alt=''/>
                         </NavbarBrand>
 
                         <NavbarToggler onClick={this.toggle} />
@@ -59,6 +59,9 @@ class NavbarGlobal extends React.Component {
                                 </NavItem>
                                 <NavItem>
                                     <NavLink className="nav-link" to="/blog" tag={Link} style={{ fontSize: 18 }}>BLOG</NavLink>
+                                </NavItem>
+                                <NavItem>
+                                    <NavLink className="nav-link" to="/campaigns" tag={Link} style={{ fontSize: 18 }}>CAMPAIGNS</NavLink>
                                 </NavItem>
                                 {/**<NavItem>
                                     <NavLink to="/faq" tag={Link} style={{ fontSize: 18 }}>
@@ -86,7 +89,7 @@ class NavbarGlobal extends React.Component {
                         padding: '1.45rem 1.0875rem',
                         color: '#ffc529',
                     }}>
-                    <h1 style={{ margin: 0, display: 'inline-block' }}>
+                   {/*<h1 style={{ margin: 0, display: 'inline-block' }}>
                         <Link
                             to="/"
                             className="siteTitle"
@@ -98,7 +101,7 @@ class NavbarGlobal extends React.Component {
                         >
                             <img src={Logo} className="logo-img-fluid" />
                         </Link>
-                    </h1>
+                        </h1>*/}
 
                     <div
                         id="mySidenav"
@@ -107,7 +110,6 @@ class NavbarGlobal extends React.Component {
                     >
                         <div>
                             <a
-                                href="javascript:void(0)"
                                 className="closebtn"
                                 onClick={this.closeNav}
                             >
@@ -122,7 +124,10 @@ class NavbarGlobal extends React.Component {
                         </Link>
                         <Link className="list" to="/blog">
                             BLOG
-                       </Link>     
+                       </Link>    
+                       <Link className="list" to="/campaigns">
+                            CAMPAIGNS
+                        </Link> 
 
                         {/**<Link className="list" to="/faq">
                             FAQ

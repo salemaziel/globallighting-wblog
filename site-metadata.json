@@ -7,23 +7,23 @@
     "meta":[
         {
           "name": "description",
-          "content": "metaDescription"
+          "content": "Non-profit organization on a mission to aid developing communities with solar-powered LED lights"
         },
         {
           "property": "og:title",
-          "content": "title"
+          "content": "Global Lighting Project"
         },
         {
             "property": "og:description",
-            "content": "metaDescription"
+            "content": "Non-profit organization on a mission to aid developing communities with solar-powered LED lights"
         },
         {
             "property": "og:type",
-            "content": "website"
+            "content": "https://globallightingproject.org"
         },
         {
             "name": "twitter:card",
-            "content": "summary"
+            "content": "Non-profit organization on a mission to aid developing communities with solar-powered LED lights"
         },
         {
             "name": "twitter:creator",
@@ -31,14 +31,10 @@
         },
         {
             "name": "twitter:title",
-          "content": "title"
+          "content": "Global Lighting Project"
         },
         {
             "name": "twitter:description",
-            "content": "metaDescription"
-        }],
-
-    "social": {
-        "twitter": "salem_amb760"
-    }
+            "content": "Non-profit organization on a mission to aid developing communities with solar-powered LED lights"
+        }]
 }

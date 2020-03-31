@@ -1,5 +1,11 @@
+//module.exports = {
+//  siteMetadata: require("./site-metadata.json"),
+const config = require('./config/site');
+
 module.exports = {
-  siteMetadata: require("./site-metadata.json"),
+  siteMetadata: {
+    ...config,
+  },
   plugins: [
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
@@ -30,6 +36,12 @@ module.exports = {
       options: {
         path: `${__dirname}/src/pages`,
         name: "pages",
+      },
+    },
+    {
+      resolve: `gatsby-source-newsapi`,
+      options: {
+        apiKey: `c5f6f10a2b7b4f60bd4d41b17c57f065`,
       },
     },
     `gatsby-transformer-sharp`,

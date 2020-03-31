@@ -39,7 +39,7 @@ function encode(data) {
             <div>
                 <section className="section-contacthero">
                     <div className="container cx_inner">
-                        <div className="row">
+                        <div className="row" style={{display: 'flex', flexWrap: 'wrap'}}>
                             <div className="col-12">
                                 <h1>Get in touch</h1>
                                 <p className="p">Fill out the form below and a Global Lighting Project representative will contact you as soon as possible.</p>
@@ -49,11 +49,11 @@ function encode(data) {
                 </section>
                 <section className="section-contact">
                     <div className="container py-5">
-                        <div className="row pb-5 mb-5">
+                        <div className="row pb-5 mb-5" style={{display: 'flex', flexWrap: 'wrap'}}>
                             <div className="col-12 col-md-8">
                                 {/* Form */}
                                 <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field" action="/thanks">
-                                    <div className="row mt-5 mb-4">
+                                    <div className="row mt-5 mb-4" style={{display: 'flex', flexWrap: 'wrap'}}>
                                     <input type="hidden" name="form-name" value="contact" />
                                     <input type="hidden" name="form-name" value="contact" />
                                             <p hidden>
@@ -76,7 +76,7 @@ function encode(data) {
                                             <textarea name='message' placeholder="Your Message" onChange={handleChange} required></textarea>
                                         </div>
                                         </div>
-                                    <div className="row">
+                                    <div className="row" style={{display: 'flex', flexWrap: 'wrap'}}>
                                         <div className="col-12">
                                             <button type="submit" className="form button">SUBMIT</button>
 

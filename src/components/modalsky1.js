@@ -52,7 +52,7 @@ class Modalsky1 extends React.Component {
 								</CardTitle>
 									<div>
 									<section>
-          							<Button primary onClick={this.handleModalOpen}>See More</Button>
+          							<Button primary onClick={this.handleModalOpen}>Learn About White LEDs</Button>
         							</section>
 									<Modal
           								isOpen={this.state.isModalOpen}
@@ -62,6 +62,9 @@ class Modalsky1 extends React.Component {
 										shouldCloseOnOverlayClick={true}
 										shouldCloseOnEsc={true}
 										shouldReturnFocusAfterClose= {true}
+										className="modalSynergy"
+										overlayClassName="modalSynergyOverlay"
+										
 
         							>
 										<Container>

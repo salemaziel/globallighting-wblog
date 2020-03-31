@@ -1,20 +1,19 @@
 import React from "react";
 import Layout from "../components/layout";
-import '../css/main.css';
 import ContactUs from '../components/contact-us';
 import "../css/contactHero.css";
-import SEO from "../components/originalseo"
+
+import Helmet from 'react-helmet';
+
 
 
 
 
 const ContactPage = () => (
-    <div>
         <Layout>
-            <SEO />
+             <Helmet title={'Contact Page'} />
             <ContactUs />
         </Layout>
-    </div>
 )
 
 export default ContactPage

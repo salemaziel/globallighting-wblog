@@ -3,8 +3,9 @@ import { Link, graphql } from "gatsby"
 
 import Bio from "../components/bio"
 import Layout2 from "../components/originallayout"
-import SEO from "../components/originalseo"
 import { rhythm } from "../utils/typography"
+
+import Helmet from 'react-helmet';
 
 
 
@@ -16,7 +17,7 @@ class Blog extends React.Component {
 
     return (
       <Layout2 location={this.props.location} title={siteTitle}>
-        <SEO title="Blog for the Global Lighting Project"/>
+         <Helmet title={'About Page'} />
         <Bio />
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug

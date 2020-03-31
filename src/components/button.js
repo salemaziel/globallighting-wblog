@@ -1,6 +1,5 @@
 
 import styled, { css } from 'styled-components'
-import '../css/main.css'
 
 
 const Button = styled.Button = styled.a`
@@ -87,13 +86,20 @@ const Button = styled.Button = styled.a`
   font-weight: 900;
   padding: 0px 1.625rem;
   border-radius: 0.25rem;
-  transition: color 0.25s ease 0s, background-color 0.25s ease 0s, border-color 0.25s ease 0s;
+  transition: 0.4s ease-out;
+  -webkit-transition: 0.3s all ease-in-out;
+  -o-transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
     &:hover {
       color: #ffc529!important;
       border: 2px solid #fff;
       text-decoration:none;
-      font-weight: 700;
       cursor: pointer;
+      transform: scale(1.05);
+      transition: 0.4s ease-out;
+      -webkit-transition: 0.3s all ease-in-out;
+      -o-transition: 0.3s all ease-in-out;
+      transition: 0.3s all ease-in-out;
     }
   `}
   ${props => props.signup && css`
@@ -113,7 +119,7 @@ const Button = styled.Button = styled.a`
       display: inline-block;
       vertical-align: middle;
       max-width: calc(100% - 2rem);
-      color: transparent!important;
+      color: darkgray!important;
       margin: 0 0;
       border: none;
       background:transparent;

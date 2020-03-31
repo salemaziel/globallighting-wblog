@@ -1,62 +1,11 @@
-html {
-  font-family: sans-serif;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-}
-body {
-  margin: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-aside,
-footer,
-header,
-main,
-nav,
-section,
-summary {
-  display: block;
-}
-
-video {
-  display: inline-block;
-}
 
 
-a {
-  background-color: transparent;
-  -webkit-text-decoration-skip: objects;
-  box-shadow: none;
-  text-decoration: none;
-}
-a:active,
-a:hover {
-  outline-width: 0;
-  text-decoration:none;
-  color: orange;
-}
-a:not([href]) {
-  color: white;
-  text-decoration: none;
-}
-strong {
-  font-weight: inherit;
-  font-weight: bolder;
-}
-
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
 /**mark {
   background-color: #ff0;
   color: #000;
 }**/
 mark {
   background-color: rgba(144,144,144,0.25);
-}
-small {
-  font-size: 80%;
 }
 
 img {
@@ -66,43 +15,6 @@ svg:not(:root) {
   overflow: hidden;
 }
 
-hr {
-  box-sizing: content-box;
-  height: 0;
-  overflow: visible;
-}
-button,
-input,
-select,
-textarea {
-  font: inherit;
-  margin: 0;
-}
-
-button,
-input {
-  overflow: visible;
-}
-button,
-select {
-  text-transform: none;
-}
-[type="submit"],
-button,
-html [type="button"] {
-  -webkit-appearance: button;
-}
-[type="button"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner,
-button::-moz-focus-inner {
-  border-style: none;
-  padding: 0;
-}
-[type="button"]:-moz-focusring,
-[type="submit"]:-moz-focusring,
-button:-moz-focusring {
-  outline: 1px dotted ButtonText;
-}
 
 
 textarea {
@@ -115,15 +27,7 @@ html {
   box-sizing: border-box;
   overflow-y: scroll;
 }
-* {
-  box-sizing: inherit;
-}
-*:before {
-  box-sizing: inherit;
-}
-*:after {
-  box-sizing: inherit;
-}
+
 body {
   color: hsla(0, 0%, 0%, 0.8);
   font-family: georgia, serif;

@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+/*/*@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');*/
 
 
 /*** ### Section contacthero ### ***/
@@ -13,7 +13,7 @@
 
 .section-contacthero .cx_inner{
 	position:relative;
-	z-index:1;
+	z-index:2;
 }
 .section-contacthero h1{
 	color:#ffc529;

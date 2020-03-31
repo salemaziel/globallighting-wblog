@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+/*/*@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');*/
 
 /*** ### Navigation ### ***/
 .Hamburger-Navbar {
@@ -191,6 +191,10 @@
 	text-transform:uppercase;
 	text-shadow: 1px 2px 2px #000000;
 	z-index:100;
+	transition: 0.4s ease-out;
+	-webkit-transition: 0.3s all ease-in-out;
+	-o-transition: 0.3s all ease-in-out;
+	transition: 0.3s all ease-in-out;
 }
 
 
@@ -210,6 +214,10 @@
 	padding:0px 50px;
 	font-weight:700;
 	transform: scale(1.05);
+	transition: 0.4s ease-out;
+	-webkit-transition: 0.3s all ease-in-out;
+	-o-transition: 0.3s all ease-in-out;
+	transition: 0.3s all ease-in-out;
 }
 
 .donate-btn-container {

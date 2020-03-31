@@ -1,8 +1,6 @@
 import React from 'react';
-import '../css/main.css';
 import '../css/about2.css'
 
-import '../css/HomePageCss/aboutUs.css'
 
 
 import Jackonmtn from '../images/jack-edited-3.png'
@@ -14,16 +12,18 @@ const About2 = () => (
         <div className="container">
             <div className="row">
                 <div className="col-md-12 cx_about">
-                  <div className="blurb">
+                  
                     <h2>
                         ABOUT OUR ORGANIZATION
                     </h2>
                     <h3>
                         About the Global Lighting Project
                     </h3>
+                    <div className="blurb">
                         <p>
                         The <strong>Global Lighting Project</strong> is a 501c3 non-profit that is on a mission to ensure all people have access to light, electricity, clean water, and sanitary cooking facilities using cutting edge LED light technology. 
-                        <br />
+                        </p>
+                        <p>
                         
                         
                         Originally founded in 2016 in San Diego, California, the Global Lighting Project team first set out to bring energy and light to impoverished communities in India, where many live daily without access to light or electricity. 
@@ -107,22 +107,7 @@ const About2 = () => (
                 "The Meaning of Life is to Find Your Gift; the Purpose of Life is to Give it Away"
 
             </div>
-          {/**<div class="col-lg-3">
-            <div>
-              <a href="#" class="thumbnail"><img src="img/dummies/team/2.jpg" alt="" /></a>
-              <div>
-                <p><strong>Amy Dubord</strong></p>
-                <p>
-                  Team Member 2
-                </p>
-                <p>
-                  <a href="#"><i class="icon-facebook icon-circled icon-bglight active"></i></a>
-                  <a href="#"><i class="icon-twitter icon-circled icon-bglight active"></i></a>
-                  <a href="#"><i class="icon-linkedin icon-circled icon-bglight active"></i></a>
-                </p>
-              </div>
-            </div>
-            </div>**/}
+        
          
 
         </div>

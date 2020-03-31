@@ -1,21 +1,20 @@
 import React from "react";
 import Layout from "../components/layout";
+import Helmet from 'react-helmet';
 
 
 import About2 from '../components/About2';
 import WhatWeDo from '../components/HomePageComponents/WhatWeDo';
-import '../css/main.css';
-import SEO from "../components/originalseo";
+import ActionComponent from '../components/HomePageComponents/ActionComponent'
 
 
 const AboutPage = () => (
-    <div>
      <Layout>
-       <SEO title="About Global Lighting Project" />
-       <About2 />
-       <WhatWeDo />
+        <Helmet title={'About Page'} />
+          <About2 />
+          <WhatWeDo />
+          <ActionComponent />
      </Layout>
-     </div> 
    )
    
    export default AboutPage

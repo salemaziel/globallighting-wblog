@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+/*@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');*/
 
 /*** ### Section Hheader ### ***/
 .hheader{
@@ -172,5 +172,5 @@
 	width:2px;
 	height:100px;
 	background:#ffc529;
-	z-index: 1000;
+	z-index: 3;
 }

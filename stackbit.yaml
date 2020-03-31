@@ -23,13 +23,10 @@ models:
       - type: string
         name: siteUrl
         label: Site URL
-      - type: object
-        name: social
-        label: Social
-        fields:
-          - type: string
-            name: twitter
-            label: Twitter
+      - type: string
+        name: twitter
+        label: Twitter
+
   blog:
     type: page
     label: Blog

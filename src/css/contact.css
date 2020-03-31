@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+/*/*@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');*/
 
 
 /*** ### Section contact ### ***/
@@ -135,7 +135,7 @@ form input[type="checkbox"] {
 	margin-right: -2rem;
 	opacity: 0;
 	width: 1rem;
-	z-index: -1;
+	z-index: 3;
 }
 
 form input[type="checkbox"] + label {

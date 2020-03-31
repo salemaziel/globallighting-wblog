@@ -7,6 +7,7 @@ import '../components/layout.css'
 const Thanks = () => (
     <div>
         <Layout>
+            
             <Container>
                 <Thankspage />
                 

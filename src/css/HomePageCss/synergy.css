@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+/*@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');*/
 
 /*** ### Section Three ### ***/
 .synergy{
@@ -136,7 +136,7 @@
 }
 @media (max-width:991px){
 .synergy h3{
-	font-size:30px;
+	font-size:1.5em;
 }
 }
 @media (max-width:767px){
