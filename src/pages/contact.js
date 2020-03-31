@@ -9,12 +9,10 @@ import SEO from "../components/originalseo"
 
 
 const ContactPage = () => (
-    <div>
         <Layout>
             <SEO />
             <ContactUs />
         </Layout>
-    </div>
 )
 
 export default ContactPage

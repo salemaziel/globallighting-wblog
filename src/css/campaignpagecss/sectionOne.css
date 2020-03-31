@@ -1,0 +1,61 @@
+.sectionOneBg {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 100vw;
+    height: 40%;
+    max-height: 30rem;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    z-index: 4;
+    margin: 15rem 0 0;
+    padding: 2rem;
+}
+.sectionOneRow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: inherit;
+}
+
+.colCampaignInfo {
+    max-width: 50%;
+    margin: 1rem;
+    padding: 2rem;
+}
+
+.campaignTitle {
+    color:#ffc259;
+    z-index: 4;
+    margin: 0;
+    font-size: 3em;
+    height: 100px;
+    top: 5rem;
+
+}
+/*
+h1:after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        margin-left: -1px;
+        bottom: -3.5em;
+        width: 100px;
+        height: 2px;
+        background: #ffc529;
+}*/
+.boxDonateInner {
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 0;
+    background-color: aliceblue;
+    border: 2px solid #ffc529;
+    
+}
+.boxDonateOuter {
+    margin: 1rem;
+    padding: 1rem;
+
+}

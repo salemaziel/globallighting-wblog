@@ -13,7 +13,6 @@ import Homehero from "../components/homehero"
 import SEO from "../components/originalseo"
 
 const IndexPage = () => (
- <div>
   <Layout>
     <SEO title="Global Lighting Project"/>
     <Homehero />
@@ -27,7 +26,6 @@ const IndexPage = () => (
     <ActionComponent />
     {/**<OurWork />**/}
   </Layout>
-  </div> 
 )
 
 export default IndexPage

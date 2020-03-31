@@ -21,6 +21,31 @@
 	width: 100%;
 }
 
+footer {
+	position:relative;
+	display: grid;
+	/**padding:20px 0px 0px 0px;**/
+	background:rgba(0, 0, 0, 0.5);
+	padding: 2em 0!important;
+	text-align: center;
+	justify-content: center;
+	font-size: 1.3em;
+	background-size: cover;
+	background-position: 0hvmax;
+}
+
+@media screen and (min-width: 2400px) {
+	.container-fluid {
+		max-width: 2400px;
+		width: 100%;
+	}
+
+	.container {
+		max-width: 1500px;
+		width: 100%;
+	}
+}
+
 @media (max-width:1280px) {
     .container {
         max-width: 100%;

@@ -21,7 +21,7 @@
 }
 .section-one .cx_inner{
 	position:relative;
-	z-index:100;
+	z-index:3;
 }
 .section-one h1{
 	color:#ffc529;

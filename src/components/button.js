@@ -113,7 +113,7 @@ const Button = styled.Button = styled.a`
       display: inline-block;
       vertical-align: middle;
       max-width: calc(100% - 2rem);
-      color: transparent!important;
+      color: darkgray!important;
       margin: 0 0;
       border: none;
       background:transparent;

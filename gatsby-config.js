@@ -32,6 +32,12 @@ module.exports = {
         name: "pages",
       },
     },
+    {
+      resolve: `gatsby-source-newsapi`,
+      options: {
+        apiKey: `c5f6f10a2b7b4f60bd4d41b17c57f065`,
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {

@@ -62,6 +62,9 @@ class Modalsky1 extends React.Component {
 										shouldCloseOnOverlayClick={true}
 										shouldCloseOnEsc={true}
 										shouldReturnFocusAfterClose= {true}
+										className="modalSynergy"
+										overlayClassName="modalSynergyOverlay"
+										
 
         							>
 										<Container>
