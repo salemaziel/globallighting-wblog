@@ -1,8 +1,6 @@
 import React from 'react';
-import '../css/main.css';
 import '../css/about2.css'
 
-import '../css/HomePageCss/aboutUs.css'
 
 
 import Jackonmtn from '../images/jack-edited-3.png'
@@ -109,22 +107,7 @@ const About2 = () => (
                 "The Meaning of Life is to Find Your Gift; the Purpose of Life is to Give it Away"
 
             </div>
-          {/**<div class="col-lg-3">
-            <div>
-              <a href="#" class="thumbnail"><img src="img/dummies/team/2.jpg" alt="" /></a>
-              <div>
-                <p><strong>Amy Dubord</strong></p>
-                <p>
-                  Team Member 2
-                </p>
-                <p>
-                  <a href="#"><i class="icon-facebook icon-circled icon-bglight active"></i></a>
-                  <a href="#"><i class="icon-twitter icon-circled icon-bglight active"></i></a>
-                  <a href="#"><i class="icon-linkedin icon-circled icon-bglight active"></i></a>
-                </p>
-              </div>
-            </div>
-            </div>**/}
+        
          
 
         </div>

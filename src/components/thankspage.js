@@ -1,6 +1,5 @@
 import React from "react"
 import '../css/thanks.css'
-import '../css/main.css'
 
 const Thankspage = () => (
     <section className="section-thanks">

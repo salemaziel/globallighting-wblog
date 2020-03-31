@@ -10,7 +10,6 @@ import React from 'react'
 // import ContainedSolarImage from '../../images/containedsolar.jpg'
 
 import Box from '../box'
-//import '../../css/box.css'
 
 import '../../css/HomePageCss/synergy.css'
 

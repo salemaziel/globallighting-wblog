@@ -1,5 +1,5 @@
 import React from 'react'
-import '../css/carrd.css'
+//import '../css/carrd.css'
 
 import Image04 from '../images/image04.png'
 import Modalmailing from './modalmailing'
@@ -16,7 +16,7 @@ const Homehero = () => (
         <div id="columns02" className="container default">
           <div className="inner">
             <div id="image04" className="image">
-              <img src={Image04} alt="" />
+              <img src={Image04} alt='' />
             </div>
             <h1 id="text01">
               <mark>Global lighting Project</mark>

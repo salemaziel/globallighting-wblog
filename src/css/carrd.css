@@ -603,9 +603,6 @@ hr {
     margin: 0 1rem;
 }
 
-#footer {
-    margin-top: 0rem !important;
-}
 
 form .inner {
     display: inline-flex;
@@ -939,7 +936,7 @@ form button:disabled {
     opacity: 0.55;
 }
 
-a.dbox-donation-button {
+.dbox-donation-button {
 	background: #ffc529;
 	color: #fff; 
 	text-decoration: none; 
@@ -960,12 +957,19 @@ a.dbox-donation-button {
 	-moz-border-radius: 2;
 	border-radius: 0.25rem; 
     text-shadow: 0 1px rgba(0, 0, 0, 0.3); 
-    transition: color 0.25s ease,background-color 0.25s ease, border-color 0.25s ease;
+    transition: 0.4s ease-out;
+    -webkit-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
 }
-a.dbox-donation-button:hover {
+.dbox-donation-button:hover {
     text-decoration: none;
-    transition: color 0.25s ease,background-color 0.25s ease, border-color 0.25s ease;
-    color: #636161;
+    color: #fff;
+    transform: scale(1.05);
+    transition: 0.4s ease-out;
+    -webkit-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
 }
 
 

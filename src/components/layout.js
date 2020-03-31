@@ -1,40 +1,30 @@
-import React from "react"
+import React, { Fragment } from 'react';
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import Footer from "./footer"
 
-
+import '../css/carrd.css'
+import '../css/main.css'
 import "./layout.css"
 import NavbarGlobal from "./navbar"
+import SEO from './seoNew'
 
 
-const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-          description
-          author
-        }
-      }
-    }
-  `)
-
-  return (
-    <>
-      <Header siteTitle={data.site.siteMetadata.title} />
+const Layout = ({ children }) => (
+    <Fragment>
+      <Header />
+      <SEO />
       <NavbarGlobal />
       {children}
       <Footer />
-    </>
+    </Fragment>
   )
-}
-
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
-}
 
 export default Layout
+
+Layout.propTypes = {
+  children: PropTypes.oneOfType([PropTypes.array, PropTypes.node]).isRequired,
+};
+

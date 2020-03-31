@@ -69,12 +69,13 @@ function SEO({ description, lang, meta, title }) {
         },
       ].concat(meta)}
     >
-      <script src="https://donorbox.org/widget.js" paypalExpress="true"></script>
+  {/*}    <script src="https://donorbox.org/widget.js" paypalExpress="true"></script>*/}
       </Helmet>
   )
 }
 
 SEO.defaultProps = {
+  title: ``,
   lang: `en`,
   meta: [],
   description: ``,

@@ -1,5 +1,11 @@
+//module.exports = {
+//  siteMetadata: require("./site-metadata.json"),
+const config = require('./config/site');
+
 module.exports = {
-  siteMetadata: require("./site-metadata.json"),
+  siteMetadata: {
+    ...config,
+  },
   plugins: [
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,

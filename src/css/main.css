@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+/*/*@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');*/
 
 * {
 	margin: 0px;
@@ -32,6 +32,22 @@ footer {
 	font-size: 1.3em;
 	background-size: cover;
 	background-position: 0hvmax;
+}
+
+a {
+	background-color: transparent;
+	-webkit-text-decoration-skip: objects;
+	box-shadow: none;
+	text-decoration: none;
+  }
+a:active,
+a:hover {
+  outline-width: 0;
+  text-decoration:none;
+  color: orange;
+}
+a:not([href]) {
+  text-decoration: none;
 }
 
 @media screen and (min-width: 2400px) {

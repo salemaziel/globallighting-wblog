@@ -1,7 +1,6 @@
 import React from 'react'
 
 import '../css/footer.css'
-import '../css/carrd.css'
 
 const Footer = () => (
         
@@ -35,28 +34,13 @@ const Footer = () => (
                 </div>
                 <div className="col-md-3">
                     <div className="cx_box_two">
-                        <h2>Services</h2>
-                       {/ ** <ul>
-                            <li><a href="#">GL8 solar-flash light Lantern-SOS </a></li>
-                            <li><a href="#">Self contained solar indoor-Outdoor </a></li>
-                            <li><a href="#">Self contained solar wall </a></li>
-                            <li><a href="#">Self contained solar street </a></li>
-                            <li><a href="#">Solar MICROlite</a></li>
-                            <li><a href="#">Self contained solar lantern</a></li>
-                       </ul>** /}
+                       
                     </div>
                 </div>
                 <div className="col-md-2">
                     <div className="cx_box_two">
                         <h2>Userful & Helpful Links</h2>
-                        <ul>
-                            <li><a href="#">Our Story</a></li>
-                            <li><a href="#">Our History</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Volunteer</a></li>
-                            <li><a href="#">Contact us</a></li>
-                            <li><a href="#">Site map</a></li>
-                        </ul>
+                        
                     </div>
                 </div>
                 <div className="col-md-3">

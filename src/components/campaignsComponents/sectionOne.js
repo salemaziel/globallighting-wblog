@@ -1,7 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from 'reactstrap'
 import Button from '../button'
-import '../../css/campaignpagecss/campaigns.css'
 
 const CampaignSection1 = () => (
     <section>

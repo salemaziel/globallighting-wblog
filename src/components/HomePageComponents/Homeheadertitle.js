@@ -1,7 +1,5 @@
 import React from 'react'
 
-import '../../css/box.css'
-
 import '../../css/HomePageCss/homeheadertitle.css'
 
 const Homeheadertitle = () => (

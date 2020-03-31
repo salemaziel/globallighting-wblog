@@ -1,39 +1,3 @@
-/* Box Model */
-
-/**, *:before, *:after {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}**/
-#modal1 {
-  background-color: #fff;
-  color: #000;
-  /*width: 90%;*/
-  height: 80%;
-  border-radius: 5px;
-  overflow-y: scroll;
-  margin: 5% 0 0;
-  padding: 2rem;
-}
-#modal2 {
-  background-color: #fff;
-  color: #000;
-  height: 80%;
-  border-radius: 5px;
-  overflow-y: scroll;
-  margin: 5% 0 0;
-  padding: 2rem;
-}
-#modal3 {
-  background-color: #fff;
-  color: #000;
-  /*width: 90%;*/
-  height: 80%;
-  border-radius: 5px;
-  overflow-y: scroll;
-  margin: 5% 0 0;
-  padding: 2rem;
-}
 
 #modal1,
 #modal2,
@@ -43,10 +7,15 @@
   border-radius: 5px;
   z-index: 4;
   display: flex;
-/*  justify-content: center;
-  align-items: center;
-  align-content: center;*/
+  height: 80%;
+  overflow-y: scroll;
+  margin: 5% 0 0;
+  padding: 2rem;
   text-align: center;
+  transition: 0.4s ease-out;
+  -webkit-transition: 0.3s all ease-in-out;
+  -o-transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
 }
 
 .modalSynergy {
@@ -67,6 +36,10 @@
   left: 100px;
   right:0;
   transform:  translate(50%, 5%);
+  transition: 0.4s ease-out;
+  -webkit-transition: 0.3s all ease-in-out;
+  -o-transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
 }
 .modalSynergyOverlay {
   position: fixed;
@@ -79,6 +52,10 @@
   right: 0;
   bottom: 0;
   background-color: rgba(255, 255, 255, 0.75);
+  transition: 0.4s ease-out;
+  -webkit-transition: 0.3s all ease-in-out;
+  -o-transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
 }
 
 
@@ -92,12 +69,7 @@
   -o-transition: 0.3s all ease-in-out;
   transition: 0.3s all ease-in-out;
 }
-/*
-.box .inner {
-  padding: 1.5em;
-  width: 100% !important;
-}
-*/
+
 
 .card {
   border: 2px solid rgba(0, 0, 0, 0.125);
@@ -158,93 +130,6 @@
   width: 30%;
 }
 
-@media screen and (max-width: 1280px) {
-  .thumbnails .box {
-    width: 45%;
-  }
-}
-
-@media screen and (max-width: 736px) {
-  .thumbnails .box {
-    width: 100%;
-  }
-
-
-/* Box */
-
-
-/*
-.box .scale:hover {
-  top: -10px;
-  -webkit-box-shadow: 0 10px 40px -5px rgba(0, 0, 0, 0.4);
-  box-shadow: 0 10px 40px -5px rgba(0, 0, 0, 0.4);
-}
-*/
-/*
-.card .scale:hover {
-  cursor: pointer;
-  -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05);
-  -webkit-transition: 0.3s all ease-in-out;
-  -o-transition: 0.3s all ease-in-out;
-  transition: 0.3s all ease-in-out;
-}*/
-/*
-.box .image.fit {
-  margin: 0;
-  width: 100%;
-}
-
-.box .image img {
-  border-radius: 4px 4px 0 0;
-}
-
-*/
-/*
-.card-deck {
-  flex-direction: inherit;
-}
-.card-deck .card {
-  margin-left: 0;
-  margin-right: 0;
-}
-
-.card .card-body {
-  display: flex;
-  justify-content: center;
-}
-
-.card-img-top {
-  margin-bottom: 0;
-}
-
-.card-body {
-  padding-bottom: 0px;
-  padding-top: 0px;
-  background: #ffffff;
-  padding: 0;
-}
-*/
-/*
-.thumbnails .box .inner h3 {
-  font-size: 1.4em;
-  font-weight: 300;
-}
-
-.row {
-  margin-left: 0;
-  margin-right: 0;
-}
-}
-*/
-}
-@media screen and (max-width: 480px) {
-  .boxInner {
-    padding: 1em;
-  }
-}
-
 .box.alt {
   border: 0;
   border-radius: 0;
@@ -257,10 +142,6 @@
   padding: 4em 0 2em 0;
 }
 
-
-
-@media screen and (max-width: 480px) {
-}
 
 /* Image */
 
@@ -320,3 +201,24 @@
 .image.main img {
   width: 100%;
 }
+
+@media screen and (max-width: 1280px) {
+  .thumbnails .box {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  .thumbnails .box {
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .boxInner {
+    padding: 1em;
+  }
+}
+
+

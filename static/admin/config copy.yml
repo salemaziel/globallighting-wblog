@@ -27,12 +27,15 @@ collections:
             name: siteUrl
             label: Site URL
             required: false
-          - widget: string
-            name: twitter
-            label: Twitter
+          - widget: object
+            name: social
+            label: Social
             required: false
             fields:
-
+              - widget: string
+                name: twitter
+                label: Twitter
+                required: false
   - name: blog
     label: Blogs
     folder: content/blog

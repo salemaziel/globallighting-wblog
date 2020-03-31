@@ -15,7 +15,7 @@ const AboutUs = () => (
         <div className="container">
             <div className="row">
                 <div className="col-lg-5 col-md-6 cx_left">
-                    <div className="row">
+                    <div className="row" style={{display: 'flex', flexWrap: 'wrap'}}>
                         <div className="col-6"><img src={LiveOneImage} alt="Live-one" className="img-fluid" /></div>
                         <div className="col-6"><img src={LiveTwoImage} alt="Live-two" className="img-fluid" /></div>
                         <div className="col-12"><img src={LiveThreeImage} alt="Live-three" className="img-fluid" /></div>
@@ -35,7 +35,7 @@ const AboutUs = () => (
 
                     
                     </p>
-                    <a href="/about">Learn More</a>
+                    <a href="/about">Learn About Us</a>
                 </div>
             </div>
         </div>
