@@ -62,7 +62,7 @@ class Modalsky2 extends React.Component {
 								</CardTitle>
 									<div>
 									<section>
-									<Button primary onClick={this.handleModalOpen}>Learn About RGB LEDs</Button>
+									<Button synergy onClick={this.handleModalOpen}>Learn About RGB LEDs</Button>
         							</section>
 									<Modal
           								isOpen={this.state.isModalOpen}
