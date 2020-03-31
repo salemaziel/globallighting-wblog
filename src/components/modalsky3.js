@@ -66,7 +66,7 @@ class Modalsky3 extends React.Component {
 								</CardTitle>
 									<div>
 									<section>
-									<Button primary onClick={this.handleModalOpen}>Learn About UV LEDs</Button>
+									<Button synergy onClick={this.handleModalOpen}>Learn About UV LEDs</Button>
         							</section>
 									<Modal
           								isOpen={this.state.isModalOpen}

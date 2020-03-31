@@ -32,6 +32,23 @@ const Button = styled.Button = styled.a`
     }
   `}
 
+  ${props => props.campaign && css`
+  background:#ffc259;
+  color: white!important;
+  padding: 0.5em 1em;
+  -webkit-transition: 0.3s all ease-in-out;
+  -o-transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
+  &:hover {
+    text-decoration:none;
+    color: white;
+    background: #facd51;
+    -webkit-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+  }
+`}
+
   ${props => props.donateblk && css`
     background:#ffc259;
     color: orange;
@@ -59,12 +76,18 @@ const Button = styled.Button = styled.a`
   ${props => props.synergy && css`
     background:#ffc259;
     color: #FFF!important;
-    padding: 0.5em 3em;
+    padding: 0.5em 1.5em;
     textShadow: none;
+    -webkit-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
     &:hover {
       text-decoration:none;
       color: white;
       font-weight: 700;
+      -webkit-transition: 0.3s all ease-in-out;
+      -o-transition: 0.3s all ease-in-out;
+      transition: 0.3s all ease-in-out;
     }
   `}
   ${props => props.mailinglist && css`

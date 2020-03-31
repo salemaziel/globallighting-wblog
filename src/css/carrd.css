@@ -1125,6 +1125,10 @@ form button:disabled {
 }
 
 @media (max-width: 480px) {
+    #main {
+        max-width: 100%;
+        width: 100%;
+    }
     #main > .inner > header {
         margin-bottom: 1.75rem;
     }
@@ -1132,7 +1136,9 @@ form button:disabled {
     #main > .inner > footer {
         margin-top: 1.75rem;
     }
-
+    #main > .inner {
+        padding: 1rem 1rem 2rem;
+    }
 
     #buttons03 li a {
         width: 17rem;

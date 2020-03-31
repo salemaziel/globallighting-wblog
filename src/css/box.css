@@ -219,6 +219,10 @@
   .boxInner {
     padding: 1em;
   }
+  .innerCard {
+    padding: 1em 0.5em;
+    width: 100%;
+}
 }
 
 
