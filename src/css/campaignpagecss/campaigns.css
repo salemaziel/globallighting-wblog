@@ -168,6 +168,21 @@ h1:after {
 
 
 @media (min-width: 2400px) {
+    .sectionHero {
+        display: flex;
+        position: relative;
+        z-index: 4;
+        margin: 12rem 25% 0 25%;
+        padding: 1rem;
+        color: #ffc259;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        width: 50%;
+        text-shadow: 3px 3px 5px #000;
+    }
+
     .sectionOneBg {
         display: flex;
         flex-direction: column;
