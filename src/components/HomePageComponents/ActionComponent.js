@@ -31,7 +31,7 @@ const ActionComponent = () => (
             	<div className="cx_right">
                 	<div className="row">
                     	<div className="col-lg-6">
-                        	<a href="https://donorbox.org/global-lighting-project" className="involve">
+                        	<a href="https://donorbox.org/fighting-covid-19-with-ultraviolet-led-light" className="involve">
                                 Donate now
                                 <span style={{
                                         position:'absolute',
