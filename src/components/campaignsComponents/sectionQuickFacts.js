@@ -3,18 +3,18 @@ import { Container, Row, Col } from "reactstrap"
 import Button from "../button"
 import LEDversus from "../../images/ledvsothers.png"
 
-import CampaignGallery from "./campaignGallery"
+import CampaignGallery2 from "./campaignGallery2"
 
-const CampaignSection2 = () => (
+const QuickFacts = () => (
   <section>
     <Container className="sectionTwoBg">
       <Row className="sectionTwoRow">
         <Col className="colCampaignGallery">
-          <CampaignGallery />
+          <CampaignGallery2 />
         </Col>
         <Col className="colCampaignGallery">
           {/*} <h2 style={{textAlign: 'center'}}>UV-C Light as a Disinfectant</h2>*/}
-          <h3 style={{ textAlign: "center" }}>Quick Facts </h3>
+          <h2 style={{ textAlign: "center" }}>Quick Facts </h2>
           <ul className="quickfacts">
             <br />
             <li>
@@ -34,11 +34,11 @@ const CampaignSection2 = () => (
             <br />
             <li>
               UV-C light in the range of 200-280nm has been <strong>shown to inactivate
-              SARS-CoV-1 [2] and MERS-CoV [3],</strong> two other coronaviruses that are
-              near-relatives of the CoVid-19 coronavirus we face today.
+              SARS-CoV-1 and MERS-CoV,</strong> two other coronaviruses that are
+              near-relatives of the CoVid-19 coronavirus we face today.[2,3]
             </li>
             <br />
-            {/*<li>
+           {/* <li>
               LED lights offer a quick and highly energy efficient method of
               delivering ultraviolet rays compared to traditional mercury UV
               lamps. In addition, they turn on instantaneously, contain no
@@ -46,7 +46,7 @@ const CampaignSection2 = () => (
               <strong>
                 5-10% of the energy required by traditional UV lamps.{" "}
               </strong>
-            </li>*/}
+           </li>*/}
           </ul>
         </Col>
       </Row>
@@ -54,7 +54,7 @@ const CampaignSection2 = () => (
   </section>
 )
 
-export default CampaignSection2
+export default QuickFacts
 
 /*
 1. “New coronavirus stable for hours on surfaces”; CDC (extracted from N van Doremalen, et al. Aerosol and surface stability of HCoV-19 (SARS-CoV-2) compared to SARS-CoV-1. The New England Journal of Medicine. DOI: 10.1056/NEJMc2004973 (2020) (https://www.nih.gov/news-events/news-releases/new-coronavirus-stable-hours-surfaces).
