@@ -8,7 +8,7 @@ const CampaignSection1 = () => (
     <Container className="sectionOneBg">
       <Row className="sectionOneRow">
         <Col className="colCampaignAbout">
-          <h2>About Our COVID-19 Relief Fund</h2>
+          <h2>About Our COVID-19 Campaign</h2>
           <br />
           <p>
             The COVID-19 virus has spread around the globe at a relently fast pace, unprecedented in modern times. It is highly contagious, remaining alive on contaminated surfaces for days, and is able to be spread widely and quickly by unaware carriers, due to its incubation period lasting up to 14 days.

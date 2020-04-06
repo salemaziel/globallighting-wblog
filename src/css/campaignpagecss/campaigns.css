@@ -343,7 +343,7 @@ h1:after {
         display: flex;
         position: relative;
         z-index: 4;
-        margin: 60% 25% 25 25%;
+        margin: 60% 25% 10% 25%;
         padding: 1rem;
         color: #ffc259;
         justify-content: center;
@@ -386,6 +386,15 @@ h1:after {
         flex-direction: column;
 }
 
+.colCampaignAbout {
+    max-width: 100%;
+    margin: 1rem 8rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
     .colCampaignGallery {
         max-width: 90%;
         width: 90%;
@@ -398,6 +407,7 @@ h1:after {
         border-radius: 0;
         background-color: aliceblue;
         border: 2px solid #ffc529;
+        width: auto;
         
     }
 
