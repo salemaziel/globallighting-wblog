@@ -39,7 +39,7 @@ const CampaignSection1 = () => (
                         <p>
                             Your donation today will go directly to research, testing, manufacturing, and distributing our disinfecting LED light instruments to hospitals and other healthcare facilities around the nation.
                         </p>
-                        <div style={{width: '100%', justifyContent: 'center', alignContent: 'center', alignItems: 'center', textAlign: 'center'}}>
+                        <div style={{width: '100%', justifyContent: 'center', alignContent: 'center', alignItems: 'center', textAlign: 'center', padding: '1rem'}}>
           <Button campaign href="https://donorbox.org/fighting-covid-19-with-ultraviolet-led-light" >
                     Donate Now
                 </Button>

@@ -11,8 +11,10 @@ import QuickFacts from "../components/campaignsComponents/sectionQuickFacts"
 
 //import CampaignSection3 from "../components/campaignsComponents/sectionThree"
 //import CampaignSection4 from "../components/campaignsComponents/sectionFour"
-import CampaignSectionTwoFive from "../components/campaignsComponents/sectionTwoFive"
+import CampaignSectionTwoFive from "../components/campaignsComponents/sectionWhyLEDs"
 import CampaignSectionAboutDonate from "../components/campaignsComponents/sectionAboutDonate"
+import OurSolution from '../components/campaignsComponents/sectionOurSolution'
+
 
 import CampaignHero from '../components/campaignsComponents/sectionHero'
 
@@ -25,6 +27,7 @@ const CampaignPage = () => (
     {/*<CampaignSection2 />*/}
     <QuickFacts />
     <CampaignSectionTwoFive />
+    <OurSolution />
     {/*<CampaignSectionAboutDonate />*/}
    {/*} <CampaignSection3 />*/}
    

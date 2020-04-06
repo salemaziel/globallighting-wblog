@@ -2,24 +2,32 @@ import React from 'react'
 import { Container, Row, Col } from 'reactstrap'
 import Button from '../button'
 import LEDversus from '../../images/ledvsothers.png'
+import CampaignGallery from "./campaignGallery"
 
-const CampaignSectionTwoFive = () => (
+
+const OurSolution = () => (
     <section>
         <Container className="sectionTwoBg">
         <Row className="sectionTwoRow">
-
         <Col className="colCampaignGallery">
-            <div style={{verticalAlign: 'middle'}}>
-                <h3>Why LEDs?</h3>
+          <CampaignGallery />
+</Col>
+        <Col className="colCampaignGallery">
+            <div className="galleryCaption" style={{verticalAlign: 'middle'}}>
+                <h3>How Will You Use Them?</h3>
                 <br />
                 <p>
-              LED lights offer a quick and highly energy efficient method of
-              delivering ultraviolet rays compared to traditional mercury UV
-              lamps. In addition, they turn on instantaneously, contain no
-              mercury, and require only{" "}
-              <strong>
-                5-10% of the energy required by traditional UV lamps.{" "}
-              </strong>
+            COVID-19 killing wands. </p>
+            <p>
+              Seriously. We are finalizing research on the most efficient and cost effective method to distribute instruments fitted with UV-C LED light diodes, and currently one of our favored solutions is an industrial wand with LED diodes on one side. </p>
+              <p>
+              Medical equipment such as masks, gowns, and various hospital surface areas could be disinfected on demand by a single person, waving the wand slowly over the item or surface area they wish to disinfect. 
+              {" "}
+              
+              </p>
+
+              <p>
+                  Other solutions include light structures with powerful LED diodes facing all directions that can be turned on and of remotely. These structures can be placed in hospital rooms or other enclosed areas and turned on for a short period of time to disinfect everything in the room that the light touches.
               </p>
               <br />
               <br />
@@ -34,11 +42,7 @@ const CampaignSectionTwoFive = () => (
                 </p>*/}
                 </div>
                 </Col>
-                <Col className="colCampaignGallery">
-                <div>
-            <img src={LEDversus} className="LEDvsTable" />
-          </div>
-                </Col>
+                
                 
                 
                
@@ -49,4 +53,4 @@ const CampaignSectionTwoFive = () => (
     </section>
 )
 
-export default CampaignSectionTwoFive
+export default OurSolution
