@@ -57,9 +57,9 @@ class NavbarGlobal extends React.Component {
                                 <NavItem>
                                     <NavLink className="nav-link" to="/about" tag={Link} style={{ fontSize: 18 }}>ABOUT</NavLink>
                                 </NavItem>
-                                <NavItem>
+                                {/*<NavItem>
                                     <NavLink className="nav-link" to="/blog" tag={Link} style={{ fontSize: 18 }}>BLOG</NavLink>
-                                </NavItem>
+                                </NavItem>*/}
                                 <NavItem>
                                     <NavLink className="nav-link" to="/campaigns" tag={Link} style={{ fontSize: 18 }}>CAMPAIGNS</NavLink>
                                 </NavItem>
@@ -122,9 +122,9 @@ class NavbarGlobal extends React.Component {
                         <Link className="list" to="/about">
                             ABOUT
                         </Link>
-                        <Link className="list" to="/blog">
+                        {/*<Link className="list" to="/blog">
                             BLOG
-                       </Link>    
+                    </Link>*/}    
                        <Link className="list" to="/campaigns">
                             CAMPAIGNS
                         </Link> 

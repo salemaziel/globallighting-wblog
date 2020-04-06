@@ -1,43 +1,58 @@
-import React from 'react'
-import { Container, Row, Col } from 'reactstrap'
-import Button from '../button'
+import React from "react"
+import { Container, Row, Col } from "reactstrap"
+import Button from "../button"
+import CampaignSection4 from "./sectionFour"
 
 const CampaignSection1 = () => (
-    <section>
-        <Container className="sectionOneBg">
-            <Row className="sectionOneRow">
-                <Col className="colCampaignInfo">
-                <h2>
-                    About Our COVID-19 Relief Fund
-                </h2>
-                <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-                <Button campaign >
-                    See The Research
-</Button>
-
-                </Col>
-                <Container className="boxDonateOuter">
+  <section>
+    <Container className="sectionOneBg">
+      <Row className="sectionOneRow">
+        <Col className="colCampaignAbout">
+          <h2>About Our COVID-19 Relief Fund</h2>
+          <br />
+          <p>
+            The COVID-19 virus has spread around the globe at a relently fast pace, unprecedented in modern times. It is highly contagious, remaining alive on contaminated surfaces for days, and is able to be spread widely and quickly by unaware carriers, due to its incubation period lasting up to 14 days.
+            </p>
+            <p>
+            Healthcare workers are especially at risk. With emergency equipment like masks and ventilators in short supply nation-wide, hospitals need other solutions to keep our doctors, nurses, and other staff as safe from catching the very disease they are trying to treat.
+            </p>
+            <br />
+            <p style={{textAlign: 'center'}}>
+            <strong>Our solution: UltraViolet LED Lights.</strong></p><br /><p>
+            
+            UV is a known disinfectant for water, air, and other surfaces, and when applied correctly can be used to mitigate the risk of both viral and bacterial pathogens, two of which include the genetically-related SARS-CoV-1 and MERS-CoV coronaviruses.
+            <br />
+          </p>
+          <p>
+            With access to powerful UV-C LED lights, the Global Lighting Project is in a unique position to supply aid to some of the unsung heroes of our society that are healthcare workers.
+          </p>
+          <p>
+              <strong><em>But we need your help.</em></strong>
+          </p>
+          
+        </Col><Col className="colCampaignAbout">
+        {/*<Col className="boxDonateOuter">*/}
                     <Container className="boxDonateInner">
                         <h2>
-                            Donate to Relief Fund
+                            Give What You Can
                         </h2>
                         <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                            Your donation today will go directly to research, testing, manufacturing, and distributing our disinfecting LED light instruments to hospitals and other healthcare facilities around the nation.
                         </p>
-                        <Button campaign>
-                            Donate
-                        </Button>
-                    </Container>
+                        <div style={{width: '100%', justifyContent: 'center', alignContent: 'center', alignItems: 'center', textAlign: 'center'}}>
+          <Button campaign href="https://donorbox.org/fighting-covid-19-with-ultraviolet-led-light" >
+                    Donate Now
+                </Button>
+                </div>
                 </Container>
-                <Col>
-                </Col>
-
-            </Row>
-
-        </Container>
-    </section>
+                {/*</Col>*/}
+</Col>
+      </Row>
+      {/*<Row>
+        <CampaignSection4 />
+      </Row>*/}
+    </Container>
+  </section>
 )
 
 export default CampaignSection1

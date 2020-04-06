@@ -140,11 +140,13 @@
 	padding: 0px;
 	margin: 10px 0px 0px 0px;
 	text-align:center;
+	list-style: none;
 }
 .navigation nav ul li {
 	padding: 0px;
 	display: inline-block;
 	margin: 0px 0px 0px 20px;
+	list-style: none;
 }
 .navigation nav ul li a {
 	text-decoration: none;
@@ -153,14 +155,21 @@
 	font-size:16px;
 	font-weight:600;
 	text-transform:uppercase;
+	list-style: none;
 }
 .navigation nav ul li a:hover {
 	text-decoration: none;
 	color: #2a2a2a;
+	list-style: none;
 }
 .navigation nav ul li a:focus {
 	text-decoration: none;
 	color: #2a2a2a;
+	list-style: none;
+}
+
+.nav-item {
+	list-style: none!important;
 }
 .device-nav {
 	display: none;

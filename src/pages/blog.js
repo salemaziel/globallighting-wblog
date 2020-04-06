@@ -17,7 +17,7 @@ class Blog extends React.Component {
 
     return (
       <Layout2 location={this.props.location} title={siteTitle}>
-         <Helmet title={'About Page'} />
+         <Helmet title={'Blog Page'} />
         <Bio />
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug

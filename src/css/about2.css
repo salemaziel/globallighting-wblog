@@ -216,4 +216,9 @@
 		font-size: 1.2em;
 		line-height: 1.5em;
 	}
+
+	.section-about .cx_about {
+		position: relative;
+		padding: 0;
+	}
 }
