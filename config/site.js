@@ -4,7 +4,7 @@ module.exports = {
     titleAlt: 'Global Lighting Project', // Title for JSONLD
     description: 'Non-profit organization on a mission to aid developing communities with solar-powered LED lights',
     url: 'https://globallightingproject.com', // Domain of your site. No trailing slash!
-    siteUrl: 'https://globallightingproject.com', // url + pathPrefix
+    siteUrl: 'https://globallightingproject.com/', // url + pathPrefix
     siteLanguage: 'en', // Language Tag on <html> element
     logo: 'static/logo/logo.png', // Used for SEO
     banner: 'static/logo/banner.png',

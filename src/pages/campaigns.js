@@ -5,18 +5,18 @@ import Helmet from 'react-helmet';
 
 import ActionComponent from '../components/HomePageComponents/ActionComponent'
 
-import CampaignSection1 from "../components/campaignsComponents/sectionOne"
+import CampaignSection1 from "../components/campaignsComponents/needed/sectionOne"
 //import CampaignSection2 from "../components/campaignsComponents/sectionTwo"
-import QuickFacts from "../components/campaignsComponents/sectionQuickFacts"
+import QuickFacts from "../components/campaignsComponents/needed/sectionQuickFacts"
 
 //import CampaignSection3 from "../components/campaignsComponents/sectionThree"
 //import CampaignSection4 from "../components/campaignsComponents/sectionFour"
-import CampaignSectionTwoFive from "../components/campaignsComponents/sectionWhyLEDs"
+import CampaignSectionTwoFive from "../components/campaignsComponents/needed/sectionWhyLEDs"
 import CampaignSectionAboutDonate from "../components/campaignsComponents/sectionAboutDonate"
-import OurSolution from '../components/campaignsComponents/sectionOurSolution'
+import OurSolution from '../components/campaignsComponents/needed/sectionOurSolution'
 
 
-import CampaignHero from '../components/campaignsComponents/sectionHero'
+import CampaignHero from '../components/campaignsComponents/needed/sectionHero'
 
 const CampaignPage = () => (
   <Layout>

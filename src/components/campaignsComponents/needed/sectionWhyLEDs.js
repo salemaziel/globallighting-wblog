@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Row, Col } from 'reactstrap'
-import Button from '../button'
-import LEDversus from '../../images/ledvsothers.png'
+import Button from '../../button'
+import LEDversus from '../../../images/ledvsothers.png'
 
 const CampaignSectionTwoFive = () => (
     <section>
