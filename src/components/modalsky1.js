@@ -51,9 +51,7 @@ class Modalsky1 extends React.Component {
 									<h3>Lighting the way for Homes, Schools, and Businesses with White LED Lights</h3>
 								</CardTitle>
 									<div>
-									<section>
           							<Button synergy onClick={this.handleModalOpen}>Learn About White LEDs</Button>
-        							</section>
 									<Modal
           								isOpen={this.state.isModalOpen}
           								onRequestClose={this.handleModalClose}

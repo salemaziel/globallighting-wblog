@@ -126,12 +126,15 @@ const CampaignSection1 = () => (
         <Col className="colCampaignAbout2">
           {/*<Col className="boxDonateOuter">*/}
           <Container className="boxDonateInner">
-            <h2>Give What You Can</h2>
-            <p>
+            <h2>THere's No Time To Waste!</h2>
+            {/*<p>
               Your donation today will go directly to research, testing,
               manufacturing, and distributing our disinfecting LED light
               instruments to hospitals and other healthcare facilities around
               the nation.
+            </p>*/}
+            <p>
+            Join the fight to save thousands of lives from COVID-19. Make your donation today, and we promise to use our staff and technology as quickly and efficiently as possible to help render this virus neutral.
             </p>
             <div
               style={{
@@ -170,9 +173,29 @@ const CampaignSection1 = () => (
             </p>
         </Col>
       </Row>
-      {/*<Row>
-        <CampaignSection4 />
-      </Row>*/}
+      <Row className="sectionOneRow">
+      <Col className="colCampaignAbout">
+        <h2>How Does It Work?</h2>
+        <br />
+        <p>
+        UV-C LED light-fitted COVID-19 killing wands. We are finalizing research on the most efficient and cost-effective method to distribute instruments fitted with UV-C LED light diodes. Currently, one of our favored solutions is an industrial wand with LED diodes attached to one side.
+        </p>
+        <p>
+        Medical equipment such as masks, gowns, and various hospital surface areas could be disinfected on demand by a single person, waving the wand slowly over the exposed surface area.
+        </p>
+        <p>
+        Other solutions include light structures with powerful LED diodes facing all directions that can be turned on and off remotely. These structures can be placed in hospital rooms or other enclosed areas and turned on for a short period of time to disinfect everything in the room the light touches.
+        </p>
+
+        <p><strong><em>And this is where you come in.</em></strong></p>
+        <p>
+        You can help change the world.
+        </p>
+        <p>
+        As a nonprofit, we rely on community support to do what we do best – supply LED light to the rest of the world. Your gift, no matter how small, will help us be a shining light during this difficult time because our light can kill COVID-19!
+        </p>
+        </Col>
+      </Row>
     </Container>
   </section>
 )

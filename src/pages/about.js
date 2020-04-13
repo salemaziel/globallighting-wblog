@@ -12,7 +12,7 @@ const AboutPage = () => (
      <Layout>
         <Helmet title={'About Page'} />
           <About2 />
-          <WhatWeDo />
+          {/*<WhatWeDo />*/}
           <ActionComponent />
      </Layout>
    )

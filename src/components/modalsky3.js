@@ -65,9 +65,9 @@ class Modalsky3 extends React.Component {
 									<h3>Sanitizing Water, Cooking Facilities and More with Ultra Violet LED Lights</h3>
 								</CardTitle>
 									<div>
-									<section>
+									<div>
 									<Button synergy onClick={this.handleModalOpen}>Learn About UV LEDs</Button>
-        							</section>
+        							</div>
 									<Modal
           								isOpen={this.state.isModalOpen}
           								onRequestClose={this.handleModalClose}

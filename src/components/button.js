@@ -81,6 +81,7 @@ const Button = styled.Button = styled.a`
     -webkit-transition: 0.3s all ease-in-out;
     -o-transition: 0.3s all ease-in-out;
     transition: 0.3s all ease-in-out;
+    word-break: none; 
     &:hover {
       text-decoration:none;
       color: white;

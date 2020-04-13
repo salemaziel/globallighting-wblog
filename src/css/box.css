@@ -96,7 +96,7 @@
 }
 
 .innerCard {
-	padding: 1.5em;
+	padding: 4em 1em;
 	width: 100%;
 }
 
@@ -201,11 +201,29 @@
 .image.main img {
   width: 100%;
 }
+@media screen and (min-width: 2400px){
+
+  .innerDeck {
+    padding: 1em 6em;
+    width: 100%;
+}
+}
+@media screen and (max-width: 1680px) {
+  .innerCard {
+    padding: 2em 1em;
+    width: 100%;
+}  
+
+}
 
 @media screen and (max-width: 1280px) {
   .thumbnails .box {
     width: 45%;
   }
+}
+
+@media screen and (max-width: 980px){
+
 }
 
 @media screen and (max-width: 736px) {

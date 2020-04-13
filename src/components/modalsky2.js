@@ -61,9 +61,9 @@ class Modalsky2 extends React.Component {
 									<h3>Growing Healthy Vegetable Gardens Anywhere with RGB LED Lights</h3>
 								</CardTitle>
 									<div>
-									<section>
+									<div>
 									<Button synergy onClick={this.handleModalOpen}>Learn About RGB LEDs</Button>
-        							</section>
+        							</div>
 									<Modal
           								isOpen={this.state.isModalOpen}
           								onRequestClose={this.handleModalClose}

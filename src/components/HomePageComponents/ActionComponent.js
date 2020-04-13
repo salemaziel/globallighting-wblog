@@ -10,7 +10,7 @@ import '../../css/HomePageCss/actionComponent.css'
 const ActionComponent = () => (
     <section
         className="section-four">
-	<div className="container">
+	<div className="container-fluid">
     	<div className="row">
         	<div className="col-md-7">
             	<div className="cx_left">

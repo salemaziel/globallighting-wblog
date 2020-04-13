@@ -23,7 +23,7 @@ const IndexPage = () => (
       <AboutUs />
       <Synergy />
       <WhatWeDo /> 
-      <NewFromBlog />
+     {/* <NewFromBlog />*/}
       <ActionComponent />
     {/**<OurWork />**/}
   </Layout>
