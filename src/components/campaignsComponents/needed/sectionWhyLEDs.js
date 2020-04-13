@@ -2,6 +2,7 @@ import React from 'react'
 import { Container, Row, Col } from 'reactstrap'
 import Button from '../../button'
 import LEDversus from '../../../images/ledvsothers.png'
+import Lightspectrum from '../../../images/lightspectrum.jpg'
 
 const WhyLEDs = () => (
     <section>
@@ -36,8 +37,9 @@ const WhyLEDs = () => (
                </Col>
                 <Col className="colWhyLEDs" >
                 <div>
-            <img src={LEDversus} className="LEDvsTable" />
-            <p><a href="https://www.researchgate.net/publication/325975652_UV_LED_101_Fundamentals_and_Applications_of_UV_LEDs_in_Water_Treatment"> source </a></p>
+               {/*} <img src={Lightspectrum} className="LEDvsTable" />*/}
+            {/*<img src={LEDversus} className="LEDvsTable" />
+            <p><a href="https://www.researchgate.net/publication/325975652_UV_LED_101_Fundamentals_and_Applications_of_UV_LEDs_in_Water_Treatment"> source </a></p>*/}
           </div>
                 </Col>
                 

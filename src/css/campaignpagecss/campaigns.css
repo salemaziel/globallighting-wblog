@@ -318,6 +318,12 @@ ul .quickfacts {
     width: auto;
 }
 
+.lightspectrum {
+    max-width: 100%;
+    width: 80%;
+    margin: auto;
+}
+
 .galleryCaption {
     margin: 2rem 0 0 0;
 }

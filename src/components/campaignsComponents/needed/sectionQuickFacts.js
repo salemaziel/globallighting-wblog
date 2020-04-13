@@ -2,6 +2,7 @@ import React from "react"
 import { Container, Row, Col } from "reactstrap"
 import Button from "../../button"
 import LEDversus from "../../../images/ledvsothers.png"
+import Lightspectrum from '../../../images/lightspectrum.jpg'
 
 import CampaignGallery2 from "../campaignGallery2"
 
@@ -48,6 +49,7 @@ const QuickFacts = () => (
               </strong>
            </li>*/}
           </ul>
+          <img src={Lightspectrum} className="lightspectrum" />
         </Col>
       </Row>
     </Container>
