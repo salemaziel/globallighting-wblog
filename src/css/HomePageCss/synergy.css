@@ -144,3 +144,9 @@
 	font-size:25px;
 }
 }
+
+@media screen and (max-width: 480px) {
+	.synergy h3 {
+		font-size: 1.5rem;
+	}
+}

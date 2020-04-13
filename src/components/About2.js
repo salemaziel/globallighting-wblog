@@ -37,7 +37,7 @@ const About2 = () => (
             </div>
         </div>
         </div>
-        <div className="container aboutjack" style={{
+        <div className="aboutjack" style={{
                                   marginTop: '2em',
                                 }}>
               <div className="row" style={{
@@ -79,7 +79,7 @@ const About2 = () => (
                      alt="" 
                      style={{
                           border: '5px',
-                          borderRadius: '180px',
+                          borderRadius: '100%',
                       }}>
               </img>
               <div style={{

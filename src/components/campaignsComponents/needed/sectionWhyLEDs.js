@@ -3,12 +3,12 @@ import { Container, Row, Col } from 'reactstrap'
 import Button from '../../button'
 import LEDversus from '../../../images/ledvsothers.png'
 
-const CampaignSectionTwoFive = () => (
+const WhyLEDs = () => (
     <section>
         <Container className="sectionTwoBg">
         <Row className="sectionTwoRow">
 
-        <Col className="colCampaignGallery" style={{display: 'flex!important'}}>
+        <Col className="colWhyLEDs" >
             <div className="galleryCaption" style={{verticalAlign: 'middle'}}>
                 <h3>Why LEDs?</h3>
                 <br />
@@ -34,7 +34,7 @@ const CampaignSectionTwoFive = () => (
                 </p>*/}
                </div>
                </Col>
-                <Col className="colCampaignGallery" style={{display: 'flex!important'}}>
+                <Col className="colWhyLEDs" >
                 <div>
             <img src={LEDversus} className="LEDvsTable" />
             <p><a href="https://www.researchgate.net/publication/325975652_UV_LED_101_Fundamentals_and_Applications_of_UV_LEDs_in_Water_Treatment"> source </a></p>
@@ -50,4 +50,4 @@ const CampaignSectionTwoFive = () => (
     </section>
 )
 
-export default CampaignSectionTwoFive
+export default WhyLEDs

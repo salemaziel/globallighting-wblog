@@ -20,12 +20,14 @@ const CampaignSection1 = () => (
             workers.
             {/*The COVID-19 virus has spread around the globe at a relently fast pace, unprecedented in modern times. It is highly contagious, remaining alive on contaminated surfaces for days, and is able to be spread widely and quickly by unaware carriers, due to its incubation period lasting up to 14 days.*/}
           </p>
+          <br />
           <h4>
             <span>
               The new normal isn’t normal. And everyone is looking for a
               solution.
             </span>
           </h4>
+          <br />
           <h3>
             <em>We Have a Solution</em>: UltraViolet LED Lights
           </h3>
@@ -66,7 +68,8 @@ const CampaignSection1 = () => (
 
 
           <p>
-            That’s right. <br />
+            That’s right. </p>
+              <p>
             UltraViolet light (UV) is a known disinfectant for water, air, and
             other surfaces. When applied correctly, it can be used to mitigate
             the risk of both viral and bacterial pathogens, two of which include
@@ -102,16 +105,16 @@ const CampaignSection1 = () => (
             </strong>
           </p>*/}
 
-          <h4>Why LEDs?</h4>
+          {/*<h4>Why LEDs?</h4>
           <p>
             LED lights offer a quick and highly energy efficient method of
             delivering ultraviolet rays compared to traditional mercury UV
             lamps. In addition, they turn on instantaneously, contain no
             mercury, and require only 5-10% of the energy required by
             traditional UV lamps.
-          </p>
+          </p>*/}
           <h2>WE’RE READY AND WILLING TO LEND A HAND</h2>
-
+          <br />
           <p>
             <strong>
               <em>But we need your help.</em>

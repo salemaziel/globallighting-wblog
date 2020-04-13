@@ -193,17 +193,7 @@
     top: 5rem;
 
 }
-/*
-h1:after {
-        content: "";
-        position: absolute;
-        left: 50%;
-        margin-left: -1px;
-        bottom: -3.5em;
-        width: 100px;
-        height: 2px;
-        background: #ffc529;
-}*/
+
 .boxDonateInner {
     margin: auto;
     padding: 2rem;
@@ -258,17 +248,28 @@ ul .quickfacts {
     align-items: center;
     display: block;
 }
-/*
-h1:after {
-        content: "";
-        position: absolute;
-        left: 50%;
-        margin-left: -1px;
-        bottom: -3.5em;
-        width: 100px;
-        height: 2px;
-        background: #ffc529;
-}*/
+.colWhyLEDs {
+    max-width: 100vw;
+    width: 50%;
+    margin: 1rem;
+    padding: 1rem;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    display: block;
+}
+
+.colHowUse {
+    max-width: 100vw;
+    width: 50%;
+    margin: 1rem;
+    padding: 1rem;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    display: block;
+}
+
 .boxGalleryInfoInner {
     margin: 1rem 0;
     padding: 2rem;
@@ -385,6 +386,17 @@ h1:after {
     }
     
     .colCampaignGallery {
+        display: block;
+        max-width: 50%;
+        width: 50%;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    .colWhyLEDs{
         display: flex;
         max-width: 50%;
         width: 50%;
@@ -394,6 +406,18 @@ h1:after {
         align-content: center;
         align-items: center;
     }
+
+    .colHowUse {
+            display: block;
+            max-width: 100vw;
+            width: 70%;
+            margin: 1rem;
+            padding: 1rem;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+        }
+    
 
     .boxGalleryInfoInner {
         margin: 2rem;
@@ -759,6 +783,15 @@ h1:after {
         padding: 0.5rem;
     }
 
+    .sectionOneBg h2 {
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 500;
+        max-width: 100%;
+        margin: auto;
+        font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    }
+
     .sectionAboutDonate {
         display: flex;
         flex-direction: column;
@@ -808,6 +841,16 @@ h1:after {
         height: 100px;
         top: 5rem;
     
+    }
+
+    .colCampaignAbout2 {
+        max-width: 100vw;
+        margin: auto;
+        padding: 1rem;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 90%;
     }
     /*
     h1:after {
@@ -928,6 +971,36 @@ h1:after {
         margin: 1rem;
         padding: 0.5rem;
     }
+
+    .sectionOneBg p {
+        text-align: left;
+        font-size: 1rem;
+        font-weight: normal;
+        color: #000000;
+        margin: 1rem;
+    }
+
+    .colWhyLEDs {
+        max-width: 100vw;
+        width: 90%;
+        margin: auto;
+        padding: 1rem;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        display: block;
+    }
+
+    .colHowUse {
+        max-width: 100vw;
+        width: 90%;
+        margin: auto;
+        padding: inherit;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        display: block;
+    }
 }
 
 @media screen and (max-width: 360px) {
@@ -936,6 +1009,86 @@ h1:after {
         width: 90%;
         margin: 0.5rem;
         padding: 0;
+    }
+
+    .colCampaignAbout2 {
+        max-width: 100vw;
+        margin: auto;
+        padding: inherit;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 90%;
+    }
+
+    .colWhyLEDs {
+        max-width: 100vw;
+        width: 90%;
+        margin: 1rem;
+        padding: 1rem;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        display: block;
+    }
+
+    .colHowUse {
+        max-width: 100vw;
+        width: 90%;
+        margin: 1rem;
+        padding: 1rem;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        display: block;
+    }
+
+    .colCampaignAbout {
+        max-width: 100%;
+        width: 90%;
+        margin: auto;
+        padding: inherit;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .boxDonateInner {
+        margin: 1rem 0;
+        padding: 0.5rem;
+        border-radius: 0;
+        background-color: aliceblue;
+        border: 2px solid #ffc529;
+    }
+
+    .sectionOneBg p {
+        text-align: left;
+        font-size: 1rem;
+        font-weight: normal;
+        color: #000000;
+        margin: 1rem 2rem;
+    }
+
+    .colWhyLEDs {
+        max-width: 100vw;
+        width: 90%;
+        margin: auto;
+        padding: 1rem;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        display: block;
+    }
+
+    .colHowUse {
+        max-width: 100vw;
+        width: 90%;
+        margin: auto;
+        padding: inherit;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        display: block;
     }
 }
 

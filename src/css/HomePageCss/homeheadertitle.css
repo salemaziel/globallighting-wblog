@@ -122,6 +122,32 @@
 	padding:0px 15px;
 	font-family: 'Open Sans', sans-serif;
 }
+
+.hheader:after{
+	content:"";
+	position: absolute;
+	left:50%;
+	margin-left:-1px;
+	bottom: -2.5em;
+	width:2px;
+	height:100px;
+	background:#ffc529;
+	z-index: 3;
+}
+
+@media (min-width: 2400px) {
+	.hheader:after {
+		content: "";
+		position: absolute;
+		left: 50%;
+		margin-left: -1px;
+		bottom: -2.5em;
+		width: 2px;
+		height: 100px;
+		background: #ffc529;
+		z-index: 3;
+	}
+}
 @media (max-width:1024px){
 .hheader h2{
 	font-size:2em;
@@ -162,7 +188,7 @@
 	text-align:center;
 	line-height: 1.6rem;
 }
-}
+
 .hheader:after{
 	content:"";
 	position: absolute;
@@ -173,4 +199,5 @@
 	height:100px;
 	background:#ffc529;
 	z-index: 3;
+}
 }

@@ -9,10 +9,10 @@ const OurSolution = () => (
     <section>
         <Container className="sectionTwoBg">
         <Row className="sectionTwoRow">
-        <Col className="colCampaignGallery">
+        <Col className="colHowUse">
           <CampaignGallery />
 </Col>
-        <Col className="colCampaignGallery">
+        <Col className="colHowUse">
             <div className="galleryCaption" style={{verticalAlign: 'middle'}}>
                 <h3>How Will You Use Them?</h3>
                 <br />
