@@ -20,8 +20,8 @@ const QuickFacts = () => (
             <li>
               COVID-19 infections can be caused by contact with contaminated
               surfaces followed by touching of facial areas and has been
-              found able to live on plastic and steel surfaces <strong><a href="https://cdc/.gov to 3 days.</a> </strong>
-              [1,2] "></a>
+              found able to live on plastic and steel surfaces <strong><a href="https://cdc.gov"> to 3 days.
+              [1,2] </a></strong> 
             </li>
             <br />ov
             <li>
