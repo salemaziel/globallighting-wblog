@@ -1,5 +1,8 @@
 import React from "react"
-import { Container, Row, Col } from "reactstrap"
+//import { Container, Row, Col } from "reactstrap"
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
 import Button from "../../button"
 import LEDversus from "../../../images/ledvsothers.png"
 import Lightspectrum from '../../../images/lightspectrum.jpg'
@@ -11,9 +14,10 @@ const QuickFacts = () => (
     <Container className="sectionTwoBg">
       <Row className="sectionTwoRow">
         <Col className="colCampaignGallery">
-          <CampaignGallery2 />
+        <img src={Lightspectrum} className="lightspectrum" />
         </Col>
         <Col className="colCampaignGallery">
+        
           {/*} <h2 style={{textAlign: 'center'}}>UV-C Light as a Disinfectant</h2>*/}
           <h2 style={{ textAlign: "center" }}>Quick Facts </h2>
           <ul className="quickfacts">
@@ -49,7 +53,7 @@ const QuickFacts = () => (
               </strong>
            </li>*/}
           </ul>
-          <img src={Lightspectrum} className="lightspectrum" />
+         
         </Col>
       </Row>
     </Container>

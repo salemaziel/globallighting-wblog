@@ -15,7 +15,7 @@ const About2 = () => (
               <p>
                 The <strong>Global Lighting Project</strong> is a 501c3
                 non-profit that is on a mission to ensure all people have access
-                to light, electricity, clean water, and sanitary cooking
+                to light, electricity, clean water, and the ability to disinfect their 
                 facilities using cutting edge LED light technology.
               </p>
               <p>

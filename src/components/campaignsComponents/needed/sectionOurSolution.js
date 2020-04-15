@@ -1,5 +1,8 @@
 import React from 'react'
-import { Container, Row, Col } from 'reactstrap'
+//import { Container, Row, Col } from 'reactstrap'
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
 import Button from '../../button'
 import LEDversus from '../../../images/ledvsothers.png'
 import CampaignGallery from "../campaignGallery"

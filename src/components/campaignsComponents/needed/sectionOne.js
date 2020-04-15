@@ -1,5 +1,7 @@
 import React from "react"
-import { Container } from "reactstrap"
+//import { Container } from "reactstrap"
+import Container from 'react-bootstrap/Container'
+
 import Button from "../../button"
 //import CampaignSection4 from "../sectionFour"
 import Row from "react-bootstrap/Row"
@@ -15,7 +17,7 @@ const CampaignSection1 = () => (
           <p>
             The COVID-19 virus has spread around the globe at a relentlessly
             fast pace. It is highly contagious, remaining alive on contaminated
-            surfaces for up to 14 days. This allows it to spread quickly by
+            surfaces for up to 3 days. This allows it to spread quickly by
             carriers unaware they’ve even been exposed – especially healthcare
             workers.
             {/*The COVID-19 virus has spread around the globe at a relently fast pace, unprecedented in modern times. It is highly contagious, remaining alive on contaminated surfaces for days, and is able to be spread widely and quickly by unaware carriers, due to its incubation period lasting up to 14 days.*/}
@@ -36,83 +38,20 @@ const CampaignSection1 = () => (
       <Row className="sectionOneRow">
         <Col className="colCampaignAbout">
          
-          {/*} <p>
-            The COVID-19 virus has spread around the globe at a relently fast pace, unprecedented in modern times. It is highly contagious, remaining alive on contaminated surfaces for days, and is able to be spread widely and quickly by unaware carriers, due to its incubation period lasting up to 14 days.
-            </p>
-            <p>
-            Healthcare workers are especially at risk. With emergency equipment like masks and ventilators in short supply nation-wide, hospitals need other solutions to keep our doctors, nurses, and other staff as safe from catching the very disease they are trying to treat.
-            </p>
-            <br />
-            <p style={{textAlign: 'center'}}>
-            <strong>Our solution: UltraViolet LED Lights.</strong></p><br /><p>
-            
-            UV is a known disinfectant for water, air, and other surfaces, and when applied correctly can be used to mitigate the risk of both viral and bacterial pathogens, two of which include the genetically-related SARS-CoV-1 and MERS-CoV coronaviruses.
-            <br />
-          </p>
-          <p>
-            With access to powerful UV-C LED lights, the Global Lighting Project is in a unique position to supply aid to some of the unsung heroes of our society that are healthcare workers.
-          </p>
-          <p>
-              <strong><em>But we need your help.</em></strong>
-          </p>*/}
-          {/*old above */}
-          <h4>About Our COVID-19 Campaign</h4>
-          <p>
-            The COVID-19 virus has spread around the globe at a relentlessly
-            fast pace. It is highly contagious, remaining alive on contaminated
-            surfaces for up to 14 days. This allows it to spread quickly by
-            carriers unaware they’ve even been exposed – especially healthcare
-            workers.
-            {/*The COVID-19 virus has spread around the globe at a relently fast pace, unprecedented in modern times. It is highly contagious, remaining alive on contaminated surfaces for days, and is able to be spread widely and quickly by unaware carriers, due to its incubation period lasting up to 14 days.*/}
-          </p>
 
 
           <p>
             That’s right. </p>
               <p>
             UltraViolet light (UV) is a known disinfectant for water, air, and
-            other surfaces. When applied correctly, it can be used to mitigate
-            the risk of both viral and bacterial pathogens, two of which include
+            other surfaces. When applied correctly, it can be used to mitigate 
+            the risk by inactivating viral pathogens, two of which include
             the genetically-related SARS-CoV-1 and MERS-CoV coronaviruses. With
             access to powerful UV-C LED lights, the Global Lighting Project is
             in a unique position to supply aid to our healthcare workers and
             help save lives.
           </p>
 
-          {/*} <p>
-            Healthcare workers are especially at risk. With emergency equipment like masks and ventilators in short supply nation-wide, hospitals need other solutions to keep our doctors, nurses, and other staff as safe from catching the very disease they are trying to treat.
-        </p>*/}
-          <br />
-          {/*<p style={{ textAlign: "center" }}>
-            <strong>Our solution: UltraViolet LED Lights.</strong>
-          </p>
-          <br />
-          <p>
-            UV is a known disinfectant for water, air, and other surfaces, and
-            when applied correctly can be used to mitigate the risk of both
-            viral and bacterial pathogens, two of which include the
-            genetically-related SARS-CoV-1 and MERS-CoV coronaviruses.
-            <br />
-          </p>
-          <p>
-            With access to powerful UV-C LED lights, the Global Lighting Project
-            is in a unique position to supply aid to some of the unsung heroes
-            of our society that are healthcare workers.
-      </p>*/}
-          {/*<p>
-            <strong>
-              <em>But we need your help.</em>
-            </strong>
-          </p>*/}
-
-          {/*<h4>Why LEDs?</h4>
-          <p>
-            LED lights offer a quick and highly energy efficient method of
-            delivering ultraviolet rays compared to traditional mercury UV
-            lamps. In addition, they turn on instantaneously, contain no
-            mercury, and require only 5-10% of the energy required by
-            traditional UV lamps.
-          </p>*/}
           <h2>WE’RE READY AND WILLING TO LEND A HAND</h2>
           <br />
           <p>
@@ -126,7 +65,7 @@ const CampaignSection1 = () => (
         <Col className="colCampaignAbout2">
           {/*<Col className="boxDonateOuter">*/}
           <Container className="boxDonateInner">
-            <h2>THere's No Time To Waste!</h2>
+            <h2>There's No Time To Waste!</h2>
             {/*<p>
               Your donation today will go directly to research, testing,
               manufacturing, and distributing our disinfecting LED light
@@ -134,7 +73,7 @@ const CampaignSection1 = () => (
               the nation.
             </p>*/}
             <p>
-            Join the fight to save thousands of lives from COVID-19. Make your donation today, and we promise to use our staff and technology as quickly and efficiently as possible to help render this virus neutral.
+            Join the fight to save thousands of lives from COVID-19.make your donation today to assist us in mass producing and supplying UV LED disinfecting equipment to our first responders on the front lines.
             </p>
             <div
               style={{
@@ -167,8 +106,8 @@ const CampaignSection1 = () => (
               without access to light or electricity.</span></p>
               <p>
               <br />
-              Today, however, we’re ready and willing to shift our focus to help
-              meet the global pandemic by transporting this LED technology to
+              However, given recent events we are pivoting to shift our focus to help
+              joing the fight against the global pandemic by transporting this LED technology to
               wherever it’s needed most.
             </p>
         </Col>

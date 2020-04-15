@@ -62,7 +62,7 @@ class Modalsky3 extends React.Component {
 									
 								<CardTitle>
 
-									<h3>Sanitizing Water, Cooking Facilities and More with Ultra Violet LED Lights</h3>
+									<h3>Supplying UV Disinfecting LED Solutions To Where They're Neded Most</h3>
 								</CardTitle>
 									<div>
 									<div>

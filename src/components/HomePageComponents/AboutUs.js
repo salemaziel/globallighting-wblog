@@ -5,8 +5,11 @@ import PinkDotsImage from '../../images/pink-dots.jpg'
 import LiveOneImage from '../../images/IMG_1862-edited-186x162.jpg'
 import LiveTwoImage from '../../images/productlineup-resized-186x162.jpg'
 import LiveThreeImage from '../../images/about-us-3-402.5x268.33.jpg'
+import Wand01 from '../../images/wand-1.jpg'
+import Wand02 from '../../images/standardwand.jpg'
 
 import '../../css/HomePageCss/aboutUs.css'
+
 
 const AboutUs = () => (
     <section className="section-two" style={{
@@ -19,6 +22,8 @@ const AboutUs = () => (
                         <div className="col-6"><img src={LiveOneImage} alt="Live-one" className="img-fluid" /></div>
                         <div className="col-6"><img src={LiveTwoImage} alt="Live-two" className="img-fluid" /></div>
                         <div className="col-12"><img src={LiveThreeImage} alt="Live-three" className="img-fluid" /></div>
+                        <div className="col-6"><img src={Wand01} alt="Live-three" className="img-fluid" /></div>
+                        <div className="col-6"><img src={Wand02} alt="Live-two" className="img-fluid" /></div>
                     </div>
                 </div>
                 <div className="col-lg-7 col-md-6 cx_right">

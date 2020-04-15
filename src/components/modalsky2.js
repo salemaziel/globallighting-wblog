@@ -86,8 +86,8 @@ class Modalsky2 extends React.Component {
 										<Modalpics102 />
 										</div>
 										<div>
-											<h1>More information</h1>
-											<p>Lorem ipsum</p>
+											<h1>More information to come </h1>
+											{/*<p>Lorem ipsum</p>*/}
 										</div>
 										</Container>
 										</Modal>
