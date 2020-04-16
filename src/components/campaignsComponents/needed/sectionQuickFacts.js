@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Button from "../../button"
 import LEDversus from "../../../images/ledvsothers.png"
-import Lightspectrum from '../../../images/lightspectrum.jpg'
+import Lightspectrum from '../../../images/spectrum.png'
 
 import CampaignGallery2 from "../campaignGallery2"
 
@@ -26,7 +26,7 @@ const QuickFacts = () => (
               COVID-19 infections can be caused by contact with contaminated
               surfaces followed by touching of facial areas and has been
               found able to live on plastic and steel surfaces <strong>for up to 3 days. </strong>
-              [1,2]
+              [1,2,3]
             </li>
             <br />
             <li>
@@ -34,13 +34,13 @@ const QuickFacts = () => (
               water, waste water, air, pharmaceutical products, and surfaces
               against a wide range of human pathogens. To date, hundreds of
               various bacteria and viruses tested have been shown to be
-              responsive to UV disinfection at various doses. [3]
+              responsive to UV disinfection at various doses. [4]
             </li>
             <br />
             <li>
               UV-C light in the range of 200-280nm has been <strong>shown to inactivate
               SARS-CoV-1 and MERS-CoV,</strong> two other coronaviruses that are
-              near-relatives of the CoVid-19 coronavirus we face today.[2,3]
+              near-relatives of the CoVid-19 coronavirus we face today.[3,4]
             </li>
             <br />
            {/* <li>

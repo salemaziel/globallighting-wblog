@@ -17,7 +17,7 @@ const CampaignSection1 = () => (
           <p>
             The COVID-19 virus has spread around the globe at a relentlessly
             fast pace. It is highly contagious, remaining alive on contaminated
-            surfaces for up to 3 days. This allows it to spread quickly by
+            surfaces for up to 3 days [1]. This allows it to spread quickly by
             carriers unaware they’ve even been exposed – especially healthcare
             workers.
             {/*The COVID-19 virus has spread around the globe at a relently fast pace, unprecedented in modern times. It is highly contagious, remaining alive on contaminated surfaces for days, and is able to be spread widely and quickly by unaware carriers, due to its incubation period lasting up to 14 days.*/}
@@ -46,7 +46,7 @@ const CampaignSection1 = () => (
             UltraViolet light (UV) is a known disinfectant for water, air, and
             other surfaces. When applied correctly, it can be used to mitigate 
             the risk by inactivating viral pathogens, two of which include
-            the genetically-related SARS-CoV-1 and MERS-CoV coronaviruses. With
+            the genetically-related SARS-CoV-1 and MERS-CoV coronaviruses [2,3]. With
             access to powerful UV-C LED lights, the Global Lighting Project is
             in a unique position to supply aid to our healthcare workers and
             help save lives.
