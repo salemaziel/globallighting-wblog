@@ -50,6 +50,14 @@ a:not([href]) {
   text-decoration: none;
 }
 
+.NoMobile {
+	display: block;
+}
+
+.NoDesktop {
+	display: none;
+}
+
 @media screen and (min-width: 2400px) {
 	.container-fluid {
 		max-width: 2400px;
@@ -60,11 +68,73 @@ a:not([href]) {
 		max-width: 1500px;
 		width: 100%;
 	}
+	.NoMobile {
+		display: block;
+	}
+
+	.NoDesktop {
+		display: none;
+	}
 }
 
-@media (max-width:1280px) {
+@media screen and (max-width:1280px) {
     .container {
         max-width: 100%;
         width: 100%;
-    }
+	}
+	
+	.NoMobile {
+		display: block;
+	}
+
+	.NoDesktop {
+		display: none;
+	}
+}
+
+
+@media screen and (max-width:980) {
+	.NoMobile {
+		display: none;
+	}
+
+	.NoDesktop {
+		display: block;
+	}
+
+}
+
+
+@media screen and (max-width:767) {
+	.NoMobile {
+		display: none;
+	}
+
+	.NoDesktop {
+		display: block;
+	}
+
+}
+
+
+@media screen and (max-width:480) {
+	.NoMobile {
+		display: none;
+	}
+
+	.NoDesktop {
+		display: block;
+	}
+
+}
+
+@media screen and (max-width:360) {
+	.NoMobile {
+		display: none;
+	}
+
+	.NoDesktop {
+		display: block;
+	}
+
 }

@@ -53,7 +53,7 @@ const Homehero = () => (
             <Row style={{display: 'flex', flexDirection: 'row', justifyContent: 'center', alignContent: 'center', alignItems: 'center'}}>
             <div>
               <div id="embed04">
-                <a className="dbox-donation-button" href="https://donorbox.org/global-lighting-project">Donate</a>
+                <a className="dbox-donation-button" href="https://donorbox.org/fighting-covid-19-with-ultraviolet-led-light">Donate</a>
               </div>
             </div>
             <div>

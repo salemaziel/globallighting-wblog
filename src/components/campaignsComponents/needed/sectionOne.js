@@ -7,6 +7,10 @@ import Button from "../../button"
 import Row from "react-bootstrap/Row"
 
 import Col from "react-bootstrap/Col"
+import CardDeck from "react-bootstrap/CardDeck"
+import Card from 'react-bootstrap/Card'
+import MLNews from './microlinkNews'
+
 
 const CampaignSection1 = () => (
   <section>
@@ -35,6 +39,8 @@ const CampaignSection1 = () => (
           </h3>
         </Col>
       </Row>
+
+
       <Row className="sectionOneRow">
         <Col className="colCampaignAbout">
          
@@ -135,6 +141,10 @@ const CampaignSection1 = () => (
         </p>
         </Col>
       </Row>
+      <div className="NoMobile">
+          <h2 style={{margin: '1rem auto', padding: '1rem'}} className="" >In The News: Ultra Violet Light As A Disinfectant:</h2>
+              <MLNews />
+              </div>
     </Container>
   </section>
 )

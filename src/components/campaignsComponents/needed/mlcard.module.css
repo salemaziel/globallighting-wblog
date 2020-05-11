@@ -1,0 +1,108 @@
+
+.MLinkCardDeck {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.MLCard {
+    transform: scale(1);
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    margin: auto;
+    padding: 1rem;
+    width: 33%;
+    height: auto;
+
+}
+.MLCard:hover {
+    transform: none;
+    border: none;
+    background-color: white;
+    transform: scale(1.02);
+}
+
+.MLink {
+    background-color: white;
+    margin: auto 1rem;
+}
+
+a.MLink div p:hover {
+    text-decoration: none;
+    color: #ffc259;
+}
+
+.MLink header p:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+.MLink footer {
+    background-color: white;
+    background: white;
+    text-align: left;
+    justify-content: flex-start;
+    width: auto;
+    height: auto;
+    padding: 0!important;
+}
+
+.MLink footer span {
+    display: none;
+}
+
+@media screen and (min-width: 2400px) {
+
+
+}
+
+
+@media screen and (max-width: 1680px) {
+
+    
+}
+
+@media screen and (max-width: 1280px) {
+
+    
+}
+
+@media screen and (max-width: 980px) {
+
+    
+}
+
+@media screen and (max-width: 767px) {
+
+    
+}
+
+@media screen and (max-width: 480px) {
+    .MLinkCardDeck {
+        display: block;
+    }
+
+    .MLCard {
+        transform: scale(1);
+        border: none!important;
+        background-color: white;
+        margin: auto;
+        padding: 1rem;
+        height: 33%;
+        width: 100%;
+    
+    }
+    .MLCard:hover {
+        transform: none;
+        border: none;
+        background-color: white;
+        transform: scale(1.02);
+    }
+    
+}
+
+@media screen and (max-width: 360px) {
+
+    
+}
