@@ -10,6 +10,13 @@ module.exports = {
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sitemap`,
+     {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://globallightingproject.org',
+        sitemap: 'https://globallightingproject.org/sitemap.xml',
+      }
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -95,7 +102,7 @@ module.exports = {
           start_url: `/`,
           background_color: `#fff`,
           theme_color: `#ffc529`,
-          display: `standalone`,
+          display: `minimal-ui`,
           icon: `src/images/logo.png`, // This path is relative to the root of the site.
         },
     },

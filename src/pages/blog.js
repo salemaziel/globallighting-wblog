@@ -5,7 +5,7 @@ import Bio from "../components/bio"
 import Layout2 from "../components/originallayout"
 import { rhythm } from "../utils/typography"
 
-import Helmet from 'react-helmet';
+import { Helmet } from 'react-helmet';
 
 
 

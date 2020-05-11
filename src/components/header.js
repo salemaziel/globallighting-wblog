@@ -1,7 +1,7 @@
 import React from "react"
 //import { UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 
-//import Helmet from 'react-helmet'
+//import { Helmet } from 'react-helmet'
 
 import '../css/header.css'
 import '../../src/components/layout.css'

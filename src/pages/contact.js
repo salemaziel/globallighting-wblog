@@ -3,7 +3,7 @@ import Layout from "../components/layout";
 import ContactUs from '../components/contact-us';
 import "../css/contactHero.css";
 
-import Helmet from 'react-helmet';
+import { Helmet } from 'react-helmet';
 
 
 
