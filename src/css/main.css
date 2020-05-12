@@ -52,10 +52,12 @@ a:not([href]) {
 
 .NoMobile {
 	display: block;
+	position: relative;
 }
 
 .NoDesktop {
 	display: none;
+	position: relative;
 }
 
 @media screen and (min-width: 2400px) {
@@ -93,9 +95,9 @@ a:not([href]) {
 }
 
 
-@media screen and (max-width:980) {
+@media screen and (max-width:980px) {
 	.NoMobile {
-		display: none;
+		display: none!important;
 	}
 
 	.NoDesktop {
@@ -105,9 +107,9 @@ a:not([href]) {
 }
 
 
-@media screen and (max-width:767) {
+@media screen and (max-width:767px) {
 	.NoMobile {
-		display: none;
+		display: none!important;
 	}
 
 	.NoDesktop {
@@ -117,9 +119,9 @@ a:not([href]) {
 }
 
 
-@media screen and (max-width:480) {
+@media screen and (max-width:480px) {
 	.NoMobile {
-		display: none;
+		display: none!;
 	}
 
 	.NoDesktop {
@@ -128,7 +130,7 @@ a:not([href]) {
 
 }
 
-@media screen and (max-width:360) {
+@media screen and (max-width:360px) {
 	.NoMobile {
 		display: none;
 	}

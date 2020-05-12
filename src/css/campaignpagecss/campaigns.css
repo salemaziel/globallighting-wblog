@@ -384,7 +384,7 @@ li.citations {
         align-content: center;
         position: relative;
         z-index: 4;
-        margin: 30rem 0 0;
+        margin: 15rem 0 0;
         padding: 2rem;
     }
     .sectionAboutDonate {
@@ -565,7 +565,7 @@ li.citations {
 
 .colCampaignAbout {
     max-width: 100%;
-    margin: 1rem 8rem;
+    margin: 1rem;
     padding: 1rem;
     justify-content: center;
     align-items: center;
@@ -598,7 +598,7 @@ li.citations {
 }
 
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 767px) {
     .sectionHero {
         display: flex;
         position: relative;
@@ -885,9 +885,9 @@ li.citations {
     }
     .colCampaignAbout {
         max-width: 100%;
-        width: 90%;
-        margin: 1rem;
-        padding: 1rem;
+        width: 100%;
+        margin: auto;
+        padding: 10px;
         justify-content: center;
         align-items: center;
         align-content: center;
@@ -906,11 +906,11 @@ li.citations {
     .colCampaignAbout2 {
         max-width: 100vw;
         margin: auto;
-        padding: 1rem;
+        padding: 10px;
         justify-content: center;
         align-items: center;
         align-content: center;
-        width: 90%;
+        width: 100%;
     }
     /*
     h1:after {

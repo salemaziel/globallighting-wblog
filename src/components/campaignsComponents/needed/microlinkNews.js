@@ -46,7 +46,7 @@ class MLNews extends React.Component {
     let { url, size } = this.props
     return (
       <>
-        <Container>
+        <Container style={{padding: '0'}}>
           <Row>
             <CardDeck className={mlcardStyles.MLinkCardDeck}>
              {/* <Card className={mlcardStyles.MLCard}>

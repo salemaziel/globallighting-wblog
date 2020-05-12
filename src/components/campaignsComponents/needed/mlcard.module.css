@@ -15,6 +15,9 @@
     padding: 1rem;
     width: 33%;
     height: auto;
+    -webkit-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
 
 }
 .MLCard:hover {
@@ -22,21 +25,45 @@
     border: none;
     background-color: white;
     transform: scale(1.02);
+    transition: 0.4s ease-out;
+    -webkit-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
 }
 
 .MLink {
     background-color: white;
     margin: auto 1rem;
+    transform: scale(1);
+    transition: 0.4s ease-out;
+    -webkit-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+    transition-duration: 300ms;
 }
+.MLink:hover {
+    transform: scale(1.02);
+    transition: 0.4s ease-out;
+    -webkit-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+    transition-duration: 300ms;
+
+}
+
 
 a.MLink div p:hover {
     text-decoration: none;
     color: #ffc259;
+
+
 }
 
 .MLink header p:hover {
     color: #0056b3;
     text-decoration: underline;
+
+
 }
 .MLink footer {
     background-color: white;
@@ -46,6 +73,8 @@ a.MLink div p:hover {
     width: auto;
     height: auto;
     padding: 0!important;
+
+
 }
 
 .MLink footer span {
@@ -69,7 +98,9 @@ a.MLink div p:hover {
 }
 
 @media screen and (max-width: 980px) {
-
+    .MLinkCardDeck {
+        padding: 5rem 0;
+    }
     
 }
 
@@ -81,6 +112,8 @@ a.MLink div p:hover {
 @media screen and (max-width: 480px) {
     .MLinkCardDeck {
         display: block;
+        margin: 1rem auto;
+        justify-content: space-evenly;
     }
 
     .MLCard {
@@ -98,6 +131,17 @@ a.MLink div p:hover {
         border: none;
         background-color: white;
         transform: scale(1.02);
+    }
+
+    .MLink {
+        background-color: white;
+        margin: auto 1rem;
+        padding: 15px;
+        transition: 0.4s ease-out;
+        -webkit-transition: 0.3s all ease-in-out;
+        -o-transition: 0.3s all ease-in-out;
+        transition: 0.3s all ease-in-out;
+        transition-duration: 300ms;
     }
     
 }

@@ -8,6 +8,7 @@ import Footer from "./footer"
 import '../css/carrd.css'
 import '../css/main.css'
 import "./layout.css"
+import "bootstrap/dist/css/bootstrap.min.css";
 import NavbarGlobal from "./navbar"
 import SEO from './seoNew'
 

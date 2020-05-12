@@ -17,6 +17,7 @@ import OurSolution from '../components/campaignsComponents/needed/sectionOurSolu
 import Citations from '../components/campaignsComponents/needed/citations'
 
 import CampaignHero from '../components/campaignsComponents/needed/sectionHero'
+import MLNews from "../components/campaignsComponents/needed/microlinkNews"
 
 const CampaignPage = () => (
   <Layout>
@@ -28,6 +29,9 @@ const CampaignPage = () => (
     <QuickFacts />
     <WhyLEDs />
     <OurSolution />
+    <div className='NoDesktop' style={{width: '100%', background: 'white', padding: '0 -15px', backgroundColor: 'white', zIndex: '3'}}>
+      <MLNews />
+    </div>
     {/*<CampaignSectionAboutDonate />*/}
    {/*} <CampaignSection3 />*/}
    <Citations />

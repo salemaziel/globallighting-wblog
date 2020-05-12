@@ -11,7 +11,7 @@ import {
 import { Link } from 'gatsby'
 import Logo from '../images/image04.webp'
 import '../css/navbar.css'
-import "bootstrap/dist/css/bootstrap.min.css";
+//import "bootstrap/dist/css/bootstrap.min.css";
 
 
 class NavbarGlobal extends React.Component {
