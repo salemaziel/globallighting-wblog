@@ -146,7 +146,7 @@ class NavbarGlobal extends React.Component {
                   
                     <span
                         className="openNavBtn"
-                        style={{ fontSize: '40px', marginTop: 8, cursor: 'pointer', float: 'right' }}
+                        /*style={{ fontSize: '40px', marginTop: 8, cursor: 'pointer', float: 'right' }}*/
                         onClick={this.openNav}
                     >
                         &#9776;
