@@ -6,6 +6,10 @@
     justify-content: space-evenly;
 }
 
+.MLinkCardDeck p {
+    font-size: auto;
+}
+
 .MLCard {
     transform: scale(1);
     border: none;

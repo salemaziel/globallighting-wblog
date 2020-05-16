@@ -10,6 +10,8 @@ import Modalpics103 from './new/modalpics103';
 
 import Modal from 'react-modal'
 
+import { navigateTo } from 'gatsby'
+
 
 
 
@@ -66,9 +68,12 @@ class Modalsky3 extends React.Component {
 								</CardTitle>
 									<div>
 									<div>
-									<Button synergy onClick={this.handleModalOpen}>Learn About UV LEDs</Button>
+									<Button covid19 onClick={() => navigateTo("/campaigns/covid-19")}>Learn About UV LEDs & Our
+									Covid-19 Campaign</Button>
+									{/*<Button covid19 onClick={this.handleModalOpen}>Learn About UV LEDs
+									Covid-19</Button>*/}
         							</div>
-									<Modal
+									{/*<Modal
           								isOpen={this.state.isModalOpen}
           								onRequestClose={this.handleModalClose}
 										  contentLabel="Ultra Violet LED"
@@ -90,8 +95,7 @@ class Modalsky3 extends React.Component {
 										<Modalpics103 />
 										</div>
 										</Container>
-										</Modal>
-	{/*</SkyLight>*/}
+									</Modal>*/}
 									</div>
 
 

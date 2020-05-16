@@ -3,6 +3,7 @@ import styled, { css } from 'styled-components'
 
 
 const Button = styled.Button = styled.a`
+  display: inline-block;
   background: transparent;
   border-radius: 3px;
   border: 2px solid #ffc259;
@@ -74,23 +75,56 @@ const Button = styled.Button = styled.a`
     }
   `}
   ${props => props.synergy && css`
+    display: inline-block;
     background:#ffc259;
     color: #FFF!important;
+    margin: 0px;
+    font-weight:400;
     padding: 0.5em 1.5em;
-    textShadow: none;
+    text-shadow: 2px 2px 4px #000000;
     -webkit-transition: 0.3s all ease-in-out;
     -o-transition: 0.3s all ease-in-out;
     transition: 0.3s all ease-in-out;
     word-break: none; 
     &:hover {
       text-decoration:none;
+      margin: 0px;
       color: white;
-      font-weight: 700;
+      font-weight: 500;
       -webkit-transition: 0.3s all ease-in-out;
       -o-transition: 0.3s all ease-in-out;
       transition: 0.3s all ease-in-out;
+      padding: 0.5em 1.5em;
+      text-shadow: 2px 2px 4px #000000;
     }
   `}
+  ${props => props.covid19 && css`
+    display: inline-block;
+    margin: 0px;
+    background:#ff0303;
+    background-color:#ff0303;
+    color: #FFF!important;
+    padding: 0.5em 1.5em;
+    font-weight:400;
+    text-shadow: 2px 2px 4px #000000;
+    -webkit-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+    word-break: none; 
+    &:hover {
+      margin: 0px;
+      text-decoration:none;
+      color: white;
+      font-weight: 500;
+      padding: 0.5em 1.5em;
+      -webkit-transition: 0.3s all ease-in-out;
+      -o-transition: 0.3s all ease-in-out;
+      transition: 0.3s all ease-in-out;
+      text-shadow: 2px 2px 4px #000000;
+    }
+  `}
+
+
   ${props => props.mailinglist && css`
   text-decoration: none;
   font-family: Montserrat, sans-serif;

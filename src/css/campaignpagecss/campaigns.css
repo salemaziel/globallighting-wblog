@@ -93,7 +93,7 @@
 
 .sectionOneBg p {
     text-align: center;
-    font-size: 1rem;
+    font-size: auto;
     font-weight: normal;
     color: #000000;
     margin: 1rem 2rem;
