@@ -8,6 +8,7 @@ import Hydroveggie from '../images/1-young-tomato-468x312.jpg'
 import Modalpics102 from './new/modalpics102';
 
 import Modal from 'react-modal'
+import  Modalpics102b from './new/modalpics102B'
 
 
 class Modalsky2 extends React.Component {
@@ -83,10 +84,11 @@ class Modalsky2 extends React.Component {
 												</Col>
 											</Row>
 										<div>
-										<Modalpics102 />
+									{/*	<Modalpics102 /> */}
+										<Modalpics102b />
 										</div>
 										<div>
-											<h1>More information to come </h1>
+											<h3> * More information to come! * </h3>
 											{/*<p>Lorem ipsum</p>*/}
 										</div>
 										</Container>

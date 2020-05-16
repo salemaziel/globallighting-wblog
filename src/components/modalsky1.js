@@ -10,6 +10,7 @@ import Modalpics101 from './new/modalpics101';
 
 import Modal from 'react-modal'
 
+import  Modalpics101b from './new/modalpics101B'
 
 
 
@@ -73,10 +74,11 @@ class Modalsky1 extends React.Component {
 											</Row>
 											
 										<div>
-										<Modalpics101 />
+									{/*	<Modalpics101 />*/}
+									<Modalpics101b />
 										</div>
 										<div>
-											<h1>More information to come</h1>
+											<h3> * More information to come! *</h3>
 											{/*<p>Lorem ipsum</p>*/}
 										</div>
 										</Container>
