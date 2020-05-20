@@ -15,8 +15,8 @@ const About2 = () => (
               <p>
                 The <strong>Global Lighting Project</strong> is a 501c3
                 non-profit that is on a mission to ensure all people have access
-                to light, electricity, clean water, and the ability to disinfect their 
-                facilities using cutting edge LED light technology.
+                to light, electricity, clean water, and the ability to disinfect
+                their facilities using cutting edge LED light technology.
               </p>
               <p>
                 Originally founded in 2016 in San Diego, California, the Global
@@ -45,41 +45,52 @@ const About2 = () => (
     </div>
 
     <div className="container">
-        <div className="row">
-          <div className="col-md-12 cx_about">
-            <h2></h2>
-            <h3 style={{color: '#ffc529'}}>The Need:</h3>
-            <p>
-            Over 1.6 Billion people live without reliable access to electricity, clean water, sanitary cooking facilities, or the resources necessary to grow food.<br />
-The Global Lighting Project is on a mission to change that.
-            </p>
-            <h3 style={{color: '#ffc529'}}>Our Vision:</h3>
-            <p>
-            We envision a world where renewable energy is accessible by all people to use at their discretion for the betterment of their communities.
-            </p>
-            <h3 style={{color: '#ffc529'}}>Our Mission:</h3>
-            <p>
-            Our mission is to change the future for impoverished people around the world by supplying the power of renewable energy, revolutionary LED light solutions, and educational workshops that will sustain their communities for generations to come.
-            </p>
-            <h3 style={{color: '#ffc529'}}>What We Do:</h3>
-            <p>
-            Our goal is to ensure all people have access to light, electricity, clean water, and sanitary cooking facilities by using cutting edge LED light technology. This includes white LEDs for energy-efficient lighting, RGB LEDs for growing food, and UV LEDs for sanitization/disinfection.
-            </p>
-            <p>
-            By providing the technology and workshops on how to use the technology, we hope to make low-income, impoverished communities safer, healthier, and more sustainable.
-            </p>
+      <div className="row">
+        <div className="col-md-12 cx_about">
+          <h2></h2>
+          <h3 style={{ color: "#ffc529" }}>The Need:</h3>
+          <p>
+            Over 1.6 Billion people live without reliable access to electricity,
+            clean water, sanitary cooking facilities, or the resources necessary
+            to grow food.
+            <br />
+            The Global Lighting Project is on a mission to change that.
+          </p>
+          <h3 style={{ color: "#ffc529" }}>Our Vision:</h3>
+          <p>
+            We envision a world where renewable energy is accessible by all
+            people to use at their discretion for the betterment of their
+            communities.
+          </p>
+          <h3 style={{ color: "#ffc529" }}>Our Mission:</h3>
+          <p>
+            Our mission is to change the future for impoverished people around
+            the world by supplying the power of renewable energy, revolutionary
+            LED light solutions, and educational workshops that will sustain
+            their communities for generations to come.
+          </p>
+          <h3 style={{ color: "#ffc529" }}>What We Do:</h3>
+          <p>
+            Our goal is to ensure all people have access to light, electricity,
+            clean water, and sanitary cooking facilities by using cutting edge
+            LED light technology. This includes white LEDs for energy-efficient
+            lighting, RGB LEDs for growing food, and UV LEDs for
+            sanitization/disinfection.
+          </p>
+          <p>
+            By providing the technology and workshops on how to use the
+            technology, we hope to make low-income, impoverished communities
+            safer, healthier, and more sustainable.
+          </p>
 
-            <div className="col-lg-12 quote">
-            “Our biggest challenge in this new century is to take an idea that seems abstract - sustainable development - and turn it into a reality for all the world's people." <br />
-             ̶  Kofi Annan
-    </div>
-
-
-
-
+          <div className="col-lg-12 quote">
+            “Our biggest challenge in this new century is to take an idea that
+            seems abstract - sustainable development - and turn it into a
+            reality for all the world's people." <br />̶ Kofi Annan
           </div>
         </div>
       </div>
+    </div>
     <div
       className="aboutjack"
       style={{
@@ -98,32 +109,52 @@ The Global Lighting Project is on a mission to change that.
             <strong> Jack </strong>
           </span>
       </h1>*/}
-      <h1 className="title">OUR <span>STORY</span></h1>
+        <h1 className="title">
+          OUR <span>STORY</span>
+        </h1>
       </div>
 
       <div className="row">
         <div className="col-lg-7">
           <h3>
-          Founder and CEO of the Global Lighting Project, Jack Dubord, is a father, a musician, and an entrepreneur. As a business owner, he has been working in the industry of renewable energy and efficient lighting for over 20 years. <br />
+            Founder and CEO of the Global Lighting Project, Jack Dubord, is a
+            father, a musician, and an entrepreneur. As a business owner, he has
+            been working in the industry of renewable energy and efficient
+            lighting for over 20 years. <br />
             <hr />
-             <br />
-            
+            <br />
             Where did it begin? <br />
             <hr />
-            At the age of 17, Jack discovered that venues where his band were scheduled to play were a hundred times more welcoming if he designed and built light structures to use at their shows. That clever little discovery soon became more than a hobby for him. He turned it into a business.
-
+            At the age of 17, Jack discovered that venues where his band were
+            scheduled to play were a hundred times more welcoming if he designed
+            and built light structures to use at their shows. That clever little
+            discovery soon became more than a hobby for him. He turned it into a
+            business.
             <br /> <hr />
-            Over time, he made key contacts with large, high-tech manufacturers, as well as clients looking for large quantities of the kinds of things he’d learned to build.
-With a little luck and a lot of hard work, he build his first company, SLN Signs. In 2004, he started a second company called LEDPAC, and focused on the emerging technology of LED lighting.
-
-<br /> <hr />
-He has now successfully sold this amazing technology for over two decades, and the versatility and uses of LED lights continue to astound him. However, eventually, he came to realize that he could do so much more; that it is not only those with money and resources who deserve this technology. It could be used for good – for those less fortunate.
-
-<br /> <hr />
-LED and light technology has been a hobby, passion, and career for Jack. As a child, he was blessed to have access to lights he could experiment and build with; something not everyone has. That is why he decided to share his passion, hobby, and life's work with the rest of the world, and to utilize it to enrich and benefit the lives of others.
-<br /> <hr />
-And that’s when the Global Lighting Project became more than an idea; it became a reality.
-           {/*} I began my interest with lighting at age 17, discovering that venues
+            Over time, he made key contacts with large, high-tech manufacturers,
+            as well as clients looking for large quantities of the kinds of
+            things he’d learned to build. With a little luck and a lot of hard
+            work, he build his first company, SLN Signs. In 2004, he started a
+            second company called LEDPAC, and focused on the emerging technology
+            of LED lighting.
+            <br /> <hr />
+            He has now successfully sold this amazing technology for over two
+            decades, and the versatility and uses of LED lights continue to
+            astound him. However, eventually, he came to realize that he could
+            do so much more; that it is not only those with money and resources
+            who deserve this technology. It could be used for good – for those
+            less fortunate.
+            <br /> <hr />
+            LED and light technology has been a hobby, passion, and career for
+            Jack. As a child, he was blessed to have access to lights he could
+            experiment and build with; something not everyone has. That is why
+            he decided to share his passion, hobby, and life's work with the
+            rest of the world, and to utilize it to enrich and benefit the lives
+            of others.
+            <br /> <hr />
+            And that’s when the Global Lighting Project became more than an
+            idea; it became a reality.
+            {/*} I began my interest with lighting at age 17, discovering that venues
             were a hundred times more welcoming to me and my band if I designed
             and built light structures to use at our shows. That clever little
             discovery soon became more than a hobby. I made key contacts with

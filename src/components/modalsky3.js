@@ -56,7 +56,7 @@ class Modalsky3 extends React.Component {
 	}*/
 
     return (
-      <div /*id="modal3"*/>
+      <>
         <Card>
 					<CardImg top width="100%" src={UVsterilize} className="img fit" alt="Card image cap" />
         				<CardBody>
@@ -102,7 +102,7 @@ class Modalsky3 extends React.Component {
 								</div>
 						</CardBody>
 						</Card>
-      </div>
+      </>
     )
   }
 }

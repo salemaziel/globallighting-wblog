@@ -27,7 +27,7 @@ const Signup = () => (
                 <div className="actions">
                   <button type="submit">
                     
-                    <p className="label">Submit</p>
+                    <p className="label" style={{marginBottom: '0'}}>Submit</p>
                   </button>
                 </div>
               </div>

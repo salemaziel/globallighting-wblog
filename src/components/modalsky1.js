@@ -41,7 +41,7 @@ class Modalsky1 extends React.Component {
   render() {
 
     return (
-	  <div /*id="modal1"*/>
+	  <>
         <Card>
 					<CardImg top width="100%" src={Nightlight} className="img fit" alt="Card image cap" />
         				<CardBody>
@@ -78,7 +78,7 @@ class Modalsky1 extends React.Component {
 									<Modalpics101b />
 										</div>
 										<div>
-											<h3> * More information to come! *</h3>
+										{/*	<h3> * More information to come! *</h3> */}
 											{/*<p>Lorem ipsum</p>*/}
 										</div>
 										</Container>
@@ -90,7 +90,7 @@ class Modalsky1 extends React.Component {
 								</div>
 						</CardBody>
 						</Card>
-      </div>
+      </>
     )
   }
 }

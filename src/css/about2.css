@@ -209,10 +209,10 @@
 	font-size:30px;
 }
 .section-about h4{
-	font-size:16px;
+	font-size:18px;
 }
 .section-about p{
-	font-size:13px;
+	font-size:16px;
 }
 }
 @media (max-width:736px){
@@ -228,10 +228,10 @@
 	font-size:25px;
 }
 .section-about h4{
-	font-size:16px;
+	font-size:18px;
 }
 .section-about p{
-	font-size:13px;
+	font-size:16px;
 }
 .blurb p {
 	padding: 2.5em 1em;

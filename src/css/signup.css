@@ -609,6 +609,10 @@ form .actions {
   div.field {
       padding: 0.2rem 0;
   }
+
+  label p {
+    margin-bottom: 0;
+  }
 }
 
 @media (max-width: 360px) {
