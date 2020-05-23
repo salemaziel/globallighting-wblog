@@ -28,7 +28,7 @@ export default function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault()
     const form = e.target
-    fetch("/", {
+    fetch("/contact", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({
@@ -117,6 +117,7 @@ export default function Contact() {
                       type="textarea"
                       name="message"
                       placeholder="Your Message"
+                      className="textarea"
                       onChange={handleChange}
                       required
                     />
@@ -131,7 +132,7 @@ export default function Contact() {
                       type="submit"
                       value="Send Message"
                       className="form button"
-                      onClick={handleSubmit}
+                      onChange={handleSubmit}
                     >
                       SUBMIT{" "}
                     </button>

@@ -93,7 +93,7 @@ form label {
 	display: block;
 }
 
-form input[type="text"], form input[type="email"], form textarea, form select, form input[type="tel"], form .file {
+form input[type="text"], form input[type="email"], form textarea, form select, form input[type="tel"], form .file, form input[type="textarea"] {
 	text-align: left;
 	display: block;
 	background-color: #fafafa;
@@ -108,6 +108,11 @@ form input[type="text"], form input[type="email"], form textarea, form select, f
 
 
 form textarea {
+	height: 10rem;
+	line-height: normal;
+}
+
+form input[type="textarea"] {
 	height: 10rem;
 	line-height: normal;
 }
