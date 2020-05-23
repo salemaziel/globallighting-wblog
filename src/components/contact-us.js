@@ -1,5 +1,7 @@
 import React from "react"
-import { navigate } from "gatsby-link"
+import { navigate } from "gatsby"
+
+
 import "../css/contactHero.css"
 import "../css/contact.css"
 
@@ -62,24 +64,24 @@ export default function Contact() {
             <div className="col-12 col-md-8">
               {/* Form */}
               <form
-                name="contact"
+                name="Contact"
                 method="post"
+                action="/thanks"
                 data-netlify="true"
                 data-netlify-honeypot="bot-field"
-                action="/thanks"
               >
                 <div
                   className="row mt-5 mb-4"
                   style={{ display: "flex", flexWrap: "wrap" }}
                 >
-                  <input type="hidden" name="form-name" value="contact" />
-                  <input type="hidden" name="form-name" value="contact" />
-                  <p hidden>
+                  <input type="hidden" name="bot-field" />
+                  <input type="hidden" name="form-name" value="Contact" />
+             {/*     <p hidden>
                     <label>
                       Don’t fill this out:{" "}
                       <input name="bot-field" onChange={handleChange} />
                     </label>
-                  </p>
+                  </p> */}
                   <div className="col-12 col-md-6">
                     <input
                       type="text"
@@ -111,12 +113,13 @@ export default function Contact() {
                   </div>
 
                   <div className="col-12">
-                    <textarea
+                    <input
+                      type="textarea"
                       name="message"
                       placeholder="Your Message"
                       onChange={handleChange}
                       required
-                    ></textarea>
+                    />
                   </div>
                 </div>
                 <div
@@ -124,8 +127,13 @@ export default function Contact() {
                   style={{ display: "flex", flexWrap: "wrap" }}
                 >
                   <div className="col-12">
-                    <button type="submit" className="form button" onClick={handleSubmit}>
-                      SUBMIT
+                    <button
+                      type="submit"
+                      value="Send Message"
+                      className="form button"
+                      onClick={handleSubmit}
+                    >
+                      SUBMIT{" "}
                     </button>
                   </div>
                 </div>
