@@ -29,7 +29,10 @@ const Covid19 = () => (
     <QuickFacts />
     <WhyLEDs />
     <OurSolution />
-    <div className='NoDesktop' style={{width: '100%', background: 'white', padding: '0 -15px', backgroundColor: 'white', zIndex: '3'}}>
+    <div /*className='NoDesktop'*/ style={{width: '100%', background: 'white', padding: '0 -15px', backgroundColor: 'white', zIndex: '3', position: 'relative'}}>
+    <h3 style={{ margin: "auto", padding: "1rem", textAlign: 'center' }} className="">
+          In The News: Ultra Violet Light As A Disinfectant:
+        </h3>
       <MLNews />
     </div>
     {/*<CampaignSectionAboutDonate />*/}

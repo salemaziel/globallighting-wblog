@@ -153,12 +153,7 @@ const CampaignSection1 = () => (
           </p>
         </Col>
       </Row>
-      <div className="NoMobile">
-        <h2 style={{ margin: "1rem auto", padding: "1rem" }} className="">
-          In The News: Ultra Violet Light As A Disinfectant:
-        </h2>
-        <MLNews className="NoMobile" />
-      </div>
+
     </Container>
   </section>
 )

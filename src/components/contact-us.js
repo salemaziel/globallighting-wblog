@@ -1,9 +1,10 @@
 import React from "react"
 import { navigate } from "gatsby"
-
+import Form from 'react-bootstrap/Form'
 
 import "../css/contactHero.css"
-import "../css/contact.css"
+
+import ContactForm from './contactform'
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
@@ -12,7 +13,7 @@ import {
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons"
 
-function encode(data) {
+/*function encode(data) {
   return Object.keys(data)
     .map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
     .join("&")
@@ -28,7 +29,7 @@ export default function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault()
     const form = e.target
-    fetch("/contact", {
+    fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({
@@ -40,8 +41,10 @@ export default function Contact() {
       .catch((error) => alert(error))
   }
 
-  return (
-    <div>
+  return ( */
+
+  const ContactUs = () => (  
+    <>
       <section className="section-contacthero">
         <div className="container cx_inner">
           <div className="row" style={{ display: "flex", flexWrap: "wrap" }}>
@@ -63,7 +66,7 @@ export default function Contact() {
           >
             <div className="col-12 col-md-8">
               {/* Form */}
-              <form
+              {/*<form
                 name="Contact"
                 method="post"
                 action="/thanks"
@@ -81,7 +84,7 @@ export default function Contact() {
                       Don’t fill this out:{" "}
                       <input name="bot-field" onChange={handleChange} />
                     </label>
-                  </p> */}
+                  </p> * /}
                   <div className="col-12 col-md-6">
                     <input
                       type="text"
@@ -138,7 +141,11 @@ export default function Contact() {
                     </button>
                   </div>
                 </div>
-              </form>
+             </form>*/}
+
+
+
+              <ContactForm />
               {/* End Form */}
             </div>
             <div className="col-12 col-md-4 mb-5 mb-md-0 mt-5 mt-md-0">
@@ -170,6 +177,8 @@ export default function Contact() {
           </div>
         </div>
       </section>
-    </div>
+    </>
   )
-}
+//}
+
+export default ContactUs

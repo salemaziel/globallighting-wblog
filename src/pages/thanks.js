@@ -5,7 +5,6 @@ import { Container } from 'reactstrap'
 import '../components/layout.css'
 
 const Thanks = () => (
-    <div>
         <Layout>
             
             <Container>
@@ -13,7 +12,6 @@ const Thanks = () => (
                 
             </Container>
         </Layout>
-    </div>
 )
 
 export default Thanks

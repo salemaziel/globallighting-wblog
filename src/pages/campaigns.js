@@ -29,7 +29,13 @@ const CampaignPage = () => (
     <QuickFacts />
     <WhyLEDs />
     <OurSolution />
-    <div className='NoDesktop' style={{width: '100%', background: 'white', padding: '0 -15px', backgroundColor: 'white', zIndex: '3'}}>
+    <div className="NoMobile" style={{background: 'white', zIndex: '3', position: 'relative'}}>
+        <h2 style={{ margin: "1rem auto", padding: "1rem" }} className="">
+          In The News: Ultra Violet Light As A Disinfectant:
+        </h2>
+        <MLNews />
+      </div>
+    <div style={{width: '100%', background: 'white', padding: '0 -15px', backgroundColor: 'white', zIndex: '3'}}>
       <MLNews />
     </div>
     {/*<CampaignSectionAboutDonate />*/}
