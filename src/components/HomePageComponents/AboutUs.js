@@ -8,6 +8,8 @@ import LiveThreeImage from '../../images/about-us-3-402.5x268.33.jpg'
 import Wand03 from '../../images/wand-3.jpg'
 import Wand02 from '../../images/wand-2.jpg'
 
+import { Fifty_BlackSquare, TwentyFive_Both_Square, TwentyFive_BlackBG, Sixtyfourzero_BlackSquare } from '../../images/index'
+
 import '../../css/HomePageCss/aboutUs.css'
 
 
@@ -22,8 +24,8 @@ const AboutUs = () => (
                         <div className="col-6"><img src={LiveOneImage} alt="Live-one" className="img-fluid" /></div>
                         <div className="col-6"><img src={LiveTwoImage} alt="Live-two" className="img-fluid" /></div>
                         <div className="col-12"><img src={LiveThreeImage} alt="Live-three" className="img-fluid" /></div>
-                        <div className="col-6"><img src={Wand03} alt="Live-three" className="img-fluid" /></div>
-                        <div className="col-6"><img src={Wand02} alt="Live-two" className="img-fluid" /></div>
+                        <div className="col-6"><img src={Sixtyfourzero_BlackSquare} alt="Live-three" className="img-fluid" /></div>
+                        <div className="col-6"><img src={TwentyFive_Both_Square} alt="Live-two" className="img-fluid" /></div>
                     </div>
                 </div>
                 <div className="col-lg-7 col-md-6 cx_right">

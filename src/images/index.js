@@ -10,6 +10,7 @@ export const SixFourZero_1 = require('./covid19/640-1.png');
 export const SixFourZero_2 = require('./covid19/640-2.png');
 export const WholeRoom_1_1 = require('./covid19/whole-room-1_1.png');
 export const WholeRoom_1_1_dark = require('./covid19/whole-room-1_1-dark.png');
+export const TwentyFive_Both_Square = require('./covid19/25-both.png');
 export const TwentyFive_BlackBG = require('./covid19/25-500x375.png');
 export const TwentyFive_BlackSquare = require('./covid19/25-1000x1000.png');
 export const TwentyFive_VertSquare = require('./covid19/25-1000x1200.png');

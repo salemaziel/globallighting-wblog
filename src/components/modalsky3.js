@@ -11,6 +11,7 @@ import Modalpics103 from './new/modalpics103';
 import Modal from 'react-modal'
 
 import { navigateTo } from 'gatsby'
+import { WholeRoom_1 } from '../images';
 
 
 
@@ -58,7 +59,7 @@ class Modalsky3 extends React.Component {
     return (
       <>
         <Card>
-					<CardImg top width="100%" src={UVsterilize} className="img fit" alt="Card image cap" />
+					<CardImg top width="100%" src={WholeRoom_1} className="img fit" alt="Card image cap" />
         				<CardBody>
 								<div className="innerCard" /*id="modal3"*/>
 									
