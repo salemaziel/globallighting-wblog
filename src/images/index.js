@@ -1,0 +1,32 @@
+export const Twentyfive_1 = require('./covid19/25-1.png');
+export const Twentyfive_2 = require('./covid19/25-2.png');
+export const OneTwentyEight_1 = require('./covid19/128-1.png');
+export const OneTwentyEight_2 = require('./covid19/128-2.png');
+export const Fifty_1 = require('./covid19/50-1.png');
+export const Fifty_2 = require('./covid19/50-2.png');
+export const Sixtyfour_1 = require('./covid19/64-1.png');
+export const Sixtyfour_2 = require('./covid19/64-2.png');
+export const SixFourZero_1 = require('./covid19/640-1.png');
+export const SixFourZero_2 = require('./covid19/640-2.png');
+export const WholeRoom_1_1 = require('./covid19/whole-room-1_1.png');
+export const WholeRoom_1_1_dark = require('./covid19/whole-room-1_1-dark.png');
+export const TwentyFive_BlackBG = require('./covid19/25-500x375.png');
+export const TwentyFive_BlackSquare = require('./covid19/25-1000x1000.png');
+export const TwentyFive_VertSquare = require('./covid19/25-1000x1200.png');
+export const OneTwentyEight_VertSquare = require('./covid19/128-1000x1200.png');
+export const Fifty_VertSquare = require('./covid19/50-1000x1200.png');
+export const Sixtyfour_VertSquare = require('./covid19/64-1000x1200.png');
+export const Sixtyfourzero_VertSquare = require('./covid19/640-1000x1200.png');
+export const OneTwentyEight_BlackSquare = require('./covid19/128-1000x1000.png');
+export const Fifty_BlackSquare = require('./covid19/50-1000x1000.png');
+export const Sixtyfour_BlackSquare = require('./covid19/64-1000x1000.png');
+export const Sixtyfourzero_BlackSquare = require('./covid19/640-1000x1000.png');
+export const WholeRoom_1 = require('./covid19/whole-room-1.png');
+export const CloseSurface_1 = require('./covid19/close-surface-1.png');
+export const Covid19Banner = require('./covid19/covid19-banner.jpeg');
+export const Covid19Stats_1 = require('./covid19/coronavirus-statistics-on-screen-3970329.jpg');
+export const Covid19Masks = require('./covid19/masks-decontaminated.jpg');
+export const Covid19UVMask = require('./covid19/stock-photo-uv-light-sterilization-of-face-mask-to-disinfect-and-reuse-covid-prevention-concept-1702442965.jpg');
+export const Covid19ReuseMasks = require('./covid19/stock-photo-uv-light-sterilization-of-face-mask-to-disinfect-and-reuse-covid-prevention-concept-close-up-1701548905.jpg');
+
+ 

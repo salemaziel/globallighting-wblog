@@ -4,6 +4,27 @@ import Button from '../../button'
 import LEDversus from '../../../images/ledvsothers.png'
 import Lightspectrum from '../../../images/lightspectrum.jpg'
 
+import {   Twentyfive_1,
+  Twentyfive_2,
+  Fifty_1,
+  Fifty_2,
+  Sixtyfour_1,
+  Sixtyfour_2,
+  SixFourZero_1,
+  SixFourZero_2,
+  OneTwentyEight_1,
+  OneTwentyEight_2,
+  TwentyFive_BlackBG,
+  TwentyFive_BlackSquare,
+  TwentyFive_VertSquare,
+  OneTwentyEight_VertSquare,
+  Fifty_VertSquare,
+  Sixtyfour_VertSquare,
+  Sixtyfourzero_VertSquare,
+
+ Covid19UVMask, Covid19Masks, WholeRoom_1_1 }
+  from '../../../images/index'
+
 const WhyLEDs = () => (
     <section>
         <Container className="sectionTwoBg">
@@ -17,7 +38,7 @@ const WhyLEDs = () => (
               LED lights offer a quick and highly energy efficient method of
               delivering ultraviolet rays compared to traditional mercury UV
               lamps. In addition, they turn on instantaneously, contain no
-              mercury, and require only{" "}
+              mercury, and require only{" "} TESTing`
               <strong>
                 5-10% of the energy required by traditional UV lamps.{" "}
               </strong>
@@ -37,10 +58,14 @@ const WhyLEDs = () => (
                </Col>
                 <Col className="colWhyLEDs" >
                 <div>
-               {/*} <img src={Lightspectrum} className="LEDvsTable" />*/}
-            {/*<img src={LEDversus} className="LEDvsTable" />
-            <p><a href="https://www.researchgate.net/publication/325975652_UV_LED_101_Fundamentals_and_Applications_of_UV_LEDs_in_Water_Treatment"> source </a></p>*/}
+                  
+                <img src={Covid19Masks} className="lightspectrum" />
+
+
+
           </div>
+
+
                 </Col>
                 
                 

@@ -9,6 +9,8 @@ import Lightspectrum from '../../../images/spectrum.png'
 
 import CampaignGallery2 from "../campaignGallery2"
 
+import { Covid19UVMask, Covid19Masks } from '../../../images/index'
+
 const QuickFacts = () => (
   <section>
     <Container className="sectionTwoBg">
